@@ -1,0 +1,86 @@
+{//PrincessJewel
+  //200	490	9204	GameEngines\0200\GameEnginePrincessJewelSS.dll	gameengine_4200_9204
+      "gameId": "9200",
+      "cascade": true,
+      "reelCount": 15,
+      "betOne": 5, 
+      "lineDirection": 0, 
+      "scatter":8,
+      "wilds": [
+        { "symbolId": 9, "multiplier": [1,1,1,1,1,1], "exclusion": [8] }
+       ],
+       "paytables":[
+          {
+            "id":1,
+            "filter":1,
+            "items":[             
+                {"symbolIds":[9],"count":5,"prize":2500},
+
+                {"symbolIds":[0],"count":5,"prize":1000},
+                {"symbolIds":[0],"count":4,"prize":500},
+                {"symbolIds":[0],"count":3,"prize":45},
+                {"symbolIds":[0],"count":2,"prize":10},
+               
+                {"symbolIds":[1],"count":5,"prize":500},
+                {"symbolIds":[1],"count":4,"prize":100},
+                {"symbolIds":[1],"count":3,"prize":30},
+
+                {"symbolIds":[2],"count":5,"prize":250},
+                {"symbolIds":[2],"count":4,"prize":50},
+                {"symbolIds":[2],"count":3,"prize":20},
+
+                {"symbolIds":[3],"count":5,"prize":150},
+                {"symbolIds":[3],"count":4,"prize":30},
+                {"symbolIds":[3],"count":3,"prize":8},
+               
+                {"symbolIds":[4],"count":5,"prize":125},
+                {"symbolIds":[4],"count":4,"prize":25},
+                {"symbolIds":[4],"count":3,"prize":5},
+                
+                {"symbolIds":[5],"count":5,"prize":100},
+                {"symbolIds":[5],"count":4,"prize":20},
+                {"symbolIds":[5],"count":3,"prize":3},
+               
+                {"symbolIds":[6],"count":5,"prize":75},
+                {"symbolIds":[6],"count":4,"prize":15},
+                {"symbolIds":[6],"count":3,"prize":2},
+               
+                {"symbolIds":[7],"count":5,"prize":50},
+                {"symbolIds":[7],"count":4,"prize":12},
+                {"symbolIds":[7],"count":3,"prize":1},            
+                
+                {"symbolIds":[8],"count":5,"prize":100, "multiFactor":0},
+                {"symbolIds":[8],"count":4,"prize":10, "multiFactor":0},
+                {"symbolIds":[8],"count":3,"prize":5, "multiFactor":0}          
+             ]
+          }		 
+      ],
+      "lines": [
+        [ 5, 6, 7, 8, 9 ],
+        [ 0, 1, 2, 3, 4 ],
+        [ 10, 11, 12, 13, 14 ],
+        [ 0, 6, 12, 8, 4 ],
+        [ 10, 6, 2, 8, 14 ]
+      ],
+      "performProbs": [
+        { "range": [0,5], "probs": [100, 0] },
+        { "range": [5,10], "probs": [800,200] },
+        { "range": [10,15], "probs": [650,300,50] },
+        { "range": [15,25], "probs": [500,400,100] },
+        { "range": [25,50], "probs": [100,400,300,200] },
+        { "range": [50,200], "probs": [1,200,500,299] },
+        { "range": [200,10000000], "probs": [1,100,450,449] }
+      ],
+      "triggerMapping": [
+        {
+          "tag": "TF1",
+          "value": "1"
+        }
+      ],
+      "debugFeatureMapping": [
+        { "tag": "MW", "values": null },
+        { "tag": "ML", "values": null },
+        { "tag": "FS", "values": [ "TF1" ]},
+        { "tag": "BG", "values": [ "TB1", "TB2" ]}
+      ]
+    }

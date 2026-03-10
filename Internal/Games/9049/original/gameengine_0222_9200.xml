@@ -1,0 +1,112 @@
+<?xml version = "1.0"?>
+
+<SLOT
+	TotalReels="15"
+	Lines="20"
+	Col="5"
+   	Row="3"			
+	Pay="Max"
+	DefComb="LeftToRight"	
+	Wild="7"
+	ScatterReplacedByWild="No"
+	WildReplace="OnLine"
+	>
+
+<Wild id="7" Regular_mode="2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" FreeSpin_mode="2,2,2,2,2,1,1,1,1,1,2,2,2,2,2">
+</Wild>
+
+    
+	<!-- play lines  --> 	
+	<LINES Total="20" LineSizes="5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5 ">
+		<LINE Reel="5  6  7  8  9 "/>         
+		<LINE Reel="0  1  2  3  4" />	
+		<LINE Reel="10 11 12 13 14" />
+		<LINE Reel="0 6 12 8 4" />
+		<LINE Reel="10 6 2 8 14" />	
+		<LINE Reel="0  1 7 13 14" />
+		<LINE Reel="10 11  7 3 4" />
+		<LINE Reel="5 1 7 13 9  " />
+		<LINE Reel="5  11  7  3  9" />
+		<LINE Reel="0 6 7 8 14"/>
+		<LINE Reel="10 6 7 8 4"/>
+		<LINE Reel="5 1 2 8 14"/>
+		<LINE Reel="5 11 12 8 4"/>
+		<LINE Reel="5 6 2 8 14"/>
+		<LINE Reel="5 6 12 8 4"/>
+		<LINE Reel="0 6 2 8 14"/>
+		<LINE Reel="10 6 12 8 4"/>
+		<LINE Reel="10 6 2 3 9"/>
+		<LINE Reel="0 6 12 13 9"/>
+		<LINE Reel="0 6 7 13 9"/>
+</LINES>
+						
+
+	<WINCOMB >	
+		<COMB Symb="7"  Numb="5" Prize="20000"/>
+		<COMB Symb="0"  Numb="5" Prize="2000"/>
+		<COMB Symb="0"  Numb="4" Prize="500"/>
+		<COMB Symb="0"  Numb="3" Prize="50"/>
+		<COMB Symb="0"  Numb="2" Prize="6"/>
+
+		<COMB Symb="1"  Numb="5" Prize="1000"/>
+		<COMB Symb="1"  Numb="4" Prize="250"/>
+		<COMB Symb="1"  Numb="3" Prize="25"/>
+		<COMB Symb="1"  Numb="2" Prize="4"/>
+
+		<COMB Symb="2"  Numb="5" Prize="500"/>
+		<COMB Symb="2"  Numb="4" Prize="150"/>
+		<COMB Symb="2"  Numb="3" Prize="20"/>
+		<COMB Symb="2"  Numb="2" Prize="2"/>
+
+		<COMB Symb="3"  Numb="5" Prize="200"/>
+		<COMB Symb="3"  Numb="4" Prize="75"/>
+		<COMB Symb="3"  Numb="3" Prize="15"/>
+
+		<COMB Symb="4"  Numb="5" Prize="100"/>
+		<COMB Symb="4"  Numb="4" Prize="40"/>
+		<COMB Symb="4"  Numb="3" Prize="10"/>
+
+		<COMB Symb="5"  Numb="5" Prize="80"/>
+		<COMB Symb="5"  Numb="4" Prize="30"/>
+		<COMB Symb="5"  Numb="3" Prize="5"/>
+
+		<COMB Symb="6"  Numb="5" Prize="60"/>
+		<COMB Symb="6"  Numb="4" Prize="20"/>
+		<COMB Symb="6"  Numb="3" Prize="3"/>
+				
+	</WINCOMB>
+	
+<!-- Reels configuration -->
+
+	<REELS Type="Single" >
+		  <PROB Id="1" name="regular" GainId="30,30,30,30,30,30,30,30,30,30,30,30,30,30,30" /> 
+		  <PROB Id="2" name="freespin" GainId="31,31,31,31,31,31,31,31,31,31,31,31,31,31,31" /> 
+		  <PROB Id="3" name="strip_spot_1" GainId="33,33,33,33,33" /> 
+		  <PROB Id="4" name="strip_prob_1" GainId="36,36,35,34,35" /> 
+	</REELS> 
+
+
+<GAINGAME>
+			<GAIN Id="30" Prize="0,1,2,3,4,5,6" Prob="100,100,100,100,100,100,100" /> 
+			<GAIN Id="31" Prize="0,1,2,3,4,5,6" Prob="100,100,100,100,100,100,100" /> 
+			<GAIN Id="33" Prize="0,1,2" Prob="100,100,100" /> 
+			<GAIN Id="34" Prize="-1,7,8,10,11" Prob="100,15,5,5,5" /> 
+			<GAIN Id="35" Prize="-1,7,8,10,11" Prob="100,15,5,5,5" /> 
+			<GAIN Id="36" Prize="-1,7,8" Prob="100,15,5" /> 
+</GAINGAME>
+
+<OPTIONGAMES default_id="3">
+	<FREESPIN  id="1"  type="1" tag="TF1" multipl="1" zeroSpin="yes" newSpins = "no" minTrWin = "0" maxTrWin="100" GainPrize="3,4,5,6,7" GainProb="10,20,20,10,10"/>	
+	<FREESPIN  id="5"  type="1" tag="TF2" multipl="2" zeroSpin="yes" newSpins = "no" minTrWin = "0" maxTrWin="100" GainPrize="4,5,6,7" GainProb="10,20,20,10"/>	
+	<FREESPIN  id="6"  type="1" tag="TF3" multipl="3" zeroSpin="yes" newSpins = "no" minTrWin = "0" maxTrWin="100" GainPrize="5,6,7" GainProb="20,20,10"/>	
+
+	<MULTIPLIER id="2" type="1" tag="TM1" minTrWin = "0" maxTrWin="50" GainPrize="2,3,4" GainProb="10,20,20" />
+	
+	<BONUS id="3"  name=" Lucky Lilypads"  type="11" tag="TB1" minTrWin = "0"  maxTrWin="100" numWins="-1" />
+	<BONUS id="4"  name="Tacklebox"  type="1" tag="TB2" minTrWin = "0" maxTrWin="100" numWins="-1"/>
+</OPTIONGAMES>
+
+<SKILLS_SCALE min="0" max="110" step="5">
+</SKILLS_SCALE>
+
+</SLOT>

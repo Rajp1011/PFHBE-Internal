@@ -1,0 +1,115 @@
+<?xml version = "1.0"?>
+
+<SLOT
+	ver="3"
+	TotalReels="15"
+	Lines="25"
+	Col="5"
+    Row="3"
+	Pay="Max"
+	DefComb="LeftToRight"
+	Wild="9"
+	Scatter="8"
+	ScatterReplacedByWild="No"
+	WildReplace="OnLine"
+>
+
+<!-- play lines  -->
+	<LINES Total="25" LineSizes="5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5 ">
+		<LINE Reel="5 6 7 8 9" />
+  		<LINE Reel="0 1 2 3 4" />
+  		<LINE Reel="10 11 12 13 14" />
+  		<LINE Reel="0 6 12 8 4" />
+  		<LINE Reel="10 6 2 8 14" />
+  		<LINE Reel="10 6 7 3 4" />
+  		<LINE Reel="0 6 7 13 14" />
+  		<LINE Reel="5 1 12 8 4" />
+  		<LINE Reel="5 11 2 8 14" />
+  		<LINE Reel="10 1 2 8 9" />
+  		<LINE Reel="5 11 12 13 9" />
+  		<LINE Reel="0 11 2 13 4" />
+  		<LINE Reel="10 1 12 3 14" />
+  		<LINE Reel="5 1 2 8 14" />
+  		<LINE Reel="0 11 12 8 9" />
+  		<LINE Reel="0 11 7 3 4" />
+  		<LINE Reel="0 6 2 8 4" />
+  		<LINE Reel="5 1 7 3 9" />
+  		<LINE Reel="5 11 7 13 9" />
+  		<LINE Reel="10 1 7 13 14" />
+  		<LINE Reel="10 1 12 8 4" />
+  		<LINE Reel="10 6 12 8 14" />
+  		<LINE Reel="10 1 7 8 14" />
+  		<LINE Reel="0 11 2 8 14" />
+  		<LINE Reel="5 11 12 8 4" />
+
+</LINES>
+
+<!-- win combinations  7952  -->
+
+	<WINCOMB >
+	<COMB Symb="9"  Numb="5" Prize="1500"  />
+		<COMB Symb="8"  Numb="5" Prize="100"  />
+		<COMB Symb="8"  Numb="4" Prize="20"  />
+		<COMB Symb="8"  Numb="3" Prize="10"  />
+		<COMB Symb="8"  Numb="2" Prize="2"  />
+
+		<COMB Symb="1"  Numb="5" Prize="1000"/>
+		<COMB Symb="1"  Numb="4" Prize="500"/>
+		<COMB Symb="1"  Numb="3" Prize="100"/>
+
+		<COMB Symb="2"  Numb="5" Prize="750"/>
+		<COMB Symb="2"  Numb="4" Prize="400"/>
+		<COMB Symb="2"  Numb="3" Prize="75"/>
+
+		<COMB Symb="3"  Numb="5" Prize="500"/>
+		<COMB Symb="3"  Numb="4" Prize="250"/>
+		<COMB Symb="3"  Numb="3" Prize="50"/>
+
+		<COMB Symb="4"  Numb="5" Prize="300"/>
+		<COMB Symb="4"  Numb="4" Prize="150"/>
+		<COMB Symb="4"  Numb="3" Prize="50"/>
+
+		<COMB Symb="5"  Numb="5" Prize="250"/>
+		<COMB Symb="5"  Numb="4" Prize="100"/>
+		<COMB Symb="5"  Numb="3" Prize="25"/>
+
+		<COMB Symb="6"  Numb="5" Prize="200"/>
+		<COMB Symb="6"  Numb="4" Prize="50"/>
+		<COMB Symb="6"  Numb="3" Prize="20"/>
+
+		<COMB Symb="4 5 6"  Order="N" Numb="5" Prize="150" IDComb="61" />
+		<COMB Symb="4 5 6"  Order="N" Numb="4" Prize="25" IDComb="61" />
+
+		<COMB Symb="7"  Numb="5" Prize="150"/>
+		<COMB Symb="7"  Numb="4" Prize="50"/>
+		<COMB Symb="7"  Numb="3" Prize="20"/>
+		<COMB Symb="7"  Numb="2" Prize="10"/>
+	</WINCOMB>
+
+	<REELS Type="Strips" TotalProb="5" TotalSymbIds="9" FreqSizes="51,54,55,54,52">
+		  <Set reel="0 1 2 3 4" />
+	  <PROB Symb="5 2 1 2 3 4 5 6 7 8 9 7 10 7 4 6 9 5 3 4 7 5 2 6 8 4 1 5 5 3 7 2 6 7 8 6 3 4 1 4 5 3 6 2 7 2 6 7 6 5 2" />
+	  <PROB Symb="5 2 1 2 3 4 5 6 7 8 9 7 7 4 6 10 9 5 3 4 7 5 2 6 8 4 1 5 5 3 7 2 6 7 10 8 6 3 4 1 4 5 9 3 6 2 7 2 8 6 7 6 5 2" />
+	  <PROB Symb="5 2 1 2 3 4 5 6 7 8 9 7 7 4 6 10 9 5 3 4 7 5 2 6 8 4 1 5 5 3 7 2 6 7 10 8 6 3 4 1 4 11 5 9 3 6 2 7 2 8 6 7 6 5 2" />
+	  <PROB Symb="5 2 1 2 3 4 5 6 7 8 9 7 7 4 6 10 9 5 3 4 7 5 2 6 8 4 1 5 5 3 7 2 6 7 10 8 6 3 4 1 4 5 9 3 6 2 7 2 8 6 7 6 5 2" />
+	  <PROB Symb="5 2 1 2 3 4 5 6 7 8 9 7 10 7 4 6 9 5 3 4 7 5 2 6 8 4 1 5 5 3 7 2 6 7 8 10 6 3 4 1 4 5 3 6 2 7 2 6 7 6 5 2" />
+  </REELS>
+
+<!--OPTION games -->
+<OPTIONGAMES default_id="2">
+
+<FREESPIN  id="4"  type="1" tag="TF1" multipl="1" zeroSpin="yes" minTrWin = "0" maxTrWin="100" GainPrize="3,4,5" GainProb="10,10,10"/>
+<FREESPIN  id="5"  type="1" tag="TF2" multipl="1" zeroSpin="yes" minTrWin = "0" maxTrWin="300" GainPrize="12,15" GainProb="10,10"/>
+
+<BONUS id="1"  type="2" tag="TB1" maxTrWin="5" numWins="3" ptblSize="9" ptblPrizes="1, 2, 5, 10, 15, 20, 25, 30, 35" />
+<BONUS id="2"  type="2" tag="TB2" maxTrWin="5" numWins="4" ptblSize="9" ptblPrizes="1, 2, 5, 10, 15, 20, 25, 30, 35" />
+<BONUS id="3"  type="2" tag="TB3" maxTrWin="5" numWins="5" ptblSize="9" ptblPrizes="1, 2, 5, 10, 15, 20, 25, 30, 35" />
+
+</OPTIONGAMES>
+
+<SKILLS_SCALE min="0" max="110" step="5">
+</SKILLS_SCALE>
+
+</SLOT>
+
+

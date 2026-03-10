@@ -1,0 +1,106 @@
+<?xml version = "1.0"?>
+
+<!-- slotconfig.xml -->
+
+<!--  Fiery7 config 89.07%-->
+<!-- Slot configuration:
+	1. Slot definition:
+		TotalReels - number of total reels in slot
+		Lines - number of total lines
+		Col - number of columns
+		Row - number of rows
+		Pay="Max/M/m" - pay max win on line
+		    "Sum/S/s" - accumulate all winnings on line
+		DefComb="1" - collect icons from left to right with continuous sequence
+		       ="2" - collect icons with no sequence
+		       ="3" - collect icons from any place with sequence
+		       ="5" - poker combinations
+		Wild - ID of Wild
+		Scat - ID of Scatter
+		Wildx2="Y/y/N/n" - Yes or No - to double win if wild, or not
+		Range - probability to win is int1 / int2 (x10000)
+-->
+<SLOT
+	TotalReels="9"
+	Lines="8"
+	Col="3"
+    Row="3"
+	Pay="Max"
+	DefComb="1"
+	Wildx2="n"
+	Range="6660"
+>
+<!--  JACKPOT  -->
+	<JACKPOT Id="1" Internal="Y" Contribution="75"  Seed="700" MaxPrize="1250" />
+	<JACKPOT Id="2" Internal="Y" Contribution="75"  Seed="200" MaxPrize="700" />
+	<JACKPOT Id="3" Internal="Y" Contribution="300" Seed="10"  PoolSeed="10" MaxPrize="200" />
+
+
+<!-- play lines  -->
+
+
+	<LINES Total="8" LineSizes="3,3,3,3,3,3,3,3">
+		<LINE Reel="3 4 5" />
+		<LINE Reel="0 1 2" />
+		<LINE Reel="6 7 8" />
+		<LINE Reel="0 4 8" />
+		<LINE Reel="6 4 2" />
+		<LINE Reel="0 3 6" />
+		<LINE Reel="1 4 7" />
+		<LINE Reel="2 5 8" />
+	</LINES>
+
+<!-- win combinations  -->
+
+	<WINCOMB Total="28">
+
+		<COMB Type="1" Symb="0" Numb="9" Prize="1000" JPot="1" Pay="S" MaxBet="Y"/>
+		<COMB Type="1" Symb="0" Numb="8" Prize="500"  JPot="1" Pay="S" MaxBet="y"/>
+		<COMB Type="1" Symb="0" Numb="7" Prize="50"  JPot="1" Pay="S" MaxBet="y"/>
+
+		<COMB Type="1" Symb="1" Numb="9" Prize="1000" JPot="2" Pay="S" MaxBet="y"/>
+		<COMB Type="1" Symb="1" Numb="8" Prize="500"  JPot="2" Pay="S" MaxBet="y"/>
+		<COMB Type="1" Symb="1" Numb="7" Prize="50"  JPot="2" Pay="S" MaxBet="y"/>
+
+		<COMB Type="1" Symb="2" Numb="9" Prize="1000"/>
+		<COMB Type="1" Symb="2" Numb="8" Prize="500"/>
+		<COMB Type="1" Symb="2" Numb="7" Prize="50"/>
+		<COMB Type="1" Symb="3" Numb="9" Prize="1000"/>
+		<COMB Type="1" Symb="3" Numb="8" Prize="500"/>
+		<COMB Type="1" Symb="3" Numb="7" Prize="50"/>
+		<COMB Type="1" Symb="4" Numb="9" Prize="1000"/>
+		<COMB Type="1" Symb="4" Numb="8" Prize="500"/>
+		<COMB Type="1" Symb="4" Numb="7" Prize="50"/>
+		<COMB Type="1" Symb="5" Numb="9" Prize="1000" JPot="3" Pay="S" MaxBet="N"/>
+		<COMB Type="1" Symb="5" Numb="8" Prize="500" JPot="3" Pay="S" MaxBet="N"/>
+		<COMB Type="1" Symb="5" Numb="7" Prize="50" JPot="3" Pay="S" MaxBet="N"/>
+		<COMB Type="1" Symb="5" Numb="6" Prize="0" JPot="3" Pay="S" MaxBet="N"/>
+		<COMB Type="1" Symb="5" Numb="5" Prize="0" JPot="3" Pay="S" MaxBet="N"/>
+		<COMB Symb="0"  Numb="3" Prize="100"/>
+		<COMB Symb="1"  Numb="3" Prize="45"/>
+		<COMB Symb="2"  Numb="3" Prize="20"/>
+		<COMB Symb="3"  Numb="3" Prize="10"/>
+		<COMB Symb="4"  Numb="3" Prize="8"/>
+		<COMB Symb="5"  Numb="3" Prize="8"/>
+		<COMB Symb="5"  Numb="2" Prize="5"/>
+		<COMB Symb="5"  Numb="1" Prize="2"/>
+
+	</WINCOMB>
+
+<!-- Reels configuration  <PROB Symb="120 160 280 320 360 120 " /> -->
+
+	<REELS Type="Prob" TotalProb="1" TotalSymbIds="6" FreqSizes="6">
+	<Set reel="0 0 0 0 0 0 0 0 0"/>
+	<PROB Symb="120 160 280 320 360 120 " />
+	</REELS>
+
+<!--	FREEGAME -->
+	<FREEGAME Id="1" Prize="0,5,7,10,15" Prob="9800,70,70,40,20"/>
+
+<SKILLS_SCALE min="0" max="110" step="5">
+</SKILLS_SCALE>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+</SLOT>
+

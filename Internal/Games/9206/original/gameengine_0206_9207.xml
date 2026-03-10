@@ -1,0 +1,176 @@
+<?xml version = "1.0"?>
+
+<!-- RNG -->
+<SLOT
+	TotalReels="15"
+	Lines="25"
+	Col="5"
+    	Row="3"
+	Pay="Max"
+	DefComb="LeftToRight"
+	Wild="12"
+	Scatter="13"
+	ScatterReplacedByWild="No"
+	WildReplace="OnLine"
+	MoreThanOneWildOnStrip="yes"
+	PrintSlotResult="no"
+>
+<!-- Wild multiplier for 0,1,2,3,4,5 wilds -->
+<Wild id="12" MultiplierType="online" Multiplier="1,2,2,2,2,2">
+</Wild>
+
+	<LINES Total="25" LineSizes="5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5 ">
+		<LINE Reel="5 6 7 8 9 "/>
+		<LINE Reel="0 1 2 3 4" />
+		<LINE Reel="10 11 12 13 14" />
+		<LINE Reel="0 6 12 8 4" />
+		<LINE Reel="10 6 2 8 14" />
+
+		<LINE Reel="10 6 2 3 4" />
+		<LINE Reel="0 6 12 13 14" />
+		<LINE Reel="5 6 7 3 4" />
+		<LINE Reel="5 6 7 13 14" />
+		<LINE Reel="5 1 2 3 9"/>
+
+		<LINE Reel="5 11 12 13 9"/>
+		<LINE Reel="0 11 2 13 4"/>
+		<LINE Reel="10 1 12 3 14"/>
+		<LINE Reel="0 6 2 8 4"/>
+		<LINE Reel="10 11 12 8 4"/>
+
+		<LINE Reel="5 6 2 8 9"/>
+		<LINE Reel="5 6 12 8 9"/>
+		<LINE Reel="5 1 7 3 9"/>
+		<LINE Reel="5 11 7 13 9"/>
+		<LINE Reel="0 1 7 13 14"/>
+
+		<LINE Reel="10 11 7 3 4"/>
+		<LINE Reel="10 6 12 8 14"/>
+		<LINE Reel="10 6 7 8 14"/>
+		<LINE Reel="0 6 7 8 4"/>
+		<LINE Reel="0 1 2 8 14"/>
+	</LINES>
+
+
+<!-- win combinations  95200%  -->
+
+	<WINCOMB >
+		<COMB Symb="12"  Numb="5" Prize="10000"  />
+
+		<COMB Symb="1"  Numb="5" Prize="2000"/>
+		<COMB Symb="1"  Numb="4" Prize="500"/>
+		<COMB Symb="1"  Numb="3" Prize="75"/>
+		<COMB Symb="1"  Numb="2" Prize="10"/>
+
+		<COMB Symb="2"  Numb="5" Prize="500"/>
+		<COMB Symb="2"  Numb="4" Prize="250"/>
+		<COMB Symb="2"  Numb="3" Prize="50"/>
+		<COMB Symb="2"  Numb="2" Prize="5"/>
+
+		<COMB Symb="3"  Numb="5" Prize="250"/>
+		<COMB Symb="3"  Numb="4" Prize="150"/>
+		<COMB Symb="3"  Numb="3" Prize="25"/>
+		<COMB Symb="3"  Numb="2" Prize="2"/>
+
+		<COMB Symb="4"  Numb="5" Prize="200"/>
+		<COMB Symb="4"  Numb="4" Prize="100"/>
+		<COMB Symb="4"  Numb="3" Prize="25"/>
+
+		<COMB Symb="5"  Numb="5" Prize="100"/>
+		<COMB Symb="5"  Numb="4" Prize="50"/>
+		<COMB Symb="5"  Numb="3" Prize="15"/>
+
+		<COMB Symb="6"  Numb="5" Prize="100"/>
+		<COMB Symb="6"  Numb="4" Prize="30"/>
+		<COMB Symb="6"  Numb="3" Prize="15" />
+
+		<COMB Symb="7"  Numb="5" Prize="75"/>
+		<COMB Symb="7"  Numb="4" Prize="20"/>
+		<COMB Symb="7"  Numb="3" Prize="10" />
+
+		<COMB Symb="8"  Numb="5" Prize="50"/>
+		<COMB Symb="8"  Numb="4" Prize="15"/>
+		<COMB Symb="8"  Numb="3" Prize="5" />
+
+		<COMB Symb="9"  Numb="5" Prize="50"/>
+		<COMB Symb="9"  Numb="4" Prize="15"/>
+		<COMB Symb="9"  Numb="3" Prize="5" />
+
+		<COMB Symb="10"  Numb="5" Prize="20"/>
+		<COMB Symb="10"  Numb="4" Prize="10"/>
+		<COMB Symb="10"  Numb="3" Prize="5" />
+
+		<COMB Symb="11"  Numb="5" Prize="20"/>
+		<COMB Symb="11"  Numb="4" Prize="10"/>
+		<COMB Symb="11"  Numb="3" Prize="5" />
+
+<!-- M  -->
+		<COMB Type="5" SymbIds="14"  Order="Y" Numb="1" Prize="10" Symb="61" />
+<!-- MA -->
+		<COMB Type="5" SymbIds="14 15"  Order="Y" Numb="2" Prize="25" Symb="62" />
+<!-- MAG -->
+		<COMB  Type="5" SymbIds="14 15 16"  Order="Y" Numb="3" Prize="50" Symb="63" />
+<!-- MAGI -->
+		<COMB Type="5" SymbIds="14 15 16 17"  Order="Y" Numb="4" Prize="75" Symb="64" />
+<!-- MAGIC -->
+		<COMB Type="5" SymbIds="14 15 16 17 18"  Order="Y" Numb="5" Prize="0" Symb="65" />
+
+		<COMB Symb="13"  Numb="5" Prize="100"/>
+		<COMB Symb="13"  Numb="4" Prize="10"/>
+		<COMB Symb="13"  Numb="3" Prize="5"/>
+		<COMB Symb="13"  Numb="2" Prize="2"/>
+
+	</WINCOMB>
+
+
+	<GAINGAME>
+		<GAIN Id="30" Prize="1,2,3,4,5,6,7,8,9,10,11" Prob="30,50,100,100,110,150,100,100,100,100,100" />
+		<GAIN Id="31" Prize="1,2,3,4,5,6,7,8,9,10,11" Prob="60,90,100,100,110,120,100,100,100,100,100" />
+
+		<GAIN Id="33" Prize="0,1,2" Prob="100,100,100" />
+		<GAIN Id="34" Prize="0,1,2" Prob="100,100,100" />
+		<GAIN Id="35" Prize="0,1,2" Prob="100,100,100" />
+		<GAIN Id="36" Prize="0,1,2" Prob="100,100,100" />
+		<GAIN Id="37" Prize="0,1,2" Prob="100,100,100" />
+
+		<GAIN Id="38" Prize="-1,12,13,14" Prob="800,60,80,80" />
+		<GAIN Id="39" Prize="-1,12,13,15" Prob="800,60,60,80" />
+		<GAIN Id="40" Prize="-1,12,13,16" Prob="800,80,80,80" />
+		<GAIN Id="41" Prize="-1,12,13,17" Prob="800,80,80,80" />
+		<GAIN Id="42" Prize="-1,12,13,18" Prob="800,80,80,80" />
+
+	</GAINGAME>
+
+	<REELS Type="Single" >
+		  <PROB Id="1" name="regular" GainId="30,30,30,30,30,30,30,30,30,30,30,30,30,30,30" />
+		  <PROB Id="2" name="freespin" GainId="31,31,31,31,31,31,31,31,31,31,31,31,31,31,31" />
+		  <PROB Id="3" name="strip_spot_1" GainId="33,34,35,36,37" />
+		  <PROB Id="4" name="strip_prob_1" GainId="38,39,40,41,42" />
+	</REELS>
+
+
+<!--OPTION games -->
+<OPTIONGAMES default_id="1">
+
+<BONUS id="1"  type="1" tag="TB1" maxTrWin="50" numWins="-1"  name="Instant bonus"/>
+<BONUS id="2"  type="15" tag="TB2" maxTrWin="50" numWins="-1" name="Magic Library"/>
+<BONUS id="3"  type="16" tag="TB3" maxTrWin="50" numWins="-1" name="Crystal bonus 1"/>
+<BONUS id="4"  type="16" tag="TB4" maxTrWin="50" numWins="-1" name="Crystal bonus 2"/>
+<BONUS id="5"  type="16" tag="TB5" maxTrWin="100" numWins="-1" name="Crystal bonus 3"/>
+<FREESPIN  id="6"  type="1" tag="TF1" multipl="1" zeroSpin="yes" minTrWin = "0" maxTrWin="100" GainPrize="3,4,5" GainProb="10,10,10"/>
+
+</OPTIONGAMES>
+
+<FAKEGAMES>
+<Game id="1" name="" type="0" idOptGame="3"  GainPrize="1,0" GainProb="1,70" maxWin="50"/>
+<Game id="2" name="" type="2" idOptGame="-1"  GainPrize="1,0" GainProb="1,50" maxWin="500"/>
+</FAKEGAMES>
+
+<SKILLS_SCALE min="0" max="110" step="5">
+</SKILLS_SCALE>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+
+</SLOT>
+

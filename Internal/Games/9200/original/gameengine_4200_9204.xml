@@ -1,0 +1,154 @@
+<?xml version = "1.0"?>
+<!-- change from 9207 to 92004. Works woith pool 4200-->
+<SLOT
+	ver="005"
+	TotalReels="15"
+	Lines="5"
+	Col="5"
+    Row="3"
+	DefComb="AnySequence"
+	Pay="Max"
+	Wild="9"
+	Scatter="8"
+	ScatterReplacedByWild="No"
+	WildReplace="OnLine"
+>
+
+<LINES Total="5" LineSizes="5,5,5,5,5">
+		<LINE Reel="5 6 7 8 9 "/>
+		<LINE Reel="0 1 2 3 4" />
+		<LINE Reel="10 11 12 13 14" />
+		<LINE Reel="0 6 12 8 4" />
+		<LINE Reel="10 6 2 8 14" />
+</LINES>
+
+<JP_LUCKYSYMBOL gain_luckysymbol_id="50" >
+</JP_LUCKYSYMBOL>
+
+<CASC_MULTPL num="5" multpl="1,1,1,1,1">
+</CASC_MULTPL>
+
+<PERFORMANCE_MAIN>
+	<Option id="1" credits_from="5" credits_to="10" range="10000" >
+		<Game id="0" probability="800" />
+		<Game id="1" probability="200" />
+	</Option>
+	<Option id="2" credits_from="10" credits_to="15" range="10000" >
+		<Game id="0" probability="650" />
+		<Game id="1" probability="300" />
+		<Game id="2" probability="50" />
+	</Option>
+	<Option id="3" credits_from="15" credits_to="25" range="10000"  prob_range="10000 10000" >
+		<Game id="0" probability="500" />
+		<Game id="1" probability="400" />
+		<Game id="2" probability="100" />
+	</Option>
+	<Option id="4" credits_from="25" credits_to="50" range="10000"  prob_range="10000 10000" >
+		<Game id="0" probability="100" />
+		<Game id="1" probability="400" />
+		<Game id="2" probability="300" />
+		<Game id="3" probability="200" />
+	</Option>
+	<Option id="5" credits_from="50" credits_to="200" range="10000"  prob_range="10000 10000" >
+		<Game id="0" probability="1" />
+		<Game id="1" probability="200" />
+		<Game id="2" probability="500" />
+		<Game id="3" probability="299" />
+	</Option>
+	<Option id="6" credits_from="200" credits_to="10000000" range="10000"  prob_range="10000 10000" >
+		<Game id="0" probability="1" />
+		<Game id="1" probability="100" />
+		<Game id="2" probability="450" />
+		<Game id="3" probability="449" />
+	</Option>
+</PERFORMANCE_MAIN>
+
+<Wild id="9"
+Regular_mode="2,2,2,2,2,2,2,2,2,2,2,2,2,2,2"
+Regular_HighPercentage="100"
+Regular_HighPercentageFlags="2,2,2,2,2,2,2,1,2,2,2,2,2,2,2"
+FreeSpin_mode="2,2,2,2,2,2,2,1,2,2,2,2,2,2,2"
+FreeSpin_HighPercentage="100"
+FreeSpin_HighPercentageFlags="2,2,2,2,2,2,2,1,2,2,2,2,2,2,2">
+</Wild>
+
+
+<!-- win combinations Sweeps Skills -->
+	<WINCOMB >
+		<COMB Symb="9"  Numb="5" Prize="2500"  />
+		<COMB Symb="8"  Numb="5" Prize="100"  />
+		<COMB Symb="8"  Numb="4" Prize="10"  />
+		<COMB Symb="8"  Numb="3" Prize="5"  />
+
+		<COMB Symb="0"  Numb="5" Prize="1000"/>
+		<COMB Symb="0"  Numb="4" Prize="500"/>
+		<COMB Symb="0"  Numb="3" Prize="45"/>
+		<COMB Symb="0"  Numb="2" Prize="10"/>
+
+		<COMB Symb="1"  Numb="5" Prize="500"/>
+		<COMB Symb="1"  Numb="4" Prize="100"/>
+		<COMB Symb="1"  Numb="3" Prize="30"/>
+
+		<COMB Symb="2"  Numb="5" Prize="250"/>
+		<COMB Symb="2"  Numb="4" Prize="50"/>
+		<COMB Symb="2"  Numb="3" Prize="20"/>
+
+		<COMB Symb="3"  Numb="5" Prize="150"/>
+		<COMB Symb="3"  Numb="4" Prize="30"/>
+		<COMB Symb="3"  Numb="3" Prize="8"/>
+
+		<COMB Symb="4"  Numb="5" Prize="125"/>
+		<COMB Symb="4"  Numb="4" Prize="25"/>
+		<COMB Symb="4"  Numb="3" Prize="5"/>
+
+		<COMB Symb="5"  Numb="5" Prize="100"/>
+		<COMB Symb="5"  Numb="4" Prize="20"/>
+		<COMB Symb="5"  Numb="3" Prize="3"/>
+
+		<COMB Symb="6"  Numb="5" Prize="75"/>
+		<COMB Symb="6"  Numb="4" Prize="15"/>
+		<COMB Symb="6"  Numb="3" Prize="2" />
+
+		<COMB Symb="7"  Numb="5" Prize="50"/>
+		<COMB Symb="7"  Numb="4" Prize="12"/>
+		<COMB Symb="7"  Numb="3" Prize="1"/>
+	</WINCOMB>
+
+	<GAINGAME>
+		<GAIN Id="30" Prize="0,1,2,3,4,5,6,7" Prob="100,100,150,100,100,100,100,100" />
+		<GAIN Id="31" Prize="0,1,2,3,4,5,6,7" Prob="100,100,100,100,100,100,100,100" />
+		<GAIN Id="33" Prize="0,1,2" Prob="100,100,100" />
+		<GAIN Id="34" Prize="-1,8,9,10,11" Prob="100,40,40,20,0" />
+		<GAIN Id="35" Prize="-1,8,9,10,11" Prob="100,40,40,0,20" />
+		<GAIN Id="36" Prize="-1,8,9,10,11" Prob="100,30,30,0,0" />
+
+		<GAIN Id="50" Prize="0,1,2,3,4" Prob="50,40,5,3,2"/>
+
+	</GAINGAME>
+
+
+	<REELS Type="Single" >
+		  <PROB Id="1" name="regular" GainId="30,30,30,30,30,30,30,30,30,30,30,30,30,30,30" />
+		  <PROB Id="2" name="freespin" GainId="31,31,31,31,31,31,31,31,31,31,31,31,31,31,31" />
+		  <PROB Id="3" name="strip_spot_1" GainId="33,33,33,33,33" />
+		  <PROB Id="4" name="strip_prob_1" GainId="36,34,35,34,35" />
+	</REELS>
+
+<!-- -->
+
+<OPTIONGAMES default_id="2">
+
+<FREESPIN  id="1"  type="1" tag="TF1" multipl="1" zeroSpin="yes" newSpins = "no" minTrWin = "0" maxTrWin="100" GainPrize="3,4,5,6,7" GainProb="10,20,20,10,10"/>
+<BONUS id="2"  name=" Pick"  type="1" tag="TB1" maxTrWin="100" numWins="-1" />
+<BONUS id="3"  name="Wheel"  type="2" tag="TB2" maxTrWin="100" numWins="3" ptblSize="8" ptblPrizes="150,100,75,50,40,30,20,10"/>
+
+</OPTIONGAMES>
+
+<SKILLS_SCALE min="0" max="110" step="5">
+</SKILLS_SCALE>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+
+</SLOT>
+

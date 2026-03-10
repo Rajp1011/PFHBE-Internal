@@ -1,0 +1,94 @@
+<?xml version = "1.0"?>
+
+<!-- Scorching hot v.1-->
+
+<GAMES>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+
+<SKILLS_SCALE min="50" max="110" step="5">
+</SKILLS_SCALE>
+
+<!-- math parametrs  BetOne is the bet was used to build the pool  e.i. betlevel 1 for denom 1 or min possible bet -->
+	<MATH BetOne="5"/>
+
+<FEATURE ID="0" type="REELS" name="Base Game" tag="">
+
+<SLOT
+	TotalReels="15"
+	Lines="5"
+	Col="5"
+   	Row="3"			
+	Pay="Max"
+	DefComb="LeftToRight"	
+	Scatter="8"
+	PrintSlotResult="no"	
+  >	
+
+
+<TICKETS payout="9201" size="15" >
+</TICKETS>
+
+	<!-- play lines  -->
+	<LINES Total="5" LineSizes="5,5,5,5,5">
+		<LINE Reel="5 6 7 8 9" />
+		<LINE Reel="0 1 2 3 4" />
+		<LINE Reel="10 11 12 13 14" />
+		<LINE Reel="0 6 12 8 4" />
+		<LINE Reel="10 6 2 8 14" />
+	</LINES>
+
+
+
+	<!-- win combinations  -->
+	<WINCOMB Total="29" >	
+		<COMB Symb="1"  Numb="5" Prize="5000" />
+		<COMB Symb="1"  Numb="4" Prize="1000" />
+		<COMB Symb="1"  Numb="3" Prize="100" />
+		
+		<COMB Symb="2"  Numb="5" Prize="500" />
+		<COMB Symb="2"  Numb="4" Prize="200" />
+		<COMB Symb="2"  Numb="3" Prize="50" />
+		
+		<COMB Symb="3"  Numb="5" Prize="500" />
+		<COMB Symb="3"  Numb="4" Prize="200" />
+		<COMB Symb="3"  Numb="3" Prize="50" />
+		
+		<COMB Symb="4"  Numb="5" Prize="200" />
+		<COMB Symb="4"  Numb="4" Prize="50" />							
+		<COMB Symb="4"  Numb="3" Prize="20" />
+		
+		<COMB Symb="5"  Numb="5" Prize="200" />
+		<COMB Symb="5"  Numb="4" Prize="50" />
+		<COMB Symb="5"  Numb="3" Prize="20" />
+		
+		<COMB Symb="6"  Numb="5" Prize="200" />
+		<COMB Symb="6"  Numb="4" Prize="50" />
+		<COMB Symb="6"  Numb="3" Prize="20" />
+		
+		<COMB Symb="7"  Numb="5" Prize="200" />
+		<COMB Symb="7"  Numb="4" Prize="50" />							
+		<COMB Symb="7"  Numb="3" Prize="20" />
+		<COMB Symb="7"  Numb="2" Prize="2" />
+		
+		<!-- scatters -->
+		<COMB Symb="8"  Numb="5" Prize="40" />
+		<COMB Symb="8"  Numb="4" Prize="10" />
+		<COMB Symb="8"  Numb="3" Prize="4" />
+		
+	</WINCOMB>
+	
+	<REELS Type="Strips" TotalProb="5" TotalSymbIds="11" FreqSizes="70,72,76,76,73">
+	  <Set reel="0 1 2 3 4" /> 
+	  <PROB Symb="7,6,6,6,4,7,1,3,5,5,5,5,4,6,7,7,7,8,5,1,5,4,4,3,3,1,7,7,6,2,2,4,6,8,6,1,2,2,4,4,4,7,7,1,5,5,5,5,4,4,4,3,3,1,2,2,6,4,7,7,3,1,3,6,6,6,8,5,2,5" />
+	  <PROB Symb="7,6,6,6,5,7,1,2,2,3,5,5,5,6,7,7,7,8,5,1,5,4,4,4,4,3,3,7,7,7,6,2,2,6,8,6,5,5,1,2,4,4,4,4,5,7,7,1,5,5,5,4,4,4,3,2,3,2,6,7,7,7,1,6,6,6,8,1,3,3,4,4" />
+	  <PROB Symb="7,6,6,6,4,7,1,3,3,5,5,5,4,6,7,7,7,8,5,1,5,4,4,3,3,7,7,7,6,2,2,4,6,8,6,5,5,5,5,1,4,4,4,4,7,7,1,5,5,5,4,4,4,3,2,2,6,4,7,7,7,1,5,3,3,1,6,6,6,8,2,3,2,4,4,4" />
+	  <PROB Symb="7,6,6,6,5,8,7,1,2,2,3,3,5,5,5,6,7,7,7,8,5,1,5,4,4,4,3,3,7,7,7,6,2,2,6,8,6,5,5,1,3,3,4,4,4,4,7,7,1,5,5,5,5,4,4,3,2,2,6,4,4,7,7,7,1,5,5,5,6,6,6,8,1,4,4,4" />
+	  <PROB Symb="7,6,6,6,5,8,7,1,2,2,7,3,3,5,5,5,6,7,7,7,8,5,1,5,4,4,4,6,3,3,7,7,7,6,2,2,8,6,5,5,1,4,4,4,7,7,1,5,5,5,4,4,3,3,2,2,6,4,4,7,7,7,1,5,6,6,6,8,1,4,4,3,3" />
+	 </REELS>
+
+</SLOT>
+</FEATURE>
+
+</GAMES>

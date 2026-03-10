@@ -1,0 +1,70 @@
+{//Classic7 HR
+      "gameId": "95113",
+      "cascade": false,
+      "reelCount": 9,
+      "betOne": 8,  
+      "lineDirection": 0, 
+      "wilds": [
+        { "symbolId": 6, "multiplier": [1,1], "exclusion": [7,8] },
+        { "symbolId": 7, "multiplier": [1,3], "exclusion": [6,8] },    
+        { "symbolId": 8, "multiplier": [1,5], "exclusion": [6,7] }
+       ],
+       "paytables":[
+          {
+            "id":1,
+            "filter":1,
+            "items":[
+                {"symbolIds":[5],"count":9,"prize":1000, "multiFactor":0,  "jp":"3", "pay":"S", "maxBet":false},
+                {"symbolIds":[5],"count":8,"prize":500,  "multiFactor":0,  "jp":"3", "pay":"S", "maxBet":false},
+                {"symbolIds":[5],"count":7,"prize":50,   "multiFactor":0,  "jp":"3", "pay":"1S","maxBet":false},
+                {"symbolIds":[5],"count":6,"prize":0,    "multiFactor":0,  "jp":"3", "pay":"S", "maxBet":false},
+                {"symbolIds":[5],"count":5,"prize":0,    "multiFactor":0,  "jp":"3", "pay":"S", "maxBet":false},
+                {"symbolIds":[4],"count":9,"prize":1000, "multiFactor":0},
+                {"symbolIds":[4],"count":8,"prize":500,  "multiFactor":0},
+                {"symbolIds":[4],"count":7,"prize":50,   "multiFactor":0},
+                {"symbolIds":[3],"count":9,"prize":1000, "multiFactor":0},
+                {"symbolIds":[3],"count":8,"prize":500,  "multiFactor":0},
+                {"symbolIds":[3],"count":7,"prize":50,   "multiFactor":0},
+                {"symbolIds":[2],"count":9,"prize":1000, "multiFactor":0},
+                {"symbolIds":[2],"count":8,"prize":500,  "multiFactor":0},
+                {"symbolIds":[2],"count":7,"prize":50,   "multiFactor":0},
+                {"symbolIds":[1],"count":9,"prize":1000, "multiFactor":0, "jp":"2", "pay":"S", "maxBet":true},
+                {"symbolIds":[1],"count":8,"prize":500,  "multiFactor":0, "jp":"2", "pay":"S", "maxBet":true},
+                {"symbolIds":[1],"count":7,"prize":50,   "multiFactor":0, "jp":"2", "pay":"1S","maxBet":true},
+                {"symbolIds":[0],"count":9,"prize":1000, "multiFactor":0, "jp":"1", "pay":"S", "maxBet":true},
+                {"symbolIds":[0],"count":8,"prize":500,  "multiFactor":0, "jp":"1", "pay":"S", "maxBet":true},
+                {"symbolIds":[0],"count":7,"prize":50,   "multiFactor":0, "jp":"1", "pay":"1S","maxBet":true},             
+                {"symbolIds":[0],"count":3,"prize":100},            
+                {"symbolIds":[1],"count":3,"prize":45},
+                {"symbolIds":[2],"count":3,"prize":20},
+                {"symbolIds":[3],"count":3,"prize":10},
+                {"symbolIds":[4],"count":3,"prize":8},
+                {"symbolIds":[5],"count":3,"prize":8},
+                {"symbolIds":[5],"count":2,"prize":5},
+                {"symbolIds":[5],"count":1,"prize":2}
+            ]
+          }
+      ],
+      "lines":[
+        [3, 4, 5],
+        [0, 1, 2],
+        [6, 7, 8],
+        [0, 4, 8],
+        [6, 4, 2],
+        [0, 3, 6],
+        [1, 4, 7],
+        [2, 5, 8]
+      ],
+      "triggerMapping": [
+        {"tag": "F", "value": "TF"},
+        {"tag": "JP1", "value": "TJ1"},
+        {"tag": "JP2", "value": "TJ2"},
+        {"tag": "JP3", "value": "TJ3"}
+      ],
+      "debugFeatureMapping": [
+        {"tag": "MW", "values": null},
+        {"tag": "ML", "values": null},
+        {"tag": "FS", "values": ["F"]},
+        {"tag": "JP", "values": ["JP1","JP2","JP3"]}
+      ]
+}

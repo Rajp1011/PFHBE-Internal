@@ -1,0 +1,115 @@
+{ 
+      "gameName": "PandasLuckyPayoutG2",     
+      "gameId": "9487",
+      "cascade": false,
+      "reelCount": 15,
+      "betOne": 30,
+      "lineDirection": 0, 
+      "wilds": [
+        { "symbolId": 1, "multiplier": [1,1,1,1,1], "exclusion": [] }
+      ],
+      "freeSpinMultiplier": 2,    
+      "paytables":[
+          {
+            "id":1,
+            "filter":1,
+            "items":[                                            
+                {"symbolIds":[2],"count":5,"prize":1000},             
+                {"symbolIds":[2],"count":4,"prize":125},             
+                {"symbolIds":[2],"count":3,"prize":30},             
+                {"symbolIds":[2],"count":2,"prize":3},            
+                
+                {"symbolIds":[3],"count":5,"prize":500},             
+                {"symbolIds":[3],"count":4,"prize":100},             
+                {"symbolIds":[3],"count":3,"prize":25},             
+                
+                {"symbolIds":[4],"count":5,"prize":300},             
+                {"symbolIds":[4],"count":4,"prize":60},             
+                {"symbolIds":[4],"count":3,"prize":15},             
+                
+                {"symbolIds":[5],"count":5,"prize":250},             
+                {"symbolIds":[5],"count":4,"prize":50},             
+                {"symbolIds":[5],"count":3,"prize":15},             
+                
+                {"symbolIds":[6],"count":5,"prize":150},             
+                {"symbolIds":[6],"count":4,"prize":25},             
+                {"symbolIds":[6],"count":3,"prize":5},
+               
+                {"symbolIds":[7],"count":5,"prize":125},             
+                {"symbolIds":[7],"count":4,"prize":25},             
+                {"symbolIds":[7],"count":3,"prize":5},                      
+              
+                {"symbolIds":[8],"count":5,"prize":100},             
+                {"symbolIds":[8],"count":4,"prize":20},             
+                {"symbolIds":[8],"count":3,"prize":5},              
+              
+                {"symbolIds":[9],"count":5,"prize":100},             
+                {"symbolIds":[9],"count":4,"prize":20},             
+                {"symbolIds":[9],"count":3,"prize":5},              
+              
+                {"symbolIds":[10],"count":5,"prize":100},             
+                {"symbolIds":[10],"count":4,"prize":20},             
+                {"symbolIds":[10],"count":3,"prize":5},              
+              
+                {"symbolIds":[11],"count":5,"prize":100},             
+                {"symbolIds":[11],"count":4,"prize":20},             
+                {"symbolIds":[11],"count":3,"prize":5},              
+              
+                {"symbolIds":[12],"count":5,"prize":125},             
+                {"symbolIds":[12],"count":4,"prize":25},             
+                {"symbolIds":[12],"count":3,"prize":5},             
+                {"symbolIds":[12],"count":2,"prize":2}
+            ]
+          }
+       ],
+  "lines": [
+    [ 5, 6, 7, 8, 9 ],
+    [ 0, 1, 2, 3, 4 ],
+    [ 10, 11, 12, 13, 14 ],
+    [ 0, 6, 12, 8, 4 ],
+    [ 10, 6, 2, 8, 14 ],
+    [ 5, 11, 12, 13, 9 ],
+    [ 5, 1, 2, 3, 9 ],
+    [ 10, 11, 7, 13, 14 ],
+    [ 0, 1, 7, 3, 4 ],
+    [ 5, 6, 12, 8, 9 ],
+    [ 5, 6, 2, 8, 9 ],
+    [ 0, 11, 2, 13, 4 ],
+    [ 10, 1, 12, 3, 14 ],
+    [ 0, 6, 2, 8, 4 ],
+    [ 10, 6, 12, 8, 14 ],
+    [ 5, 1, 7, 3, 9 ],
+    [ 5, 11, 7, 13, 9 ],
+    [ 0, 6, 7, 8, 4 ],
+    [ 10, 6, 7, 8, 14 ],
+    [ 0, 11, 12, 13, 4 ],
+    [ 10, 1, 2, 3, 14 ],
+    [ 10, 1, 7, 3, 14 ],
+    [ 0, 11, 7, 13, 4 ],
+    [ 5, 1, 12, 3, 9 ],
+    [ 5, 11, 2, 13, 9 ],
+    [ 0, 1, 12, 3, 4 ],
+    [ 10, 11, 2, 13, 14 ],
+    [ 0, 1, 7, 13, 14 ],
+    [ 10, 11, 7, 3, 4 ],
+    [ 5, 11, 7, 3, 9 ]
+  ], 
+  "strips": [
+    {
+      "id": 1,
+      "strip": [
+        [ 9,8,3,7,8,3,6,12,8,7,9,12,5,6,8,13,13,13,13,13,13,13,9,8,4,9,4,10,8,7,11,12,7,10,5,9,2,8,10,7,12,9,8,5,7,2,11 ],
+        [ 10,8,6,5,10,8,2,3,6,9,7,13,13,13,13,13,13,13,13,11,6,5,2,11,6,12,8,9,5,6,8,12,9,1,8,6,3,8,10,2,7,4,6,11,4,7,2,9,11 ],
+        [ 1,8,4,7,12,10,8,4,2,7,5,11,3,10,3,4,9,2,10,4,6,3,13,13,13,13,13,13,13,9,5,8,9,6,5,8,4,10,3,6,4,8,3,11,7,5,6 ],
+        [ 7,8,3,10,5,6,8,5,9,4,6,10,12,8,2,7,11,9,5,13,13,13,13,13,13,13,13,13,9,2,10,3,3,7,4,12,9,5,10,1,11,6,2,4,11 ],
+        [ 9,6,4,10,6,3,9,2,8,6,3,9,7,4,10,1,7,5,8,11,10,3,4,13,13,13,13,13,13,13,13,13,3,7,2,10,11,12,5,10,11,6,3,12 ]
+      ]
+    }
+  ],
+  "debugFeatureMapping": [
+    {"tag": "MW", "values": null},
+    {"tag": "ML", "values": null},
+    {"tag": "FS", "values": ["TF1"]},
+    {"tag": "TB1", "values": ["TF1"]}
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "gameName": "QuickWinsDiamond",
+  "gameId": "95432",
+  "cascade": false,
+  "columns": 5,
+  "reelCount": 15,
+  "betOne": 30,
+  "displayBet": 30,
+  "scatters": [ 9, 10, 11 ],
+  "lineDirection": 0,
+  "wilds": [
+    {
+      "symbolId": 1,
+      "multiplier": [ 1, 1, 1, 1, 1, 1 ],
+      "exclusion": [ 11, 10, 9 ]
+    }
+  ],
+  "paytables": [
+    {
+      "id": 1,
+      "filter": 1,
+      "items": [
+        {
+          "symbolIds": [ 1 ],
+          "count": 5,
+          "prize": 1500
+        },
+        {
+          "symbolIds": [ 1 ],
+          "count": 4,
+          "prize": 1000
+        },
+        {
+          "symbolIds": [ 1 ],
+          "count": 3,
+          "prize": 200
+        },
+
+        {
+          "symbolIds": [ 2 ],
+          "count": 5,
+          "prize": 1000
+        },
+        {
+          "symbolIds": [ 2 ],
+          "count": 4,
+          "prize": 500
+        },
+        {
+          "symbolIds": [ 2 ],
+          "count": 3,
+          "prize": 100
+        },
+
+        {
+          "symbolIds": [ 3 ],
+          "count": 5,
+          "prize": 500
+        },
+        {
+          "symbolIds": [ 3 ],
+          "count": 4,
+          "prize": 200
+        },
+        {
+          "symbolIds": [ 3 ],
+          "count": 3,
+          "prize": 50
+        },
+
+        {
+          "symbolIds": [ 4 ],
+          "count": 5,
+          "prize": 200
+        },
+        {
+          "symbolIds": [ 4 ],
+          "count": 4,
+          "prize": 100
+        },
+        {
+          "symbolIds": [ 4 ],
+          "count": 3,
+          "prize": 30
+        },
+
+        {
+          "symbolIds": [ 2, 3, 4 ],
+          "count": 5,
+          "prize": 100,
+          "combId": 61
+        },
+        {
+          "symbolIds": [ 2, 3, 4 ],
+          "count": 4,
+          "prize": 50,
+          "combId": 62
+        },
+        {
+          "symbolIds": [ 2, 3, 4 ],
+          "count": 3,
+          "prize": 10,
+          "combId": 63
+        },
+
+        {
+          "symbolIds": [ 5 ],
+          "count": 5,
+          "prize": 100
+        },
+        {
+          "symbolIds": [ 5 ],
+          "count": 4,
+          "prize": 50
+        },
+        {
+          "symbolIds": [ 5 ],
+          "count": 3,
+          "prize": 10
+        },
+
+        {
+          "symbolIds": [ 6 ],
+          "count": 5,
+          "prize": 50
+        },
+        {
+          "symbolIds": [ 6 ],
+          "count": 4,
+          "prize": 25
+        },
+        {
+          "symbolIds": [ 6 ],
+          "count": 3,
+          "prize": 5
+        },
+
+        {
+          "symbolIds": [ 5, 6 ],
+          "count": 5,
+          "prize": 30,
+          "combId": 64
+        },
+        {
+          "symbolIds": [ 5, 6 ],
+          "count": 4,
+          "prize": 5,
+          "combId": 65
+        },
+        {
+          "symbolIds": [ 5, 6 ],
+          "count": 3,
+          "prize": 2,
+          "combId": 66
+        },
+
+        {
+          "symbolIds": [ 7 ],
+          "count": 5,
+          "prize": 30
+        },
+        {
+          "symbolIds": [ 7 ],
+          "count": 4,
+          "prize": 10
+        },
+        {
+          "symbolIds": [ 7 ],
+          "count": 3,
+          "prize": 5
+        },
+
+        {
+          "symbolIds": [ 8 ],
+          "count": 5,
+          "prize": 30
+        },
+        {
+          "symbolIds": [ 8 ],
+          "count": 4,
+          "prize": 10
+        },
+        {
+          "symbolIds": [ 8 ],
+          "count": 3,
+          "prize": 5
+        },
+
+        {
+          "symbolIds": [ 9 ],
+          "count": 5,
+          "prize": 500,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [ 9 ],
+          "count": 4,
+          "prize": 25,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [ 9 ],
+          "count": 3,
+          "prize": 2,
+          "multiFactor": 0
+        },
+
+        {
+          "symbolIds": [ 10 ],
+          "count": 9,
+          "prize": 500,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 8,
+          "prize": 250,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 7,
+          "prize": 100,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 6,
+          "prize": 45,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 5,
+          "prize": 12,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 4,
+          "prize": 5,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 3,
+          "prize": 1,
+          "multiFactor": 0
+        },
+
+        {
+          "symbolIds": [ 11 ],
+          "count": 3,
+          "prize": 1,
+          "multiFactor": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "filter": 1,
+      "items": [
+        {
+          "symbolIds": [ 10 ],
+          "count": 9,
+          "prize": 500
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 8,
+          "prize": 250
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 7,
+          "prize": 100
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 6,
+          "prize": 45
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 5,
+          "prize": 12
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 4,
+          "prize": 5
+        },
+        {
+          "symbolIds": [ 10 ],
+          "count": 3,
+          "prize": 1
+        }
+      ]
+    }
+  ],
+  "lines": [
+    [ 5, 6, 7, 8, 9 ],
+    [ 0, 1, 2, 3, 4 ],
+    [ 10, 11, 12, 13, 14 ],
+    [ 0, 6, 12, 8, 4 ],
+    [ 10, 6, 2, 8, 14 ],
+    [ 5, 1, 2, 3, 9 ],
+    [ 5, 11, 12, 13, 9 ],
+    [ 0, 1, 7, 13, 14 ],
+    [ 10, 11, 7, 3, 4 ],
+    [ 5, 1, 7, 3, 9 ],
+    [ 5, 11, 7, 13, 9 ],
+    [ 0, 6, 7, 8, 14 ],
+    [ 10, 6, 7, 8, 4 ],
+    [ 5, 6, 2, 8, 14 ],
+    [ 5, 6, 12, 8, 4 ],
+    [ 0, 6, 2, 8, 4 ],
+    [ 10, 6, 12, 8, 14 ],
+    [ 0, 1, 12, 3, 4 ],
+    [ 10, 11, 2, 13, 14 ],
+    [ 5, 1, 12, 3, 9 ],
+    [ 5, 11, 2, 13, 9 ],
+    [ 0, 11, 2, 13, 4 ],
+    [ 10, 1, 12, 3, 14 ],
+    [ 0, 11, 12, 13, 4 ],
+    [ 10, 1, 2, 3, 14 ],
+    [ 0, 11, 7, 13, 4 ],
+    [ 10, 1, 7, 3, 14 ],
+    [ 5, 6, 12, 8, 9 ],
+    [ 5, 6, 2, 8, 9 ],
+    [ 0, 11, 2, 8, 9 ]
+  ],
+  "debugFeature": [
+    {
+      "desc": "Win",
+      "tag": "MW"
+    },
+    {
+      "desc": "Lose",
+      "tag": "ML"
+    },
+    {
+      "desc": "Big Wins 5",
+      "tag": "BW=5"
+    },
+    {
+      "desc": "Big Wins 10",
+      "tag": "BW=10"
+    },
+    {
+      "desc": "Big Wins 15",
+      "tag": "BW=15"
+    },
+    {
+      "desc": "Big Wins 20",
+      "tag": "BW=20"
+    },
+    {
+      "desc": "Big Wins 30",
+      "tag": "BW=30"
+    },
+    {
+      "desc": "Big Wins 50",
+      "tag": "BW=50"
+    },
+    {
+      "desc": "Scatters 309",
+      "tag": "C=309"
+    },
+    {
+      "desc": "Scatters 409",
+      "tag": "C=409"
+    },
+    {
+      "desc": "Scatters 509",
+      "tag": "C=509"
+    },
+    {
+      "desc": "7bl 561",
+      "tag": "C=561"
+    },
+    {
+      "desc": "7bl 465",
+      "tag": "C=465"
+    },
+    {
+      "desc": "7bl 366",
+      "tag": "C=366"
+    },
+    {
+      "desc": "Bars 564",
+      "tag": "C=564"
+    },
+    {
+      "desc": "Bars 465",
+      "tag": "C=465"
+    },
+    {
+      "desc": "Bars 366",
+      "tag": "C=366"
+    },
+    {
+      "desc": "Quick Wins 3",
+      "tag": "POOL=70 TQ3"
+    },
+    {
+      "desc": "Quick Wins 4",
+      "tag": "POOL=180 TQ4"
+    },
+    {
+      "desc": "Quick Wins 5",
+      "tag": "POOL=420 TQ5"
+    },
+    {
+      "desc": "Quick Wins 6",
+      "tag": "POOL=1350 TQ6"
+    },
+    {
+      "desc": "Quick Wins 7",
+      "tag": "POOL=3000 TQ7"
+    },
+    {
+      "desc": "Quick Wins 8",
+      "tag": "POOL=7500 TQ8"
+    },
+    {
+      "desc": "Quick Wins 9",
+      "tag": "POOL=15000 TQ9"
+    },
+    {
+      "desc": "Free Spins 20 x3",
+      "tag": "POOL=3000 TF1"
+    },
+    {
+      "desc": "Free Spins 15 x2",
+      "tag": "POOL=1890 TF2"
+    },
+    {
+      "desc": "Free Spins 11 x2",
+      "tag": "POOL=1420 TF3"
+    },
+    {
+      "desc": "Free Spins 10 x2",
+      "tag": "POOL=360 TF4"
+    },
+    {
+      "desc": "Free Spins 7 x2",
+      "tag": "POOL=230 TF5"
+    },
+    {
+      "desc": "Free Spins 5 x2",
+      "tag": "POOL=140 TF6"
+    },
+    {
+      "desc": "Quick Wins in FS ¨C 8 icons",
+      "tag": "POOL=15180 TF5"
+    },
+    {
+      "desc": "Quick Wins in FS ¨C 7 icons",
+      "tag": "POOL=10272 TF1"
+    },
+    {
+      "desc": "Base game with Quick Wins and Diamond Scatter",
+      "tag": "REELS=4 3 10 9 8 9 10 10 3 9 2 10 10 7 5"
+    },
+    {
+      "desc": "Base Game Quick Wins and Wilds",
+      "tag": "REELS=6 3 8 10 2 1 10 1 10 10 4 10 7 3 3"
+    }
+  ]
+}

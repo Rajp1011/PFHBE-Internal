@@ -1,0 +1,92 @@
+{ //AllAmerican
+ // 50	4050	492	9217	9217	GameEngines\4000\PointsEngineFiniteFSS.dll	gameengine_4050_9217	tickets_4050_9217	Sweeps\vltc\GameEngines\4000	https://svn.ponggeeks.com:8443/svn/Pong/trunk/Pools/4050/492
+  "gameId": "9050",
+  "cascade": false,
+  "reelCount": 15,
+  "betOne": 20,
+  "lineDirection": 0,
+  "scatter": 8,
+  "wilds": [
+    {
+      "symbolId": 9,
+      "multiplier": [1,1,1,1,1,1],
+      "exclusion": [ 8 ]
+    }
+  ],
+  "bonusPrizes": [ [6, 7, 8, 9, 11, 13, 15, 16, 22, 28, 35, 45, 100] ],
+  "bonus": 11,
+  "freespin": 12,
+  "triggerId": 10,
+  "fakeSymbolProb": 5,
+  "paytables": [
+    {
+      "id": 1,
+      "filter": 1,
+      "items": [
+        { "symbolIds": [ 9 ], "count": 5, "prize": 20000 },
+        { "symbolIds": [ 0 ], "count": 5, "prize": 2500 },
+        { "symbolIds": [ 0 ], "count": 4, "prize": 250  },
+        { "symbolIds": [ 0 ], "count": 3, "prize": 80   },
+        { "symbolIds": [ 0 ], "count": 2, "prize": 3   },
+        { "symbolIds": [ 1 ], "count": 5, "prize": 800  },
+        { "symbolIds": [ 1 ], "count": 4, "prize": 100  },
+        { "symbolIds": [ 1 ], "count": 3, "prize": 15   },
+        { "symbolIds": [ 2 ], "count": 5, "prize": 200  },
+        { "symbolIds": [ 2 ], "count": 4, "prize": 50   },
+        { "symbolIds": [ 2 ], "count": 3, "prize": 10   },
+        { "symbolIds": [ 3 ], "count": 5, "prize": 150  },
+        { "symbolIds": [ 3 ], "count": 4, "prize": 30   },
+        { "symbolIds": [ 3 ], "count": 3, "prize": 8    },
+        { "symbolIds": [ 4 ], "count": 5, "prize": 100  },
+        { "symbolIds": [ 4 ], "count": 4, "prize": 25   },
+        { "symbolIds": [ 4 ], "count": 3, "prize": 7    },
+        { "symbolIds": [ 5 ], "count": 5, "prize": 70  },
+        { "symbolIds": [ 5 ], "count": 4, "prize": 23   },
+        { "symbolIds": [ 5 ], "count": 3, "prize": 6    },
+        { "symbolIds": [ 6 ], "count": 5, "prize": 45   },
+        { "symbolIds": [ 6 ], "count": 4, "prize": 22   },
+        { "symbolIds": [ 6 ], "count": 3, "prize": 5    },
+        { "symbolIds": [ 7 ], "count": 5, "prize": 40   },
+        { "symbolIds": [ 7 ], "count": 4, "prize": 20   },
+        { "symbolIds": [ 7 ], "count": 3, "prize": 4    },
+        { "symbolIds": [ 8 ], "count": 5, "prize": 100, "multiFactor":0},
+        { "symbolIds": [ 8 ], "count": 4, "prize": 20,  "multiFactor":0},
+        { "symbolIds": [ 8 ], "count": 3, "prize": 5,   "multiFactor":0}
+      ]
+    }
+  ],
+  "lines": [
+        [5,6,7,8,9],
+        [0,1,2,3,4],
+        [10,11,12,13,14],
+        [0,6,12,8,4],
+        [10,6,2,8,14],
+        [0,1,7,13,14],
+        [10,11,7,3,4],
+        [5,1,7,13,9],
+        [5,11,7,3,9],
+        [0,6,7,8,14],
+        [10,6,7,8,4],
+        [5,1,2,8,14],
+        [5,11,12,8,4],
+        [5,6,2,8,14], 
+        [5,6,12,8,4],
+        [0,6,2,8,14],
+        [10,6,12,8,4],                     
+        [10,6,2,3,9],                 
+        [0,6,12,13,9],
+        [0,6,7,13,9]
+  ],
+  "triggerMapping": [
+    {"tag": "F", "value": "TF"},
+    {"tag": "B", "value": "TB1"},
+    {"tag": "FB", "value": "TFB1"}
+  ],
+  "debugFeatureMapping": [
+    { "tag": "MW", "values": null },
+    { "tag": "ML", "values": null },
+    { "tag": "FS", "values": [ "F" ] },
+    { "tag": "BG", "values": [ "B" ] },
+    { "tag": "FB", "values": [ "FB" ] }
+  ]
+}

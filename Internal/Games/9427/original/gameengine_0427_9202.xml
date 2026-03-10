@@ -1,0 +1,103 @@
+<?xml version = "1.0"?>
+
+<!-- Luck 'n' Clovers v.2-->
+<GAMES>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+
+<SKILLS_SCALE min="50" max="110" step="5">
+</SKILLS_SCALE>
+
+<!-- math parametrs  BetOne is the bet was used to build the pool  e.i. betlevel 1 for denom 1 or min possible bet -->
+	<MATH BetOne="5"/>
+
+<FEATURE ID="0" type="REELS" name="Base Game" tag="">
+<SLOT
+	TotalReels="15"
+	Lines="5"
+	Col="5"
+   	Row="3"			
+	Pay="Max"
+	DefComb="LeftToRight"	
+    Wild="9"
+	Scatter="10"
+	ScatterReplacedByWild="No"
+	WildReplace="OnLine"
+	PrintSlotResult="no"	
+  >	
+
+	<Wild id="9" Regular_mode="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" FreeSpin_mode="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1">
+</Wild>
+
+<TICKETS payout="9202" size="15" >
+</TICKETS>
+
+	<!-- play lines  -->
+	<LINES Total="5" LineSizes="5,5,5,5,5">
+		<LINE Reel="5 6 7 8 9" />
+		<LINE Reel="0 1 2 3 4" />
+		<LINE Reel="10 11 12 13 14" />
+		<LINE Reel="0 6 12 8 4" />
+		<LINE Reel="10 6 2 8 14" />
+	</LINES>
+
+	<!-- math parametrs  BetOne is the bet was used to build the pool  e.i. betlevel 1 for denom 1 or min possible bet -->
+	<MATH BetOne="5"/>
+
+	<!-- win combinations  -->
+	<WINCOMB Total="29" >	
+		<COMB Symb="1"  Numb="5" Prize="2500" />
+		<COMB Symb="1"  Numb="4" Prize="250" />
+		<COMB Symb="1"  Numb="3" Prize="50" />
+		<COMB Symb="1"  Numb="2" Prize="10" />
+		
+		<COMB Symb="2"  Numb="5" Prize="500" />
+		<COMB Symb="2"  Numb="4" Prize="100" />
+		<COMB Symb="2"  Numb="3" Prize="40" />
+		
+		<COMB Symb="3"  Numb="5" Prize="500" />
+		<COMB Symb="3"  Numb="4" Prize="100" />
+		<COMB Symb="3"  Numb="3" Prize="40" />
+		
+		<COMB Symb="4"  Numb="5" Prize="250" />
+		<COMB Symb="4"  Numb="4" Prize="50" />							
+		<COMB Symb="4"  Numb="3" Prize="20" />
+		
+		<COMB Symb="5"  Numb="5" Prize="125" />
+		<COMB Symb="5"  Numb="4" Prize="30" />
+		<COMB Symb="5"  Numb="3" Prize="10" />
+		
+		<COMB Symb="6"  Numb="5" Prize="125" />
+		<COMB Symb="6"  Numb="4" Prize="30" />
+		<COMB Symb="6"  Numb="3" Prize="10" />
+		
+		<COMB Symb="7"  Numb="5" Prize="100" />
+		<COMB Symb="7"  Numb="4" Prize="25" />							
+		<COMB Symb="7"  Numb="3" Prize="8" />
+		
+		<COMB Symb="8"  Numb="5" Prize="100" />
+		<COMB Symb="8"  Numb="4" Prize="25" />							
+		<COMB Symb="8"  Numb="3" Prize="8" />
+		
+		<!-- scatters -->
+		<COMB Symb="10"  Numb="5" Prize="140" />
+		<COMB Symb="10"  Numb="4" Prize="25" />
+		<COMB Symb="10"  Numb="3" Prize="4" />
+				<!-- scatters -->
+		<COMB Type="3" Symb="11" Numb="3" Prize="20"/>
+	</WINCOMB>
+	
+	<REELS Type="Strips" TotalProb="5" TotalSymbIds="11" FreqSizes="61,66,69,63,65">
+	  <Set reel="0 1 2 3 4" /> 
+	  <PROB Symb="10,8,8,8,11,4,7,7,7,1,6,6,6,2,8,8,8,7,7,7,3,5,5,5,4,6,6,6,10,8,8,8,11,4,7,7,7,1,6,6,6,2,5,5,5,3,7,7,7,8,8,8,4,11,5,5,5,4,6,6,6" />
+	  <PROB Symb="4,10,8,8,8,9,7,7,7,1,6,6,6,2,5,5,5,3,2,7,7,2,4,4,2,3,7,7,7,4,6,6,6,4,10,8,8,8,9,7,7,7,1,6,6,6,2,5,5,5,3,2,7,7,2,4,4,2,3,7,7,7,4,6,6,6" />
+	  <PROB Symb="4,10,8,8,8,7,7,7,11,1,6,6,6,9,5,5,5,10,3,8,8,8,2,5,5,5,3,7,7,3,4,6,6,3,4,10,8,8,8,7,7,7,11,1,6,6,6,9,5,5,5,3,8,8,8,2,5,5,5,3,7,7,3,11,4,4,6,6,3" />
+	  <PROB Symb="4,10,3,4,8,8,8,9,7,7,7,4,1,3,4,6,6,6,4,5,5,5,3,2,4,3,2,4,3,2,4,2,4,10,3,4,8,8,8,9,7,7,7,4,1,3,4,5,5,5,4,6,6,6,4,3,2,4,3,2,4,3,2" />
+	  <PROB Symb="4,10,3,8,8,8,11,2,7,7,7,2,1,3,2,6,6,6,5,5,5,8,8,8,11,4,3,2,4,3,2,4,2,4,10,3,8,8,8,11,2,7,7,7,2,1,3,2,6,6,6,5,5,5,8,8,8,4,3,2,4,3,2,4,2" />
+	 </REELS>
+
+</SLOT>
+</FEATURE>
+
+</GAMES>

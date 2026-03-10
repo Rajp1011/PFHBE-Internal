@@ -1,0 +1,112 @@
+{ 
+      "gameName": "YuanShuDragons",
+      "gameId": "9448",
+      "cascade": false,
+      "reelCount": 15,
+      "betOne": 30, 
+      "lineDirection": 0,
+      "scatter": 18,
+      "wilds": [
+            { "symbolId": 1, "multiplier": [1,1,1,1,1], "exclusion": [18] },
+            { "symbolId": 2, "multiplier": [1,1,1,1,1], "exclusion": [18] },
+            { "symbolId": 3, "multiplier": [1,1,1,1,1], "exclusion": [18] },
+            { "symbolId": 4, "multiplier": [1,1,1,1,1], "exclusion": [18] },
+            { "symbolId": 5, "multiplier": [1,1,1,1,1], "exclusion": [18] },
+            { "symbolId": 6, "multiplier": [1,1,1,1,1], "exclusion": [18] }
+      ],
+      "hyperSpinRules": [
+        { "symbolIds": [18] }    
+      ],
+       "paytables":[
+          {
+            "id":1,
+            "filter":1,
+            "items":[
+                      {"symbolIds":[7],"count":5,"prize":1000},
+                      {"symbolIds":[7],"count":4,"prize":100},
+                      {"symbolIds":[7],"count":3,"prize":50},
+
+                      {"symbolIds":[8],"count":5,"prize":800},
+                      {"symbolIds":[8],"count":4,"prize":100},
+                      {"symbolIds":[8],"count":3,"prize":35},
+          
+                      {"symbolIds":[9],"count":5,"prize":800},
+                      {"symbolIds":[9],"count":4,"prize":100},
+                      {"symbolIds":[9],"count":3,"prize":30}, 
+          
+                      {"symbolIds":[10],"count":5,"prize":300},
+                      {"symbolIds":[10],"count":4,"prize":50},
+                      {"symbolIds":[10],"count":3,"prize":20},
+          
+                      {"symbolIds":[11],"count":5,"prize":300},
+                      {"symbolIds":[11],"count":4,"prize":35}, 
+                      {"symbolIds":[11],"count":3,"prize":15},
+          
+                      {"symbolIds":[12],"count":5,"prize":200},
+                      {"symbolIds":[12],"count":4,"prize":30},
+                      {"symbolIds":[12],"count":3,"prize":10},
+          
+                      {"symbolIds":[13],"count":5,"prize":200}, 
+                      {"symbolIds":[13],"count":4,"prize":20}, 
+                      {"symbolIds":[13],"count":3,"prize":10},  
+          
+                      {"symbolIds":[14],"count":5,"prize":100},
+                      {"symbolIds":[14],"count":4,"prize":15},
+                      {"symbolIds":[14],"count":3,"prize":10},
+          
+                      {"symbolIds":[15],"count":5,"prize":100},
+                      {"symbolIds":[15],"count":4,"prize":15},
+                      {"symbolIds":[15],"count":3,"prize":5},
+
+                      {"symbolIds":[16],"count":5,"prize":100},
+                      {"symbolIds":[16],"count":4,"prize":15},
+                      {"symbolIds":[16],"count":3,"prize":5},
+
+                      {"symbolIds":[17],"count":5,"prize":100},
+                      {"symbolIds":[17],"count":4,"prize":10},
+                      {"symbolIds":[17],"count":3,"prize":5},
+
+                      {"symbolIds":[18],"count":5,"prize":50, "multiFactor": 0},
+                      {"symbolIds":[18],"count":4,"prize":10, "multiFactor": 0},
+                      {"symbolIds":[18],"count":3,"prize":5, "multiFactor": 0}
+            ]
+          }		 
+      ],
+      "triggerMapping": [
+        { "tag": "TF1",  "value": "25" },
+        { "tag": "TF2",  "value": "20" },
+        { "tag": "TF3",  "value": "15" },
+        { "tag": "TF4",  "value": "13" },
+        { "tag": "TF5",  "value": "10" }
+      ],
+      "strips": [
+              {
+                "id": 1,
+                "strip": [
+                  [ 12, 11, 14, 17, 7, 12, 13, 9, 15, 17, 11, 16, 13, 8, 12, 16, 18, 14, 17, 9, 12, 13, 10, 16, 15, 7 ],
+                  [ 17, 15, 6, 17, 16, 7, 14, 9, 12, 10, 17, 11, 16, 17, 18, 14, 16, 8, 12, 14, 7, 13, 18, 15, 11, 13, 10, 12, 9 ],
+                  [ 12, 7, 14, 9, 17, 11, 13, 18, 12, 9, 16, 10, 15, 18, 17, 10, 13, 16, 8, 14, 17, 7, 14, 16, 6, 14, 16, 18 ],
+                  [ 17, 15, 6, 17, 15, 8, 13, 9, 16, 7, 17, 11, 12, 18, 14, 9, 16, 8, 12, 13, 10, 12, 15, 18, 16, 11, 13 ],
+                  [ 7, 12, 9, 13, 10, 12, 14, 8, 15, 17, 11, 16, 13, 10, 15, 17, 18, 14, 12, 9, 15, 12, 17, 10, 16, 12, 11, 14, 12, 8, 16, 9, 12, 13 ]
+                ]
+              },
+              {
+                "id": 2,
+                "strip": [
+                  [ 12, 11, 14, 17, 7, 12, 13, 9, 15, 17, 11, 16, 13, 8, 12, 16, 18, 14, 17, 9, 12, 13, 10, 16, 15, 7 ],
+                  [ 17, 15, 6, 17, 16, 7, 14, 9, 12, 10, 17, 11, 16, 17, 18, 14, 16, 8, 12, 14, 7, 13, 18, 15, 11, 13, 10, 12, 9 ],
+                  [ 12, 7, 14, 9, 17, 11, 13, 18, 12, 9, 16, 10, 15, 18, 17, 10, 13, 16, 8, 14, 17, 7, 14, 16, 6, 14, 16, 18 ],
+                  [ 17, 15, 6, 17, 15, 8, 13, 9, 16, 7, 17, 11, 12, 18, 14, 9, 16, 8, 12, 13, 10, 12, 15, 18, 16, 11, 13 ],
+                  [ 7, 12, 9, 13, 10, 12, 14, 8, 15, 17, 11, 16, 13, 10, 15, 17, 18, 14, 12, 9, 15, 12, 17, 10, 16, 12, 11, 14, 12, 8, 16, 9, 12, 13 ]
+                ]
+              }
+      ],
+      "debugFeatureMapping": [
+        { "tag": "MW", "values": null },
+        { "tag": "ML", "values": null },
+        {
+          "tag": "FS",
+          "values": [ "TF8", "TF13", "TF15", "TF18", "TF20", "TF23", "TF25", "TF28", "TF30", "TF33", "TF35", "TF38", "TF40", "TF43", "TF45", "TF48", "TF50", "TF53", "TF55", "TF58", "TF60" ]
+        }
+      ]
+    }

@@ -1,0 +1,134 @@
+[
+  {
+    "gameIds": [ "9218", "95218" ],
+    "engineDll": "Amazing8s"
+  },
+  {
+    "gameIds": [ "9201", "95201", "9512", "95512" ],
+    "engineDll": "DevilsHot7s"
+  },
+  {
+    "gameIds": [ "9493", "95493" ],
+    "engineDll": "DevilsHot7sG2"
+  },
+  {
+    "gameIds": [ "9049", "95049" ],
+    "engineDll": "BugsToRiches"
+  },
+  {
+    "gameIds": [ "9037", "9036", "9113", "95037", "95036", "95113" ],
+    "engineDll": "Diamond7s"
+  },
+  {
+    "gameIds": [ "9405", "95405" ],
+    "engineDll": "LuckyBells"
+  },
+  {
+    "gameIds": [ "9402", "95402" ],
+    "engineDll": "ClassicNudge7"
+  },
+  {
+    "gameIds": [ "9200", "95200" ],
+    "engineDll": "PrincessJewel"
+  },
+  {
+    "gameIds": [ "9006", "95006", "9442", "95442", "9469", "95469" ],
+    "engineDll": "DoubleDownKeno"
+  },
+  {
+    "gameIds": [ "9052", "95052" ],
+    "engineDll": "SuperKeno"
+  },
+  {
+    "gameIds": [ "9050", "95050" ],
+    "engineDll": "AllAmerican"
+  },
+  {
+    "gameIds": [ "9421", "95421", "9500", "95500" ],
+    "engineDll": "NorthernBuffalo"
+  },
+  {
+    "gameIds": [ "9496", "95496" ],
+    "engineDll": "NorthernBuffaloG2"
+  },
+  {
+    "gameIds": [ "9206", "95206", "9401", "95401" ],
+    "engineDll": "MagicSpell"
+  },
+  {
+    "gameIds": [ "9426", "95426", "9427", "95427", "9433", "95433", "9481", "95481", "9476", "95476", "9490", "95490" ],
+    "engineDll": "ScorchingHot"
+  },
+  {
+    "gameIds": [ "9425", "95425", "9462", "95462" ],
+    "engineDll": "PandaShores"
+  },
+  {
+    "gameIds": [ "9486", "95486", "9487", "95487" ],
+    "engineDll": "PandaShoresG2"
+  },
+  {
+    "gameIds": [ "9429", "95429", "9439", "95439", "9440", "95440", "9483", "95483", "9475", "95475", "9474", "95474", "9477", "95477", "9482", "95482" ],
+    "engineDll": "QianGunQian"
+  },
+  {
+    "gameIds": [ "9430", "95430", "9494", "95494" ],
+    "engineDll": "GreatSphinx"
+  },
+  {
+    "gameIds": [ "9431", "95431", "9434", "95434", "9478", "95478", "9488", "95488", "9485", "95485", "9545", "95545" ],
+    "engineDll": "BlazingMustang"
+  },
+  {
+    "gameIds": [ "9432", "95432", "9467", "95467", "9484", "95484", "9489", "95489", "9498", "95498", "9531", "95531", "9536", "95536", "9540", "95540", "9541", "95541", "9543", "95543" ],
+    "engineDll": "QuickWinsDiamond"
+  },
+  {
+    "gameIds": [ "9445", "95445" ],
+    "engineDll": "CleopatrasDynasty"
+  },
+  {
+    "gameIds": [ "9449", "95449", "9455", "95455", "9499", "95499", "9480", "95480", "9529", "95529", "9535", "95535", "9542", "95542", "9537", "95537"],
+    "engineDll": "Diamond10X"
+  },
+  {
+    "gameIds": [ "9448", "95448", "9514", "95514" ],
+    "engineDll": "YuansuDragons"
+  },
+  {
+    "gameIds": [ "9452", "95452", "9459", "95459" ],
+    "engineDll": "RobinsArrow"
+  },
+  {
+    "gameIds": [ "9457", "95457" ],
+    "engineDll": "MarkOfZ"
+  },
+  {
+    "gameIds": [ "9470", "95470", "9497", "95497" ],
+    "engineDll": "ApollosRiches"
+  },
+  {
+    "gameIds": [ "9521", "95521", "9520", "95520", "9544", "95544", "9568", "95568" ],
+    "engineDll": "TigerHunt"
+  },
+  {
+    "gameIds": [ "9516" ],
+    "engineDll": "PiratesRising"
+  },
+  {
+    "gameIds": [ "9515", "95515" ],
+    "engineDll": "BlueBirdBonus"
+  },
+  {
+    "gameIds": [ "9546" ],
+    "engineDll": "FlamingSkulls"
+  },
+  {
+    "gameIds": [ "9491", "95491" ],
+    "engineDll": "CleopatrasSandsOfTime"
+  },
+  {
+    "gameIds": [ "9525" ],
+    "engineDll": "MayanMadness"
+  }
+]
