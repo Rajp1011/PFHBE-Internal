@@ -31,7 +31,7 @@ jobs:
           kubectl delete job ge-config-sync -n ge-dev --ignore-not-found
           
           # 2. Trigger the new sync (points to your yaml file in the repo)          
-          kubectl apply -f k8s/ge-config-git.yaml -n ge-dev
+          kubectl apply -f k8s/sync-job.yaml -n ge-dev
       
       - name: Security Check & Wait
         run: |
