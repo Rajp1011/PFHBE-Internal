@@ -1,0 +1,66 @@
+name: Sync PVC and Restart Services
+on:
+  push:
+    branches:
+      - main # Trigger on pushes to main branch
+    paths:
+      - 'Internal/**' # Only runs if files inside the Internal folder change
+
+jobs:
+  update-k8s:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Azure Login
+        uses: azure/login@v2
+        with:
+          # You will generate this JSON path azure credentials
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Set AKS Context
+        uses: azure/aks-set-context@v3
+        with:
+          resource-group: 'iGaming' 
+          cluster-name: 'ig-dev' 
+
+      - name: Run Sync Job
+        run: |
+          # 1. Delete the old job instance so a new one can start
+          kubectl delete job ge-config-sync -n ge-dev --ignore-not-found
+          
+          # 2. Trigger the new sync (points to your yaml file in the repo)          
+          kubectl apply -f k8s/ge-config-git.yaml -n ge-dev
+      
+      - name: Security Check & Wait
+        run: |
+          echo "Monitoring Sync Job..."
+          # Loop for 10 minutes max (60 * 10s)
+          for i in {1..60}; do
+            COMPLETED=$(kubectl get job ge-config-sync -n ge-dev -o jsonpath='{.status.conditions[?(@.type=="Complete")].status}')
+            FAILED=$(kubectl get job ge-config-sync -n ge-dev -o jsonpath='{.status.conditions[?(@.type=="Failed")].status}')
+
+            if [ "$COMPLETED" == "True" ]; then
+              echo "SUCCESS: PVC is updated. Proceeding to restart."
+              exit 0
+            fi
+
+            if [ "$FAILED" == "True" ]; then
+              echo "CRITICAL ERROR: Sync Job failed! Check AKS logs. Stopping restart."
+              kubectl logs job/ge-config-sync -n ge-dev
+              exit 1
+            fi
+
+            sleep 10
+          done
+          echo "TIMEOUT: Sync took too long. Stopping restart for safety."
+          exit 1  
+
+      - name: Restart Game Engine
+        if: success() # Only runs if 'Security Check' passed
+        run: |
+          echo "Sync finished. Restarting deployments to pick up new config..."
+          # Replace these with your actual Deployment names
+          kubectl rollout restart deployment geservice -n ge-dev
+          kubectl rollout restart deployment geweb -n ge-dev
