@@ -88,10 +88,14 @@ jobs:
       - name: Restart Game Engine
         run: |
           echo "Manual approval received. Restarting deployments..."
-          kubectl rollout restart deployment geservice -n ge-dev
-          kubectl rollout restart deployment geweb -n ge-dev
+          kubectl rollout restart deployment ge-service-1 -n ge-dev
+          kubectl rollout restart deployment ge-service-2 -n ge-dev
+          kubectl rollout restart deployment ge-service-3 -n ge-dev
+          kubectl rollout restart deployment ge-service-4 -n ge-dev
+          kubectl rollout restart deployment ge-service-5 -n ge-dev
+          kubectl rollout restart deployment ge-web-deployment -n ge-dev
 
       - name: Check Rollout Status
         run: |
-          kubectl rollout status deployment/geservice -n ge-dev --timeout=300s
-          kubectl rollout status deployment/geweb -n ge-dev --timeout=300s
+          kubectl rollout status deployment/ge-service-1 -n ge-dev --timeout=300s
+          kubectl rollout status deployment/ge-web-deployment -n ge-dev --timeout=300s
