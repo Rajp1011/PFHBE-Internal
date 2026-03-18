@@ -21,5 +21,3 @@
 "CI-CD pipeline test-6"
 
 "CI-CD pipeline test-7"
-
-"Test 8"
