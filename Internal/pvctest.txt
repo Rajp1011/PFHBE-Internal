@@ -31,3 +31,5 @@
 "Test Github 1"
 
 "Test Github 2" - Size only
+
+"Test Github 3" - Size - Time only"
