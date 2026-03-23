@@ -85,17 +85,39 @@ jobs:
           resource-group: iGaming
           cluster-name: ig-dev
 
+      - name: Resolve Path and Update ConfigMap
+        run: |
+          echo "Resolving the new path created by the Sync Job..."
+          
+          # This command checks where 'current' points on the PVC right now
+          REAL_PATH=$(kubectl run get-path --image=alpine --rm -i --restart=Never -n ge-dev --overrides='
+          {
+            "spec": {
+              "containers": [{
+                "name": "c", "image": "alpine", 
+                "command": ["sh", "-c", "readlink -f /mnt/pvc/current | sed \"s|/mnt/pvc/||\""],
+                "volumeMounts": [{"name": "v", "mountPath": "/mnt/pvc"}]
+              }],
+              "volumes": [{"name": "v", "persistentVolumeClaim": {"claimName": "ge-pvc"}}]
+            }
+          }' | tr -d '\r' | grep "releases/GE-")
+
+          if [ -z "$REAL_PATH" ]; then
+            echo "ERROR: Could not resolve the new release path!"
+            exit 1
+          fi
+
+          echo "SUCCESS: Found Real Path: $REAL_PATH"
+          echo "Updating ConfigMap 'ge-config-version'..."
+
+          # Update the ConfigMap so Pods know where to look
+          kubectl create configmap ge-config-version \
+            --from-literal=path="$REAL_PATH" \
+            -n ge-dev -o yaml --dry-run=client | kubectl apply -f -
+
+      # --- RESTART STEP (Now the pods will see the updated ConfigMap) ---
       - name: Restart Game Engine
         run: |
           echo "Approval received. Restarting all GE components..."
-          kubectl rollout restart deployment ge-service-1 -n ge-dev
-          kubectl rollout restart deployment ge-service-2 -n ge-dev
-          kubectl rollout restart deployment ge-service-3 -n ge-dev
-          kubectl rollout restart deployment ge-service-4 -n ge-dev
-          kubectl rollout restart deployment ge-service-5 -n ge-dev
+          kubectl rollout restart deployment -l app=ge-service -n ge-dev
           kubectl rollout restart deployment ge-web-deployment -n ge-dev
-
-      - name: Check Rollout Status
-        run: |
-          kubectl rollout status deployment/ge-service-1 -n ge-dev --timeout=300s
-          kubectl rollout status deployment/ge-web-deployment -n ge-dev --timeout=300s

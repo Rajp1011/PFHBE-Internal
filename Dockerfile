@@ -9,4 +9,4 @@ WORKDIR /config
 RUN mkdir -p /config/Internal 
 
 # Copy your data
-COPY ./Internal/ /config/Internal/
+COPY ./GE/GEService/Internal/ /config/Internal/

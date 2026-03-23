@@ -2,7 +2,7 @@
 setlocal enableDelayedExpansion
 
 REM ===== CONFIG =====
-set VERSION=v9.0.0
+set VERSION=v9.0.7
 
 REM MUST be lowercase
 set GHCR_REG=ghcr.io
