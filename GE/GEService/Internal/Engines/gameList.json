@@ -1,0 +1,27 @@
+[
+  {
+    "groupId": 1,
+    "gameIds": [ "9036", "95036", "9037", "95037", "9113", "95113", "9402", "95402", "9405", "95405", "9429", "95429", "9430", "95430", "9439", "95439", "9440", "95440", "9454", "95454", "9461", "95461", "9448", "95448", "9483", "95483", "9475", "95475", "9474", "95474", "9477", "95477", "9482", "95482", "9494", "95494" ],
+    "gameNames": [ "Fiery7s", "Fiery7sHR", "Diamond7s", "Diamond7sHR", "Classic7s", "Classic7sHR", "ClassicNudge7", "ClassicNudge7HR", "LuckyBells", "LuckyBellsHR", "QianGunQian", "QianGunQianHR", "GreatSphinx", "GreatSphinxHR", "BugsToRichesDiamond", "BugsToRichesDiamondHR", "SwordOfZ", "SwordOfZHR", "MandarinMadnessG2", "MandarinMadnessG2HR", "QianGunQianG2", "QianGunQianG2HR", "BugsToRichesDiamondG2", "BugsToRichesDiamondG2HR", "SwordOfZG2", "SwordOfZG2HR", "BladeOfFortuneG2", "BladeOfFortuneG2HR" ]
+  },
+  {
+    "groupId": 2,
+    "gameIds": [ "9006", "95006", "9442", "95442", "9469", "95469", "9449", "95449", "9455", "95455", "9452", "95452", "9499", "95499", "9480", "95480", "9459", "95459", "9529", "95529", "9535", "95535", "9542", "95542", "9537", "95537" ],
+    "gameNames": [ "DoubleDownKeno", "DoubleDownKenoHR", "KandyLandKeno", "KandyLandKenoHR", "Diamond10X", "Diamond10XHR", "RubyX", "RubyXHR", "RobinsArrow", "RobinsArrowHR" ]
+  },
+  {
+    "groupId": 3,
+    "gameIds": [ "9052", "95052", "9432", "95432", "9445", "95445", "9463", "95463", "9467", "95467", "9489", "9484", "95484", "9498", "95498", "9470", "95470", "9497", "95497", "9491", "95491", "9531", "95531", "9536", "95536", "9520", "95520", "9521", "95521", "9544", "95544", "9540", "95540", "9541", "95541", "9543", "95543", "9568", "95568" ],
+    "gameNames": [ "SuperKeno", "SuperKenoHR", "QuickWinsDiamonds", "QuickWinsDiamondsHR", "CleopatrasDynasty", "CleopatrasDynastyHR", "QuickWinsFortuneG2", "QuickWinsFortuneG2HR", "QuickWinsDiamondsG2", "QuickWinsDiamondsG2HR", "ApollosRiches" ]
+  },
+  {
+    "groupId": 4,
+    "gameIds": [ "9049", "95049", "9050", "95050", "9218", "95218", "9200", "95200", "9426", "95426", "9427", "95427", "9433", "95433", "9457", "9481", "95481", "9476", "95476", "9490", "95490", "9515", "95515" ],
+    "gameNames": [ "BugsToRiches", "BugsToRichesHR", "AllAmerican", "AllAmericanHR", "Amazing8s", "Amazing8sHR", "PrincessJewel", "PrincessJewelHR", "ScorchingHot", "ScorchingHotHR", "LuckNClovers", "LuckNCloversHR", "BoomingForties", "BoomingFortiesHR", "LuckNCloversG2", "LuckNCloversG2HR", "ScorchingHotG2", "ScorchingHotG2HR" ]
+  },
+  {
+    "groupId": 5,
+    "gameIds": [ "9201", "95201", "9512", "95512", "9421", "95421", "9206", "95206", "9401", "95401", "9425", "95425", "9486", "95486", "9487", "95487", "9462", "95462", "9431", "95431", "9460", "95460", "9500", "95500", "9434", "95434", "9478", "95478", "9488", "95488", "9485", "95485", "9496", "95496", "9493", "95493", "9545", "95545" ],
+    "gameNames": [ "DevilsHot7s", "DevilsHot7sHR", "NorthernBuffalo", "NorthernBuffaloHR", "MagicSpell", "MagicSpellHR", "BombBabes", "BombBabesHR", "PandaShores", "PandaShoresHR", "BlazingMustang", "BlazingMustangHR", "BlazingMustangG2", "BlazingMustangG2HR", "BlazingMustang100G2", "BlazingMustang100G2HR", "NorthernBuffaloG2", "NorthernBuffaloG2HR" ]
+  }
+]
