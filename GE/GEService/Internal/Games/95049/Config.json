@@ -1,0 +1,82 @@
+{//BugsToRiches HR
+  //5049	490	9217	GameEngines\0049\GameEngineBugs2RSS.dll	gameengine_0049_9217	W_WinBingo_0049_9217
+  //GoingUpStream 222	490	9200	GameEngines\0222\GameEngineBugsToRichesPP.dll	gameengine_0222_9200	tickets_0222_9200
+      "gameId": "95049",
+      "cascade": false,
+      "reelCount": 15,
+      "betOne": 20, 
+      "lineDirection": 0, 
+      "wilds": [
+        { "symbolId": 7, "multiplier": [1,1,1,1,1], "exclusion": [8,9,10,11] }
+       ],
+       "paytables":[
+          {
+            "id":1,
+            "filter":1,
+            "items":[             
+                {"symbolIds":[7],"count":5,"prize":20000},
+                {"symbolIds":[0],"count":5,"prize":2000},
+                {"symbolIds":[0],"count":4,"prize":500},
+                {"symbolIds":[0],"count":3,"prize":50},
+                {"symbolIds":[0],"count":2,"prize":6},
+                {"symbolIds":[1],"count":5,"prize":1000},
+                {"symbolIds":[1],"count":4,"prize":250},
+                {"symbolIds":[1],"count":3,"prize":25},
+                {"symbolIds":[1],"count":2,"prize":4},
+                {"symbolIds":[2],"count":5,"prize":500},
+                {"symbolIds":[2],"count":4,"prize":150},
+                {"symbolIds":[2],"count":3,"prize":20},
+                {"symbolIds":[2],"count":2,"prize":2},
+                {"symbolIds":[3],"count":5,"prize":200},
+                {"symbolIds":[3],"count":4,"prize":75},
+                {"symbolIds":[3],"count":3,"prize":15},
+                {"symbolIds":[4],"count":5,"prize":100},
+                {"symbolIds":[4],"count":4,"prize":40},
+                {"symbolIds":[4],"count":3,"prize":10},
+                {"symbolIds":[5],"count":5,"prize":80},
+                {"symbolIds":[5],"count":4,"prize":30},
+                {"symbolIds":[5],"count":3,"prize":5},
+                {"symbolIds":[6],"count":5,"prize":60},
+                {"symbolIds":[6],"count":4,"prize":20},
+                {"symbolIds":[6],"count":3,"prize":3}
+            ]
+          }
+      ],
+      "lines":[
+        [5,6,7,8,9],
+        [0,1,2,3,4],
+        [10,11,12,13,14],
+        [0,6,12,8,4],
+        [10,6,2,8,14],
+        [0,1,7,13,14],
+        [10,11,7,3,4],
+        [5,1,7,13,9],
+        [5,11,7,3,9],
+        [0,6,7,8,14],
+        [10,6,7,8,4],
+        [5,1,2,8,14],
+        [5,11,12,8,4],
+        [5,6,2,8,14], 
+        [5,6,12,8,4],
+        [0,6,2,8,14],
+        [10,6,12,8,4],                     
+        [10,6,2,3,9],                 
+        [0,6,12,13,9],
+        [0,6,7,13,9]
+      ],
+      "triggerMapping": [
+        {"tag": "TF1", "value": "1"},
+        {"tag": "TF2", "value": "2"},
+        {"tag": "TF3", "value": "3"},
+        {"tag": "TB1", "value": "TB3"},
+        {"tag": "TB2", "value": "TB4"},
+        {"tag": "TM1", "value": "TM1"}
+      ],
+      "debugFeatureMapping": [
+        {"tag": "MW", "values": null},
+        {"tag": "ML", "values": null},
+        {"tag": "FS", "values": ["TF1","TF2","TF3"]},
+        {"tag": "BG", "values": ["TB1","TB2"]},
+        {"tag": "MP", "values": ["TM1"]}
+      ]
+}

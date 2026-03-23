@@ -1,0 +1,264 @@
+<?xml version = "1.0"?>
+
+<SLOT
+	TotalReels="15"
+	Lines="20"
+	Col="5"
+   	Row="3"
+	Pay="Max"
+	DefComb="LeftToRight"
+	Wild="7"
+	ScatterReplacedByWild="No"
+	WildReplace="OnLine"
+	>
+
+<Wild id="7" Regular_mode="2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" FreeSpin_mode="2,2,2,2,2,1,1,1,1,1,2,2,2,2,2">
+</Wild>
+
+<JP_LUCKYSYMBOL gain_luckysymbol_id="50" >
+</JP_LUCKYSYMBOL>
+
+<POOL_DESCRIPTIONS Lines="20">
+	<Pools>
+		<pool id = "1" name="W_WinBingo" tickets="300"/>
+		<pool id = "2" name="L_WinBingo" tickets="1000"/>
+	</Pools>
+</POOL_DESCRIPTIONS>
+
+<BONUS default_id="3">
+	<Game id="3" name="bonus"   rewrite_prize="1" gain_rewrite_prize="51" type="2" play_in_freespin_mode="No" win_main_game="yes" gain_win_main_game="10" gain_prize_id="7"/>
+	<Game id="4" name="bonus"    type="2" play_in_freespin_mode="No" win_main_game="yes" gain_win_main_game="10"
+	gain_prize_id="7"/>
+	<Game id="2" name="multiplier" type="3" play_in_freespin_mode="No" trigger_combination="9" gain_prize_id="7"
+	insert_trigger_place="any"/>
+	<Game id="1" name="freespin" type="1" play_in_freespin_mode="No" gain_prize_id="4"
+	seed_multiplier="1,2,3" trigger_multiplier="9" trigger_combination="8,8,8"
+	max_number_trigger_icons="3"
+	insert_trigger_place="strips" win_main_game="yes" gain_win_main_game="11"/>
+</BONUS>
+
+
+
+<PERFORMANCE>
+	<Option id="1" percentage_from="500" percentage_to="999" frequency_range="10 10000 20 8000 30 6000 50 2000 70 1000 90 800 120 650 10000 500" >
+		<Game id="2" probability="300" />
+		<Game id="3" probability="200" />
+	</Option>
+	<Option id="2" percentage_from="1000" percentage_to="1999" frequency_range="10 3000 50 1000 70 700 120 650 10000 500" >
+		<Game id="1" probability="400"/>
+		<Game id="2" probability="400"/>
+		<Game id="3" probability="350"/>
+		<Game id="4" probability="230" />
+	</Option>
+	<Option id="3" percentage_from="2000" percentage_to="2999" frequency_range="20 750 50 700 90 600 120 580 10000 500">
+		<Game id="1" probability="100"/>
+		<Game id="2" probability="80"/>
+		<Game id="3" probability="130"/>
+		<Game id="4" probability="130" />
+	</Option>
+
+	<Option id="4" percentage_from="3000" percentage_to="10000" frequency_range="20 800 50 750 90 730 120 720 10000 500">
+		<Game id="2" probability="50"/>
+		<Game id="1" probability="150"/>
+		<Game id="4" probability="140"/>
+		<Game id="3" probability="140" />
+	</Option>
+	<Option id="5" percentage_from="10001" percentage_to="999999" frequency_range="20 80000 50 75000 90 73000 120 72000 10000 72000">
+		<Game id="4" probability="1"/>
+	</Option>
+
+</PERFORMANCE>
+<!-- performance
+<PERFORMANCE>
+	<Option id="1" percentage_from="500" percentage_to="999" frequency_range="10 20000 20 15000 30 10000 50 5000 70 2000 90 900 120 800 10000 500" >
+		<Game id="1" probability="20000" />
+	</Option>
+	<Option id="2" percentage_from="1000" percentage_to="1999" frequency_range="10 5000 50 1000 70 700 120 650 10000 650" >
+		<Game id="1" probability="5000" />
+	</Option>
+	<Option id="3" percentage_from="2000" percentage_to="2999" frequency_range="20 800 50 750 90 730 120 720 10000 720">
+		<Game id="1" probability="800" />
+	</Option>
+
+	<Option id="4" percentage_from="3000" percentage_to="4999" frequency_range="20 800 50 750 90 730 120 720 10000 720">
+		<Game id="1" probability="800" />
+	</Option>
+
+</PERFORMANCE>
+-->
+
+	<!-- play lines  -->
+	<LINES Total="20" LineSizes="5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5 ">
+		<LINE Reel="5  6  7  8  9 "/>
+		<LINE Reel="0  1  2  3  4" />
+		<LINE Reel="10 11 12 13 14" />
+		<LINE Reel="0 6 12 8 4" />
+		<LINE Reel="10 6 2 8 14" />
+		<LINE Reel="0  1 7 13 14" />
+		<LINE Reel="10 11  7 3 4" />
+		<LINE Reel="5 1 7 13 9  " />
+		<LINE Reel="5  11  7  3  9" />
+		<LINE Reel="0 6 7 8 14"/>
+		<LINE Reel="10 6 7 8 4"/>
+		<LINE Reel="5 1 2 8 14"/>
+		<LINE Reel="5 11 12 8 4"/>
+		<LINE Reel="5 6 2 8 14"/>
+		<LINE Reel="5 6 12 8 4"/>
+		<LINE Reel="0 6 2 8 14"/>
+		<LINE Reel="10 6 12 8 4"/>
+		<LINE Reel="10 6 2 3 9"/>
+		<LINE Reel="0 6 12 13 9"/>
+		<LINE Reel="0 6 7 13 9"/>
+</LINES>
+
+
+	<WINCOMB >
+		<COMB Symb="7"  Numb="5" Prize="20000"/>
+		<COMB Symb="0"  Numb="5" Prize="2000"/>
+		<COMB Symb="0"  Numb="4" Prize="500"/>
+		<COMB Symb="0"  Numb="3" Prize="50"/>
+		<COMB Symb="0"  Numb="2" Prize="6"/>
+
+		<COMB Symb="1"  Numb="5" Prize="1000"/>
+		<COMB Symb="1"  Numb="4" Prize="250"/>
+		<COMB Symb="1"  Numb="3" Prize="25"/>
+		<COMB Symb="1"  Numb="2" Prize="4"/>
+
+		<COMB Symb="2"  Numb="5" Prize="500"/>
+		<COMB Symb="2"  Numb="4" Prize="150"/>
+		<COMB Symb="2"  Numb="3" Prize="20"/>
+		<COMB Symb="2"  Numb="2" Prize="2"/>
+
+		<COMB Symb="3"  Numb="5" Prize="200"/>
+		<COMB Symb="3"  Numb="4" Prize="75"/>
+		<COMB Symb="3"  Numb="3" Prize="15"/>
+
+		<COMB Symb="4"  Numb="5" Prize="100"/>
+		<COMB Symb="4"  Numb="4" Prize="40"/>
+		<COMB Symb="4"  Numb="3" Prize="10"/>
+
+		<COMB Symb="5"  Numb="5" Prize="80"/>
+		<COMB Symb="5"  Numb="4" Prize="30"/>
+		<COMB Symb="5"  Numb="3" Prize="5"/>
+
+		<COMB Symb="6"  Numb="5" Prize="60"/>
+		<COMB Symb="6"  Numb="4" Prize="20"/>
+		<COMB Symb="6"  Numb="3" Prize="3"/>
+
+	</WINCOMB>
+
+<!-- Reels configuration -->
+
+	<REELS Type="Single" >
+		  <PROB Id="1" name="regular" GainId="30,30,30,30,30,30,30,30,30,30,30,30,30,30,30" />
+		  <PROB Id="2" name="freespin" GainId="31,31,31,31,31,31,31,31,31,31,31,31,31,31,31" />
+		  <PROB Id="3" name="strip_spot_1" GainId="33,33,33,33,33" />
+		  <PROB Id="4" name="strip_prob_1" GainId="36,36,35,34,35" />
+	</REELS>
+
+
+<GAINGAME>
+			<GAIN Id="30" Prize="0,1,2,3,4,5,6" Prob="100,100,100,100,100,100,100" />
+			<GAIN Id="31" Prize="0,1,2,3,4,5,6" Prob="100,100,100,100,100,100,100" />
+			<GAIN Id="33" Prize="0,1,2" Prob="100,100,100" />
+			<GAIN Id="34" Prize="-1,7,8,10,11" Prob="100,15,5,5,5" />
+			<GAIN Id="35" Prize="-1,7,8,10,11" Prob="100,15,5,5,5" />
+			<GAIN Id="36" Prize="-1,7,8" Prob="100,15,5" />
+
+			<GAIN Id="50" Prize="0,1,2,3,4" Prob="50,40,5,3,2"/>
+			<GAIN Id="51" Prize="0,1" Prob="70,30"/>
+
+		  <GAIN Id="10" Prize="5,5,10" Prob="10,20,10" />
+		  <GAIN Id="11" Prize="5,5,10" Prob="10,20,10" />
+		  <GAIN Id="4"  Prize="4,5,6,8,10" Prob="40,40,60,40,40"  />
+		  <GAIN Id="7"  Prize="1,1" Prob="40,40"  />
+		  <GAIN Id="25"  Prize="1,1" Prob="40,40"  />
+		  <GAIN Id="26"  Prize="1,1" Prob="40,40"  />
+		  <GAIN Id="27"  Prize="1,1" Prob="40,40"  />
+		  <GAIN Id="15"  Prize="1,1" Prob="40,40"  />
+		  <GAIN Id="16"  Prize="3,5,10" Prob="60,30,10" />
+		  <GAIN Id="17"  Prize="1,1" Prob="100,100" />
+		  <GAIN Id="18"  Prize="20,50,100" Prob="70,25,5" />
+	</GAINGAME>
+<!--  -->
+ <FREESPIN >
+	<GAME Id="1"   Type="3" GainId="20" Collect_id="1" Multiplier="1"/>
+</FREESPIN>
+
+<SKILLS_SCALE min="0" max="110" step="5">
+</SKILLS_SCALE>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+
+<GAMEPAYTABLE  PlayLines="20">
+  <Prize id="1" Prob="604687" prize="0" />
+  <Prize id="2" Prob="65000" prize="5" />
+  <Prize id="3" Prob="65000" prize="10" />
+  <Prize id="4" Prob="50000" prize="15" />
+  <Prize id="5" Prob="45000" prize="20" />
+  <Prize id="6" Prob="25000" prize="24" />
+  <Prize id="7" Prob="22000" prize="30" />
+  <Prize id="8" Prob="15000" prize="35" />
+  <Prize id="9" Prob="18000" prize="36" />
+  <Prize id="10" Prob="8000" prize="40" />
+  <Prize id="11" Prob="9000" prize="48" />
+  <Prize id="12" Prob="9000" prize="55" />
+  <Prize id="13" Prob="8000" prize="72" />
+  <Prize id="14" Prob="5000" prize="80" />
+  <Prize id="15" Prob="5000" prize="86" />
+  <Prize id="16" Prob="5000" prize="95" />
+  <Prize id="17" Prob="5000" prize="100" />
+  <Prize id="18" Prob="1000" prize="106" />
+  <Prize id="19" Prob="1000" prize="112" />
+  <Prize id="20" Prob="1000" prize="116" />
+  <Prize id="21" Prob="1000" prize="124" />
+  <Prize id="22" Prob="1500" prize="132" />
+  <Prize id="23" Prob="1500" prize="140" />
+  <Prize id="24" Prob="3000" prize="150" />
+  <Prize id="25" Prob="1500" prize="158" />
+  <Prize id="26" Prob="2000" prize="170" />
+  <Prize id="27" Prob="4000" prize="185" />
+  <Prize id="28" Prob="5000" prize="200" />
+  <Prize id="29" Prob="500" prize="204" />
+  <Prize id="30" Prob="1000" prize="230" />
+  <Prize id="31" Prob="600" prize="242" />
+  <Prize id="32" Prob="850" prize="264" />
+  <Prize id="33" Prob="2000" prize="300" />
+  <Prize id="34" Prob="2300" prize="350" />
+  <Prize id="35" Prob="2350" prize="400" />
+  <Prize id="36" Prob="500" prize="430" />
+  <Prize id="37" Prob="500" prize="450" />
+  <Prize id="38" Prob="500" prize="500" />
+  <Prize id="39" Prob="500" prize="550" />
+  <Prize id="40" Prob="500" prize="580" />
+  <Prize id="41" Prob="210" prize="640" />
+  <Prize id="42" Prob="210" prize="680" />
+  <Prize id="43" Prob="210" prize="800" />
+  <Prize id="44" Prob="210" prize="860" />
+  <Prize id="45" Prob="180" prize="1000" />
+  <Prize id="46" Prob="150" prize="1010" />
+  <Prize id="47" Prob="50" prize="1030" />
+  <Prize id="48" Prob="150" prize="1080" />
+  <Prize id="49" Prob="40" prize="1130" />
+  <Prize id="50" Prob="50" prize="1180" />
+  <Prize id="51" Prob="50" prize="1220" />
+  <Prize id="52" Prob="40" prize="1360" />
+  <Prize id="53" Prob="40" prize="1600" />
+  <Prize id="54" Prob="20" prize="2000" />
+  <Prize id="55" Prob="25" prize="2010" />
+  <Prize id="56" Prob="20" prize="2020" />
+  <Prize id="57" Prob="20" prize="2040" />
+  <Prize id="58" Prob="20" prize="2080" />
+  <Prize id="59" Prob="10" prize="2200" />
+  <Prize id="60" Prob="1" prize="2600" />
+  <Prize id="61" Prob="1" prize="3000" />
+  <Prize id="62" Prob="1" prize="4000" />
+  <Prize id="63" Prob="1" prize="4600" />
+  <Prize id="64" Prob="1" prize="5500" />
+  <Prize id="65" Prob="1" prize="6012" />
+  <Prize id="66" Prob="1" prize="6500" />
+  <Prize id="67" Prob="1" prize="20075" />
+</GAMEPAYTABLE>
+</SLOT>
+

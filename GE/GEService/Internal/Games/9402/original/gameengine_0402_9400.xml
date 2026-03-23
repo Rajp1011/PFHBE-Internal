@@ -1,0 +1,57 @@
+<?xml version = "1.0"?>
+
+<!--  Classic Nudge 7 config PAYING LINE is 0 1 2 to build and 6 7 8 to play!!!-->
+
+<SLOT
+	TotalReels="3"
+	Lines="1"
+	Col="3"
+   	Row="1"			
+	Pay="Max"
+	DefComb="LeftToRight"	
+    Wild="6"
+  >	
+<!-- play lines  -->
+
+	<LINES Total="1" LineSizes="3">		
+		<LINE Reel="6 7 8" />		
+	</LINES>
+
+    <TICKETS Size="18">  
+    </TICKETS>
+
+<!-- math parametrs  BetOne is the bet was used to build the pool  e.i. betlevel 1 for denom 1 or min possible bet -->
+<MATH BetOne="1"/>
+
+<WILDS nWilds="3" >
+<wild id="6" multlp="1" />
+<wild id="7" multlp="3" />
+<wild id="8" multlp="5" />
+</WILDS>
+
+<!-- win combinations  -->
+
+	<WINCOMB Total="7" Special="2">	
+
+	    <COMB Symb="1"  Numb="3" Prize="15" />
+		<COMB Symb="2"  Numb="3" Prize="6" />
+		<COMB Symb="3"  Numb="3" Prize="4" />
+		<COMB Symb="4"  Numb="3" Prize="3" />
+		<COMB Symb="5"  Numb="3" Prize="1" />
+
+<!-- All triple sevens -- special case-->
+	    <COMB  Symb="1 1 1"  Order="n" Numb="3" Prize="250" IDComb="61" />
+<!-- Any wilds -->
+	     <COMB Symb="6 7 8"  Order="n" Numb="3" Prize="10" IDComb="66" />
+
+	</WINCOMB>
+
+	
+<REELS Type="Strips" TotalProb="3" TotalSymbIds="8" FreqSizes="80,84,83">
+  <Set reel="0 1 2" /> 
+  <PROB Symb="5 3 4 5 2 6 4 3 5 1 5 4 7 2 3 5 6 5 5 4 2 3 3 8 5 6 2 4 5 3 5 4 7 3 4 2 4 5 1 4 4 3 2 5 6 3 4 4 5 3 7 1 2 5 4 5 8 3 4 5 2 6 5 5 3 7 4 3 2 5 5 4 6 3 4 5 1 5 3 2" />
+  <PROB Symb="4 5 6 3 2 5 1 4 4 3 7 4 3 3 5 2 6 4 5 5 2 8 3 4 5 2 5 6 7 1 4 5 5 2 6 4 5 4 2 3 5 4 7 2 4 1 3 3 5 6 5 3 4 4 2 5 3 6 5 5 3 4 2 8 5 4 3 3 1 5 5 4 4 2 7 6 3 5 4 5 3 4 5 2" />
+  <PROB Symb="5 3 4 5 2 6 4 7 5 3 4 1 2 3 4 4 5 7 5 6 4 3 5 5 2 8 5 3 4 3 5 6 7 5 4 2 3 5 4 3 1 4 4 2 5 8 4 3 5 2 5 4 6 3 5 4 4 1 7 6 2 5 3 5 6 5 4 2 5 4 1 3 4 5 5 4 2 2 6 3 5 3 4" /> 
+  </REELS>
+	
+</SLOT>

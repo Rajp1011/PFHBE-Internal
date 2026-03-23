@@ -1,0 +1,126 @@
+<?xml version = "1.0"?>
+
+<!-- way pay test XML
+<!--
+confluence strips
+-->
+
+<SLOT
+	TotalReels="20"
+	Lines="40"
+	Col="5"
+   	Row="4"		
+	Pay="WayPay"
+	DefComb="WayPayLeftToRight"	
+
+    Wild="12"
+	Scatter="13"
+	WildReplace="OnSlot"
+	PrintSlotResult="no"	
+ >	
+	<vWILDS nWilds="3" >
+		<wild id="12" multlps="1,1,1,1,1"/>
+		<wild id="14" multlps="2,2,2,2,2"/>
+		<wild id="15" multlps="3,3,3,3,3"/>
+	</vWILDS>
+	
+    <TICKETS Size="20">  
+		<Game id="0" payout="9300" />
+		<Game id="1" payout="9301" />
+    </TICKETS>
+
+	<!-- play lines  -->
+	<LINES Total="40" LineSizes="5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5">
+	</LINES>
+
+	<!-- math parametrs  BetOne is the bet was used to build the pool  e.i. betlevel 1 for denom 1 or min possible bet -->
+	<MATH BetOne="40"/>
+
+	<!-- win combinations  -->
+	<WINCOMB Total="35" >
+		<COMB Symb="1"   Numb="5" Prize="300" />
+		<COMB Symb="1"   Numb="4" Prize="100" />	
+		<COMB Symb="1"   Numb="3" Prize="50" />
+		<COMB Symb="1"   Numb="2" Prize="10" />
+
+		<COMB Symb="2"   Numb="5" Prize="200" />
+		<COMB Symb="2"   Numb="4" Prize="100" />
+		<COMB Symb="2"   Numb="3" Prize="40" />
+
+		<COMB Symb="3"   Numb="5" Prize="150" />
+		<COMB Symb="3"   Numb="4" Prize="75" />
+		<COMB Symb="3"   Numb="3" Prize="30" />
+
+		<COMB Symb="4"   Numb="5" Prize="150" />
+		<COMB Symb="4"   Numb="4" Prize="75" />
+		<COMB Symb="4"   Numb="3" Prize="30" />
+
+		<COMB Symb="5"   Numb="5" Prize="150" />
+		<COMB Symb="5"   Numb="4" Prize="60" />
+		<COMB Symb="5"   Numb="3" Prize="20" />
+
+		<COMB Symb="6"   Numb="5" Prize="100" />
+		<COMB Symb="6"   Numb="4" Prize="50" />
+		<COMB Symb="6"   Numb="3" Prize="10" />
+
+		<COMB Symb="7"   Numb="5" Prize="100" />
+		<COMB Symb="7"   Numb="4" Prize="50" />
+		<COMB Symb="7"   Numb="3" Prize="10" />
+
+		<COMB Symb="8"   Numb="5" Prize="100" />
+		<COMB Symb="8"   Numb="4" Prize="30" />
+		<COMB Symb="8"   Numb="3" Prize="10" />
+
+		<COMB Symb="9"   Numb="5" Prize="100" />
+		<COMB Symb="9"   Numb="4" Prize="30" />
+		<COMB Symb="9"   Numb="3" Prize="5" />
+
+		<COMB Symb="10"  Numb="5" Prize="75" />
+		<COMB Symb="10"  Numb="4" Prize="15" />
+		<COMB Symb="10"  Numb="3" Prize="5" />
+
+		<COMB Symb="11"  Numb="5" Prize="75" />
+		<COMB Symb="11"  Numb="4" Prize="15" />
+		<COMB Symb="11"  Numb="3" Prize="5" />
+		<COMB Symb="11"  Numb="2" Prize="2" />
+	
+		<!-- scatter -->
+		<COMB Symb="13"  Numb="5" Prize="20" />
+		<COMB Symb="13"  Numb="4" Prize="10" />
+		<COMB Symb="13"  Numb="3" Prize="2" />
+	</WINCOMB>
+	
+	<REELS Type="Strips" TotalProb="5" TotalSymbIds="13" FreqSizes="85,84,99,92,93">
+	    <Set reel="0 1 2 3 4" /> 
+		<PROB Symb="8,1,1,1,7,1,1,9,8,1,1,10,8,7,2,9,10,8,5,7,9,10,4,8,7,9,13,6,8,7,2,9,11,8,5,7,9,11,4,8,7,9,13,6,8,7,2,9,10,8,5,7,9,10,4,8,7,9,3,6,8,7,2,9,11,8,5,7,9,8,2,7,9,8,5,7,9,8,7,9,8,7,8,7,10" />
+	 	<PROB Symb="10,4,11,6,3,2,8,10,7,3,10,1,1,6,3,1,1,1,10,4,11,3,6,4,10,3,5,10,9,3,10,6,3,7,10,9,3,5,10,6,7,13,3,6,10,7,9,10,3,4,10,9,6,8,3,10,12,3,8,10,6,4,11,3,7,10,5,3,13,10,5,6,10,9,3,11,12,10,3,11,5,3,10,3" />
+		<PROB Symb="11,9,1,1,10,1,11,1,1,1,9,4,11,3,6,11,10,5,4,3,9,11,5,10,11,13,6,9,4,11,10,6,12,11,6,3,7,8,11,3,2,4,11,5,10,11,3,6,12,8,5,11,13,6,3,4,11,9,7,11,2,6,11,7,5,3,6,11,9,10,8,11,13,6,3,11,2,4,5,11,6,3,12,7,11,8,4,5,3,11,9,10,5,11,3,11,6,9,10" />
+	 	<PROB Symb="6,8,1,1,1,7,1,1,9,1,1,7,1,1,1,4,2,8,4,5,7,3,2,8,9,2,13,7,4,2,4,10,5,11,9,8,2,6,5,12,4,6,2,7,5,4,6,9,4,10,12,5,3,10,8,2,8,4,5,11,12,4,2,11,6,4,13,11,8,7,8,4,7,2,5,7,8,12,4,7,3,7,4,5,6,2,4,8,7,3,5,10" />
+		<PROB Symb="7,1,1,1,6,8,1,1,1,9,1,1,5,1,1,1,2,3,8,7,10,9,3,5,13,2,10,5,7,6,3,8,7,2,11,13,5,6,2,7,6,4,5,8,11,2,5,7,2,5,3,10,8,2,5,8,3,2,10,8,7,5,3,7,9,8,2,11,3,8,5,6,8,3,5,2,7,8,5,2,7,5,8,2,5,9,5,7,2,8,5,11,7" />
+	</REELS>
+
+<OPTIONGAMES default_id="-1">
+<FREESPIN id="1" tag="TF1" trTag="TF1" multipl="1" zeroSpin="yes" newSpins = "yes" nNewSpins="5" trWin = "80" nFS="8" />
+<FREESPIN id="1" tag="TF1" trTag="TF2" multipl="1" zeroSpin="yes" newSpins = "yes" nNewSpins="5" trWin = "400" nFS="15"  />
+<FREESPIN id="1" tag="TF1" trTag="TF3" multipl="1" zeroSpin="yes" newSpins = "yes" nNewSpins="5" trWin = "800" nFS="20"  />
+</OPTIONGAMES>
+
+
+<TRIGGERS>
+
+<Game id="1" name="fs in main" triggerType="21" icons="13" num="3" pattern="-1" tag="TF1"  />
+<Game id="2" name="fs in main" triggerType="21" icons="13" num="4" pattern="-1" tag="TF2"  />
+<Game id="3" name="fs in main" triggerType="21" icons="13" num="5" pattern="-1" tag="TF3"  />
+
+<Game id="4" name="wild in fs" triggerType="22" icons="12" num="1" pattern="-1" tag="TW1"  />
+<Game id="5" name="fs in fs" triggerType="22" icons="13" num="2" pattern="-1" tag="TF1"  />
+
+</TRIGGERS>
+
+<SKILLS_SCALE min="50" max="110" step="5">
+</SKILLS_SCALE>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+
+</SLOT>

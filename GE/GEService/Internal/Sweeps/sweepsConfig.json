@@ -1,0 +1,2995 @@
+{
+  "debugMode": true,
+  "version": "1.00",
+  "date": "2025-02-10",
+  "mathType": "edgelabs-2.00-Wowvegas",
+  "maxWins": [2000000, 2000000000],
+  "gameConfigs": [
+    {
+      "gameId": "9425",
+      "gameName": "pandaShores",
+	  "volatility": "1",
+	  "rtp": "92",
+      "poolId": "0425",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0425_490",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 30, 40, 50, 500, 3500, 35000],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 30, 40, 50, 500, 5000],
+          "denoms": [1]
+        }
+      ]
+    },
+	{
+      "gameId": "9486",
+      "gameName": "pandaShoresG2",
+	  "volatility": "1.5",
+	  "rtp": "92",
+      "poolId": "0425",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0425_490",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1", "tag": "REG",  "id": "0425", "type": "961", "size": "1000000", "maxBet":"35000"},
+		  {"idx": 41, "bet": "any","mult": "20", "tag": "PFB",  "id": "0425", "type": "388", "size": "100000", "maxBet":"35000"},
+		  {"idx": 31, "bet": "any","mult": "1", "tag": "PFG",  "id": "0425", "type": "961", "size": "1000000", "maxBet":"35000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0425", "type": "395", "size": "100000",  "maxBet":"50"}],
+        [ {"idx": 0,  "bet": "any","mult": "1", "tag": "REG",  "id": "0425", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0425", "type": "388", "size": "100000"}]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 30, 40, 50, 500, 3500, 35000],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 30, 40, 50, 500, 5000],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9426",
+      "gameName": "scorchingHot",
+	  "volatility": "1",
+	  "rtp": "92",
+      "poolId": "0426",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,    10,    15,    20,    25,    30,    50,    60,    90,
+              120,   160,   200,   240,   320,   400,  4000, 30000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              5,  10,  15,  20,  25,  30,  50,  60,  90, 120, 160, 200, 240,
+            320, 400, 4000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9476",
+      "gameName": "scorchingHotG2",
+	  "volatility": "1",
+	  "rtp": "92",
+      "poolId": "0426",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+	  "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0426", "type": "961", "size": "1000000", "maxBet":"30000"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0426", "type": "961", "size": "1000000", "maxBet":"30000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0426", "type": "961", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0426", "type": "961", "size": "1000000", "betOne": "30000"}]
+      ],
+      "betLevelObjects":  [
+	  {
+          "id": 1,
+          "entryLevels": [
+                5,    10,    15,    20,    25,    30,    50,    60,    90,
+              120,   160,   200,   240,   320,   400,  4000, 30000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              5,  10,  15,  20,  25,  30,  50,  60,  90, 120, 160, 200, 240,
+            320, 400, 4000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9427",
+      "gameName": "luckNClovers",
+	  "volatility": "1",
+	  "rtp": "92",
+      "poolId": "0427",
+      "poolType": ["961", "288"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,    10,    15,    20,    25,    30,    50,    60,    90,
+              120,   160,   200,   240,   320,   400,   600,  6000, 55000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              5,  10,  15,  20,  25,  30,  50,  60,  90, 120, 160, 200, 240,
+            320, 400, 600, 6000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9481",
+      "gameName": "luckNCloversG2",
+	  "volatility": "1",
+	  "rtp": "92",
+      "poolId": "0427",
+      "poolType": ["961", "288"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+	  "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0427", "type": "961", "size": "1000000", "maxBet":"55000"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0427", "type": "961", "size": "1000000", "maxBet":"55000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0427", "type": "961", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0427", "type": "961", "size": "1000000", "betOne": "55000"}]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,    10,    15,    20,    25,    30,    50,    60,    90,
+              120,   160,   200,   240,   320,   400,   600,  6000, 55000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              5,  10,  15,  20,  25,  30,  50,  60,  90, 120, 160, 200, 240,
+            320, 400, 600, 6000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9429",
+      "gameName": "QianGunQian",
+	  "volatility": "1",
+	  "rtp": "92",
+      "poolId": "0429",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "961", "size": "1000000", "maxBet":"2800"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "395", "size": "100000",  "maxBet":"2800"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "881", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "388", "size": "100000"}]
+      ],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    6,    8,   10,   12,   16,   20,
+              24,   32,   40,  400,  2800
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 400],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9475",
+      "gameName": "QianGunQianG2",
+	  "volatility": "1",
+	  "rtp": "92",
+      "poolId": "0429",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "961", "size": "1000000", "maxBet":"2800"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0429", "type": "961", "size": "1000000", "maxBet":"2800"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "395", "size": "100000",  "maxBet":"2800"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "881", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "388", "size": "100000"}]
+      ],
+	  "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    6,    8,   10,   12,   16,   20,
+              24,   32,   40,  400,  2800
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 400],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9430",
+      "gameName": "GreatSphinx",
+	  "volatility": "1",
+	  "rtp": "92",
+      "poolId": "0430",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0430_9201",
+      "type": "slot",
+      "storeRawTicket": true,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    7,    8,   10,   15,   20,   25,
+              30,   40,   50,   75,  750,  6750
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 8, 10, 15, 20, 25, 30, 40, 50, 75, 750],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9494",
+      "gameName": "GreatSphinxG2",
+	  "volatility": "5",
+	  "rtp": "95",
+      "poolId": "0430",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0430_9201",
+      "type": "slot",
+      "storeRawTicket": true,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    7,    8,   10,   15,   20,   25,
+              30,   40,   50,   75,  750,  6750
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 8, 10, 15, 20, 25, 30, 40, 50, 75, 750],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9431",
+      "gameName": "BlazingMustang",
+	  "volatility": "1",
+	  "rtp": "92",
+      "poolId": "0431",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0431", "type": "961", "size": "1000000", "maxBet":"6000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0431", "type": "395", "size": "100000", "maxBet":"6000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0431", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0431", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0431_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    4,    6,    8,   10,   12,   16,   20,   24,   32,
+              40,   48,   64,   80,  400, 3000, 6000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             1,  2,  4,  6,  8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 80, 800
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9478",
+      "gameName": "BlazingMustangG2",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0431",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0431", "type": "961", "size": "1000000", "maxBet":"6000"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0431", "type": "961", "size": "1000000", "maxBet":"6000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0431", "type": "395", "size": "100000", "maxBet":"6000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0431", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0431", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0431_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    4,    6,    8,   10,   12,   16,   20,   24,   32,
+              40,   48,   64,   80,  400, 3000, 6000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             1,  2,  4,  6,  8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 80, 800
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9545",
+      "gameName": "HollowGravesOfRiches",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0431",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0431", "type": "961", "size": "1000000", "maxBet":"6000"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0431", "type": "961", "size": "1000000", "maxBet":"6000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0431", "type": "395", "size": "100000", "maxBet":"6000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0431", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0431", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0431_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    4,    6,    8,   10,   12,   16,   20,   24,   32,
+              40,   48,   64,   80,  400, 3000, 6000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             1,  2,  4,  6,  8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 80, 800
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9485",
+      "gameName": "DustyTrailTreasuresG2",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0431",
+      "poolType": [ "494", "881" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0431", "type": "494", "size": "1000000", "maxBet":"6000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0431", "type": "395", "size": "100000", "maxBet":"6000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0431", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0431", "type": "388", "size": "100000", "betOne": "1250"}]
+      ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9300", "9301" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0431_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    4,    6,    8,   10,   12,   16,   20,   24,   32,
+              40,   48,   64,   80,  400, 3000, 6000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             1,  2,  4,  6,  8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 80, 800
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9432",
+      "gameName": "QuickWinsDiamond",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0432",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000", "maxBet":"5500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "maxBet":"5500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                1,     2,     3,     4,     5,     7,    10,    15,    20,
+               30,    40,    50,    60,    80,   800, 5500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 800],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9498",
+      "gameName": "QuickWinsDiamondG2",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0432",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000", "maxBet":"5500"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0432", "type": "494", "size": "1000000", "maxBet":"5500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "395", "size": "100000", "maxBet":"5500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                1,     2,     3,     4,     5,     7,    10,    15,    20,
+               30,    40,    50,    60,    80,   800, 5500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 800],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9433",
+      "gameName": "BoomingForties",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0433",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    7,    8,   10,   15,   20,   25,
+              30,   40,   50,  500, 3750
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 8, 10, 15, 20, 25, 30, 40, 50, 500],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9490",
+      "gameName": "BoomingFortiesG2",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0433",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    7,    8,   10,   15,   20,   25,
+              30,   40,   50,  500, 3750
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 8, 10, 15, 20, 25, 30, 40, 50, 500],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9434",
+      "gameName": "BlazingMustang100",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0434",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0434", "type": "961", "size": "1000000", "maxBet":"3000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0434", "type": "395", "size": "100000", "maxBet":"3000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0434", "type": "881", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0434", "type": "395", "size": "100000", "betOne": "1250"}]
+      ],
+      "ticketTag": ["9100", "9101"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0434_9101",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    6,    8,   10,   12,   16,   20,
+              24,   32,    40,  400, 3000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 400],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9488",
+      "gameName": "BlazingMustang100G2",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0434",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0434", "type": "961", "size": "1000000", "maxBet":"3000"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0434", "type": "961", "size": "1000000", "maxBet":"3000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0434", "type": "395", "size": "100000", "maxBet":"3000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0434", "type": "881", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0434", "type": "395", "size": "100000", "betOne": "1250"}]
+      ],
+      "ticketTag": ["9100", "9101"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0434_9101",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    6,    8,   10,   12,   16,   20,
+              24,   32,    40,  400, 3000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 400],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9439",
+      "gameName": "BugsToRichesDiamond",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0429",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "961", "size": "1000000", "maxBet":"28000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "395", "size": "100000",  "maxBet":"28000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "881", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "388", "size": "100000"}]
+      ],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+	  "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    6,    8,   10,   12,   16,   20,
+              24,   32,   40,  50, 100, 200, 300, 400, 500, 1000, 2000, 2500, 2800
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [ 
+			   1,    2,    3,    4,    5,    6,    8,   10,   12,   16,   20,
+              24,   32,   40,  50, 100, 200, 300, 400, 4000
+		  ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9474",
+      "gameName": "BugsToRichesDiamondG2",
+	  "volatility": "1",
+	  "rtp": "96",
+      "poolId": "0429",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "961", "size": "1000000", "maxBet":"28000"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0429", "type": "961", "size": "1000000", "maxBet":"28000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "395", "size": "100000",  "maxBet":"28000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "881", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "388", "size": "100000"}]
+      ],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+	  "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    6,    8,   10,   12,   16,   20,
+              24,   32,   40,  50, 100, 200, 300, 400, 500, 1000, 2000, 2500, 2800
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [ 
+			   1,    2,    3,    4,    5,    6,    8,   10,   12,   16,   20,
+              24,   32,   40,  50, 100, 200, 300, 400, 4000
+		  ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9440",
+      "gameName": "SwordOfZ",
+      "poolId": "0429",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "961", "size": "1000000", "maxBet":"2800"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "395", "size": "100000",  "maxBet":"2800"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "881", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "388", "size": "100000"}]
+      ],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    6,    8,   10,   12,   16,   20,
+              24,   32,   40,  400,  2800
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 400],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9477",
+      "gameName": "SwordOfZG2",
+      "poolId": "0429",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "961", "size": "1000000", "maxBet":"2800"},
+		  {"idx": 31, "bet": "any","mult": "1", "tag": "PFG",  "id": "0429", "type": "961", "size": "1000000", "maxBet":"2800"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "395", "size": "100000",  "maxBet":"2800"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "881", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "388", "size": "100000"}]
+      ],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    6,    8,   10,   12,   16,   20,
+              24,   32,   40,  400,  2800
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 400],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9442",
+      "gameName": "KandyLandKeno",
+      "poolId": "1006",
+      "poolType": [
+        "402,403,404,405,406,407,408,409,410",
+        "302,303,304,305,306,307,308,309,310"
+      ],
+      "poolSize": [
+        "1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000",
+        "1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000"
+      ],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "keno",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [25, 30, 50, 100, 150, 200, 300, 500, 750, 1000, 10000, 75000, 750000],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [25, 30, 50, 100, 150, 200, 300, 500, 750, 1000, 10000, 100000],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9495",
+      "gameName": "KandyLandKenoG2",
+      "poolId": "1006",
+      "poolType": [
+        "402,403,404,405,406,407,408,409,410",
+        "302,303,304,305,306,307,308,309,310"
+      ],
+      "poolSize": [
+        "1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000",
+        "1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000"
+      ],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "keno",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [25, 30, 50, 100, 150, 200, 300, 500, 750, 1000, 10000, 75000, 750000],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [25, 30, 50, 100, 150, 200, 300, 500, 750, 1000, 10000, 100000],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9445",
+      "gameName": "CleopatrasDynasty",
+      "poolId": "0445",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0445", "type": "961", "size": "1000000", "maxBet":"11500"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0445", "type": "961", "size": "1000000", "maxBet":"11500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0445", "type": "961", "size": "1000000", "maxBet":"11500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0445", "type": "961", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0445", "type": "961", "size": "1000000"}]
+      ],
+      "ticketTag": ["9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0445_9201",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                1,     2,     3,     5,     7,    10,    15,    20,    25,
+               30,    40,    50,    60,    80,   100,   150,  1500, 11500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              1,   2,   3,   5,   7,  10,  15,  20,  25,  30,  40,  50,  60,
+             80, 100, 150, 1500
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9491",
+      "gameName": "CleopatrasSandsOfTime'",
+      "poolId": "0491",
+      "poolType": [ "100", "100" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0491", "type": "100", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0491", "type": "195", "size": "100000", "betOne": "1000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0491", "type": "100", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "100", "tag": "GAB",  "id": "0491", "type": "195", "size": "100000", "betOne": "1000"}]
+      ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9200", "9201" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0491_9201",
+      "type": "slot",
+      "storeRawTicket": false,
+	  "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                1,     2,     3,     5,     7,    10,    15,    20,    25,
+               30,    40,    50,    60,    80,   100,   150,  1500, 11500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              1,   2,   3,   5,   7,  10,  15,  20,  25,  30,  40,  50,  60,
+             80, 100, 150, 1500
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9448",
+      "gameName": "YuansuDragons",
+      "poolId": "0448",
+      "poolType": ["961", "882"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0448_9202",
+      "type": "slot",
+      "storeRawTicket": true,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    7,   10,   15,   20,   30,   40,
+              50,   60,   80,  100,  120, 1200, 8500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              1,   2,   3,   4,   5,   7,  10,  15,  20,  30,  40,  50,  60,
+             80, 100, 120, 1200
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9514",
+      "gameName": "YuansuDragonsG2",
+	  "volatility": "5",
+	  "rtp": "95",
+      "poolId": "0448",
+      "poolType": ["961", "882"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0448_9202",
+      "type": "slot",
+      "storeRawTicket": true,
+      "poolObjects": [
+	      [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0448", "type": "961", "size": "1000000", "maxBet": "8500"},
+		    {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0448", "type": "595", "size": "1000000", "maxBet": "8500"}],
+	      [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0448", "type": "961", "size": "1000000"},
+		    {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0448", "type": "595", "size": "1000000", "maxBet": "2500"}]
+	      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+               1,    2,    3,    4,    5,    7,   10,   15,   20,   30,   40,
+              50,   60,   80,  100,  120, 1200, 8500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              1,   2,   3,   4,   5,   7,  10,  15,  20,  30,  40,  50,  60,
+             80, 100, 120, 1200
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9449",
+      "gameName": "Diamond10X",
+      "poolId": "0449",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                20,     50,    100,    200,    300,    400,    500,    750,
+              1000,   1500,   2000,   5000,  20000, 150000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              20,   50,  100,  200,  300,  400,  500,  750, 1000, 1500, 2000, 20000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9537",
+      "gameName": "Diamond10X",
+      "poolId": "0449",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                20,     50,    100,    200,    300,    400,    500,    750,
+              1000,   1500,   2000,   5000,  20000, 150000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              20,   50,  100,  200,  300,  400,  500,  750, 1000, 1500, 2000, 20000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9529",
+      "gameName": "Diamond10X",
+      "poolId": "0449",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                20,     50,    100,    200,    300,    400,    500,    750,
+              1000,   1500,   2000,   5000,  20000, 150000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              20,   50,  100,  200,  300,  400,  500,  750, 1000, 1500, 2000, 20000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9535",
+      "gameName": "Diamond10X",
+      "poolId": "0449",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any",    "mult": "1", "tag": "REG",  "id": "0449", "type": "961",      "size": "1000000"},
+		  {"idx": 31, "bet": "any",    "mult": "1", "tag": "PFG",  "id": "0449", "type": "961",      "size": "1000000"}],
+        [ {"idx": 0,  "bet": "any",    "mult": "1", "tag": "REG",  "id": "0449", "type": "961",      "size": "1000000"}]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                20,     50,    100,    200,    300,    400,    500,    750,
+              1000,   1500,   2000,   5000,  20000, 150000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              20,   50,  100,  200,  300,  400,  500,  750, 1000, 1500, 2000, 20000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9480",
+      "gameName": "Diamond10XG2",
+      "poolId": "0449",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1", "tag": "REG",  "id": "0449", "type": "961", "size": "1000000", "maxBet":"150000"},
+		  {"idx": 31, "bet": "any","mult": "1", "tag": "PFG",  "id": "0449", "type": "961", "size": "1000000", "maxBet":"150000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1", "tag": "REG",  "id": "0449", "type": "494", "size": "1000000"}]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                20,     50,    100,    200,    300,    400,    500,    750,
+              1000,   1500,   2000,   5000,  20000, 150000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              20,   50,  100,  200,  300,  400,  500,  750, 1000, 1500, 2000, 20000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9455",
+      "gameName": "RubyX",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0449",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                20,     50,    100,    200,    300,    400,    500,    750,
+              1000,   1500,   2000,  20000, 150000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              20,   50,  100,  200,  300,  400,  500,  750, 1000, 1500, 2000, 20000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9499",
+      "gameName": "RubyXG2",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0449",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1", "tag": "REG",  "id": "0449", "type": "961", "size": "1000000", "maxBet":"150000"},
+		  {"idx": 31, "bet": "any","mult": "1", "tag": "PFG",  "id": "0449", "type": "961", "size": "1000000", "maxBet":"150000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1", "tag": "REG",  "id": "0449", "type": "494", "size": "1000000"}]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                20,     50,    100,    200,    300,    400,    500,    750,
+              1000,   1500,   2000,  20000, 150000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              20,   50,  100,  200,  300,  400,  500,  750, 1000, 1500, 2000, 20000
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9467",
+      "gameName": "QuickWinsDiamond7s",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0432",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000", "maxBet":"5500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "395", "size": "100000", "maxBet":"5500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                1,     2,     3,     4,     5,     7,    10,    15,    20,
+               30,    40,    50,    60,    80,   800,  5500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 800],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9531",
+      "gameName": "QuickWinsDiamond7s",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0432",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000", "maxBet":"5500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "395", "size": "100000", "maxBet":"5500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                1,     2,     3,     4,     5,     7,    10,    15,    20,
+               30,    40,    50,    60,    80,   800,  5500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 800],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9536",
+      "gameName": "QuickWinsDiamond7s",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0432",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000", "maxBet":"5500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "395", "size": "100000", "maxBet":"5500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                1,     2,     3,     4,     5,     7,    10,    15,    20,
+               30,    40,    50,    60,    80,   800,  5500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 800],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9489",
+      "gameName": "QuickWinsDiamond7sG2",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0432",
+      "poolType": ["961", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000", "maxBet":"5500"},
+		  {"idx": 31, "bet": "any","mult": "1", "tag": "PFG",  "id": "0432", "type": "494", "size": "1000000", "maxBet":"5500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "395", "size": "100000", "maxBet":"5500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                1,     2,     3,     4,     5,     7,    10,    15,    20,
+               30,    40,    50,    60,    80,   800,  5500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 800],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9500",
+      "gameName": "northernBuffallo",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0421",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": true,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 8, 10, 15, 20, 25, 30, 300, 2400],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 8, 10, 15, 20, 25, 30, 300],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9496",
+      "gameName": "northernBuffalloG2",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0421",
+      "poolType": ["961", "488"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": true,
+	  "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0421", "type": "961", "size": "1000000"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0421", "type": "961", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0421", "type": "395", "size": "100000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0421", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0421", "type": "388", "size": "100000"}]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 8, 10, 15, 20, 25, 30, 300, 2400],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 7, 8, 10, 15, 20, 25, 30, 300],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9512",
+      "gameName": "devilsHot7s",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0201",
+      "poolType": ["961", "880"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9217"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0201_490",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                1,     2,     4,     6,     8,    10,    12,    16,    20,
+               24,    32,    40,    48,    64,    80,   800, 10000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             1,  2,  4,  6,  8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 80, 800
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9493",
+      "gameName": "devilsHot7sHDG2",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0201",
+      "poolType": ["961", "880"],
+      "poolSize": ["1000000", "1000000"],
+	  "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0201", "type": "961", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0201", "type": "395", "size": "100000"}],
+        []
+      ],
+      "ticketTag": ["9217"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0201_490",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                1,     2,     4,     6,     8,    10,    12,    16,    20,
+               24,    32,    40,    48,    64,    80,   800, 10000
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             1,  2,  4,  6,  8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 80, 800
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9482",
+      "gameName": "BladeOfFortuneG2",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0454",
+      "poolType": [ "494", "881" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0454", "type": "941", "size": "1000000", "maxBet":"12"},
+          {"idx": 1,  "bet": "10", "mult": "1",  "tag": "REG",  "id": "0454", "type": "921", "size": "1000000"},
+          {"idx": 1,  "bet": "12", "mult": "1",  "tag": "REG",  "id": "0454", "type": "921", "size": "1000000"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0454", "type": "921", "size": "1000000", "maxBet":"12"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0454", "type": "395", "size": "100000",  "maxBet":"12"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "881", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "388", "size": "100000"}]
+      ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9201", "9202" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0454_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+	  "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9483",
+      "gameName": "MandarinMadnessG2",
+	  "volatility": "5",
+	  "rtp": "95",
+      "poolId": "0429",
+      "poolType": [ "494", "881" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "941", "size": "1000000", "maxBet":"12"},
+          {"idx": 1,  "bet": "10", "mult": "1",  "tag": "REG",  "id": "0429", "type": "921", "size": "1000000"},
+          {"idx": 1,  "bet": "12", "mult": "1",  "tag": "REG",  "id": "0429", "type": "921", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "395", "size": "100000", "maxBet":"12"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0429", "type": "941", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0429", "type": "388", "size": "100000"}]
+      ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9201", "9202" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+	  "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9484",
+      "gameName": "QuickWinsFortuneG2",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0432",
+      "poolType": [ "494", "881" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000", "maxBet":"20"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0432", "type": "494", "size": "1000000", "maxBet":"20"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "maxBet":"20"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9300", "9301" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+	  "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+             1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        10,
+        16,
+        20
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        10,
+        16,
+        20
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9487",
+      "gameName": "pandasLuckyPayoutG2",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0425",
+      "poolType": [ "1401", "488" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1", "tag": "REG",  "id": "0425", "type": "1401", "size": "1000000", "maxBet":"20"},
+		  {"idx": 31, "bet": "any","mult": "1", "tag": "PFG",  "id": "0425", "type": "961", "size": "1000000", "maxBet":"20"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0425", "type": "395", "size": "100000",  "maxBet":"20"}],
+        [ {"idx": 0,  "bet": "any","mult": "1", "tag": "REG",  "id": "0425", "type": "494", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0425", "type": "388", "size": "100000"}]
+      ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9201" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0425_490",
+      "type": "slot",
+      "storeRawTicket": false,
+	  "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+             1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        10,
+        16,
+        20
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+              1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        10,
+        16,
+        20
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9452",
+      "gameName": "RobinsArrow",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0452",
+      "poolType": [ "922" ],
+      "poolSize": [ "1000000" ],
+	  "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0452", "type": "922", "size": "1000000", "maxBet":"1500"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0452", "type": "922", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0452", "type": "395", "size": "100000", "maxBet":"1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0452", "type": "922", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0452", "type": "395", "size": "100000", "betOne": "2500"}]
+      ],
+      "ticketTag": [ "9201", "9202", "9203" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0452_9201",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9459",
+      "gameName": "PlentyOCoins",
+	  "volatility": "3.5",
+	  "rtp": "96",
+      "poolId": "0452",
+      "poolType": [ "922" ],
+      "poolSize": [ "1000000" ],
+	  "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0452", "type": "922", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0452", "type": "395", "size": "100000", "maxBet":"1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0452", "type": "922", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0452", "type": "395", "size": "100000", "betOne": "2500"}]
+      ],
+      "ticketTag": [ "9201", "9202", "9203" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0452_9201",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9470",
+"gameName": "ApollosRiches",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0470",
+		"poolObjects": [
+          [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0470", "type": "952", "size": "1000000"},
+            {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0470", "type": "395", "size": "100000"}],
+          [ ]
+        ],
+      "poolType": [ "952", "910" ],
+      "poolSize": [ "1000000" ],
+      "ticketTag": [ "9510", "9511", "9512" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9497",
+      "gameName": "DayOfTheDead",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0470",
+		"poolObjects": [
+          [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0470", "type": "952", "size": "1000000"},
+            {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0470", "type": "395", "size": "100000"}],
+          [ ]
+        ],
+      "poolType": [ "952", "910" ],
+      "poolSize": [ "1000000" ],
+      "ticketTag": [ "9510", "9511", "9512" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9457",
+      "gameName": "MarkOfZ",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0457",
+      "poolType": [ "921", "911" ],
+      "poolSize": [ "1000000", "1000000" ],
+	  "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0457", "type": "921", "size": "1000000", "maxBet":"1500"},
+		  {"idx": 31, "bet": "any","mult": "1",  "tag": "PFG",  "id": "0457", "type": "921", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0457", "type": "395", "size": "100000", "maxBet":"1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0457", "type": "921", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0457", "type": "395", "size": "100000", "betOne": "2500"}]
+      ],
+      "ticketTag": [ "9110", "9111", "9112" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0457_9110",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9520",
+      "gameName": "GoldenPride",
+	  "volatility": "3.5",
+	  "rtp": "96",
+      "poolId": "0521",
+      "poolType": [ "951" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0521", "type": "951", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0521", "type": "395", "size": "100000", "maxBet":"1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0521", "type": "951", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "100", "tag": "GAB",  "id": "0521", "type": "395", "size": "100000", "maxBet":"1500"}]
+      ],
+      "poolSize": [ "1000000" ],
+      "ticketTag": [ "9100", "9101" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0521_9100",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9521",
+      "gameName": "TigerHunt",
+	  "volatility": "2.5",
+	  "rtp": "96",
+      "poolId": "0521",
+      "poolType": [ "951" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0521", "type": "951", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0521", "type": "395", "size": "100000", "maxBet":"1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0521", "type": "951", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "100", "tag": "GAB",  "id": "0521", "type": "395", "size": "100000", "maxBet":"1500"}]
+      ],
+      "poolSize": [ "1000000" ],
+      "ticketTag": [ "9100", "9101" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0521_9100",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9568",
+      "gameName": "SantaGiftHunt",
+	  "volatility": "2.5",
+	  "rtp": "96",
+      "poolId": "0521",
+      "poolType": [ "9100" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0521", "type": "9100", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0521", "type": "9555", "size": "100000", "maxBet":"1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0521", "type": "9100", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "100", "tag": "GAB",  "id": "0521", "type": "9555", "size": "100000", "maxBet":"1500"}]
+      ],
+      "poolSize": [ "1000000" ],
+      "ticketTag": [ "9100", "9101" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0521_9100",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9544",
+      "gameName": "ZombieHunt",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0521",
+      "poolType": [ "9100" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0521", "type": "9100", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0521", "type": "9555", "size": "100000", "maxBet":"1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0521", "type": "9100", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "100", "tag": "GAB",  "id": "0521", "type": "9555", "size": "100000", "maxBet":"1500"}]
+      ],
+      "poolSize": [ "1000000" ],
+      "ticketTag": [ "9100", "9101" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0521_9100",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9515",
+      "gameName": "BlueBirdBonus",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0515",
+      "poolType": [ "941" ],
+      "poolSize": [ "1000000" ],
+      "ticketTag": [ "9200", "9201", "9202" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0515_9200",
+      "type": "slot",
+      "storeRawTicket": true,
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0515", "type": "941", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0515", "type": "395", "size": "100000",  "maxBet":"1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0515", "type": "941", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0515", "type": "395", "size": "100000",  "maxBet":"1500"}]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+	{
+      "gameId": "9540",
+      "gameName": "QuickWinsDiamonds",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0432",
+      "poolType": [ "1401", "881" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "1401", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "1401", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9300", "9301" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "95540",
+      "gameName": "QuickWinsDiamondsHR",
+	  "volatility": "3",
+	  "rtp": "95",
+      "poolId": "0432",
+      "poolType": [ "941", "881" ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9300", "9301" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+	{
+      "gameId": "9541",
+      "gameName": "QuickWinsDiamonds7s",
+	  "volatility": "3",
+	  "rtp": "94",
+      "poolId": "0432",
+      "poolType": [ "1401", "881" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "1401", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "1401", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9300", "9301" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+"betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "95541",
+      "gameName": "QuickWinsDiamonds7sHR",
+	  "volatility": "3.0",
+	  "rtp": "92",
+      "poolId": "0432",
+      "poolType": [ "941", "881" ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9300", "9301" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9542",
+      "gameName": "YayDiamond10X",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0449",
+      "poolType": [ "1401", "488" ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9201" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "95542",
+      "gameName": "YayDiamond10XHR",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0449",
+      "poolType": [ "941", "488" ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9201" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "9543",
+      "gameName": "QuickWinsDiamonds",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0432",
+      "poolType": [ "1401", "881" ],
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "1401", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0432", "type": "1401", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0432", "type": "388", "size": "100000", "betOne": "1500"}]
+      ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9300", "9301" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+    {
+      "gameId": "95543",
+      "gameName": "QuickWinsDiamondsHR",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0432",
+      "poolType": [ "941", "881" ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9300", "9301" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+   {
+      "gameId": "9516",
+      "gameName": "PiratesRising",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0516",
+      "poolType": [ "9200" ],
+      "poolSize": [ "1000000" ],
+      "ticketTag": [ "9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0516_9200",
+      "type": "slot",
+      "storeRawTicket": true,
+      "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0516", "type": "9200", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0516", "type": "395", "size": "100000",  "maxBet":"1500"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0516", "type": "9200", "size": "1000000", "maxBet":"1500"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0516", "type": "395", "size": "100000",  "maxBet":"1500"}]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [
+                5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480,
+        1000,
+        1500
+          ],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [
+             5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        120,
+        240,
+        480
+          ],
+          "denoms": [1]
+        }
+      ]
+    },
+	{
+      "gameId": "9546",
+      "gameName": "FlamingSkulls",
+	  "volatility": "3",
+	  "rtp": "96",
+      "poolId": "0546",
+      "poolType": [ "961" ],
+      "poolSize": [ "1000000" ],
+      "ticketTag": [ "9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": true,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [ 1, 2, 3, 5, 10, 20 ],
+          "denoms": [ 1 ]
+        }
+      ]
+    },
+	{
+	  "gameId": "9525",
+	  "gameName": "MayanMadness",
+	  "volatility": "5",
+	  "rtp": "95",
+	  "poolId": "0525",
+	  "poolType": [ "100" ],
+	  "poolObjects": [
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0525", "type": "100", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "50", "tag": "GAB",  "id": "0525", "type": "100", "size": "100000", "betOne": "1000"}],
+        [ {"idx": 0,  "bet": "any","mult": "1",  "tag": "REG",  "id": "0525", "type": "100", "size": "1000000"},
+          {"idx": 21, "bet": "any","mult": "100", "tag": "GAB",  "id": "0525", "type": "100", "size": "100000", "betOne": "1000"}]
+      ],
+	  "poolSize": [ "1159" ],
+	  "ticketTag": [ "9200", "9201" ],
+	  "ticketLegacyFile": null,
+	  "optionGameTicketFile": "tickets_0525_9201",
+	  "type": "slot",
+	  "storeRawTicket": false,
+	  "betLevelObjects": [
+		{
+		  "id": 1,
+		  "entryLevels": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			10,
+			15,
+			20,
+			30,
+			40,
+			50,
+			60,
+			80,
+			100,
+			200,
+			300,
+			400,
+			500,
+			600,
+			700,
+			800,
+			1000,
+			2000,
+			3000,
+			4000,
+			5500
+		  ],
+		  "denoms": [ 1 ]
+		},
+		{
+		  "id": 2,
+		  "entryLevels": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			10,
+			15,
+			20,
+			30,
+			40,
+			50,
+			60,
+			80,
+			100,
+			200,
+			300,
+			400,
+			500,
+			600,
+			700,
+			800
+		  ],
+		  "denoms": [ 1 ]
+		}
+	  ]
+	},
+	{
+	  "gameId": "9519",
+	  "gameName": "JewelsOfCleopatra",
+	  "volatility": "2",
+	  "rtp": "96",
+	  "poolId": "0519",
+      "poolType": [ "9200", "9201" ],
+      "poolSize": [ "1000000", "1000000" ],
+      "ticketTag": [ "9200", "9201" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0519_9201",
+	  "type": "slot",
+	  "storeRawTicket": false,
+	  "betLevelObjects": [
+		{
+		  "id": 1,
+		  "entryLevels": [ 1, 2, 3, 4, 5 ],
+		  "denoms": [ 1 ]
+		}
+	  ]
+	},
+    {
+      "gameId": "9548",
+      "gameName": "PharaohsQuest",
+	  "volatility": "2",
+	  "rtp": "96",
+      "poolId": "0548",
+      "poolType": [ "9999" ],
+      "poolSize": [ "1000000" ],
+      "ticketTag": [ "9200", "9201" ],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false,
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [ 1, 2, 5, 10, 20, 30, 40, 50, 100, 150, 200 ],
+          "denoms": [ 1 ]
+        }
+      ]
+    }
+  ]
+}

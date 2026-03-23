@@ -1,0 +1,148 @@
+<?xml version = "1.0"?>
+
+<SLOT
+	TotalReels="15"
+	Lines="20"
+	Col="5"
+    Row="3"
+	Pay="Max"
+	DefComb="LeftToRight"
+	Wild="9"
+	Scatter="8"
+	ScatterReplacedByWild="No"
+	WildReplace="OnLine"
+	Wildx2="n"
+	>
+
+	<!-- play lines  -->
+	<LINES Total="20" LineSizes="5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5 ">
+		<LINE Reel="5  6  7  8  9 "/>
+		<LINE Reel="0  1  2  3  4" />
+		<LINE Reel="10 11 12 13 14" />
+		<LINE Reel="0 6 12 8 4" />
+		<LINE Reel="10 6 2 8 14" />
+		<LINE Reel="0  1 7 13 14" />
+		<LINE Reel="10 11  7 3 4" />
+		<LINE Reel="5 1 7 13 9  " />
+		<LINE Reel="5  11  7  3  9" />
+		<LINE Reel="0 6 7 8 14"/>
+		<LINE Reel="10 6 7 8 4"/>
+		<LINE Reel="5 1 2 8 14"/>
+		<LINE Reel="5 11 12 8 4"/>
+		<LINE Reel="5 6 2 8 14"/>
+		<LINE Reel="5 6 12 8 4"/>
+		<LINE Reel="0 6 2 8 14"/>
+		<LINE Reel="10 6 12 8 4"/>
+		<LINE Reel="10 6 2 3 9"/>
+		<LINE Reel="0 6 12 13 9"/>
+		<LINE Reel="0 6 7 13 9"/>
+</LINES>
+
+
+	<WINCOMB >
+		<COMB Symb="9"  Numb="5" Prize="20000"/>
+		<COMB Symb="0"  Numb="5" Prize="2500"/>
+		<COMB Symb="0"  Numb="4" Prize="250"/>
+		<COMB Symb="0"  Numb="3" Prize="80"/>
+		<COMB Symb="0"  Numb="2" Prize="3"/>
+
+		<COMB Symb="1"  Numb="5" Prize="800"/>
+		<COMB Symb="1"  Numb="4" Prize="100"/>
+		<COMB Symb="1"  Numb="3" Prize="15"/>
+
+		<COMB Symb="2"  Numb="5" Prize="200"/>
+		<COMB Symb="2"  Numb="4" Prize="50"/>
+		<COMB Symb="2"  Numb="3" Prize="10"/>
+
+		<COMB Symb="3"  Numb="5" Prize="150"/>
+		<COMB Symb="3"  Numb="4" Prize="30"/>
+		<COMB Symb="3"  Numb="3" Prize="8"/>
+
+		<COMB Symb="4"  Numb="5" Prize="100"/>
+		<COMB Symb="4"  Numb="4" Prize="25"/>
+		<COMB Symb="4"  Numb="3" Prize="7"/>
+
+		<COMB Symb="5"  Numb="5" Prize="70"/>
+		<COMB Symb="5"  Numb="4" Prize="23"/>
+		<COMB Symb="5"  Numb="3" Prize="6"/>
+
+		<COMB Symb="6"  Numb="5" Prize="45"/>
+		<COMB Symb="6"  Numb="4" Prize="22"/>
+		<COMB Symb="6"  Numb="3" Prize="5"/>
+
+		<COMB Symb="7"  Numb="5" Prize="40"/>
+		<COMB Symb="7"  Numb="4" Prize="20"/>
+		<COMB Symb="7"  Numb="3" Prize="4"/>
+
+		<COMB Symb="8"  Numb="3" Prize="5"  />
+		<COMB Symb="8"  Numb="4" Prize="20"  />
+		<COMB Symb="8"  Numb="5" Prize="100"  />
+	</WINCOMB>
+
+<!-- Reels configuration  -->
+
+<REELS Type="Strips" TotalProb="5" TotalSymbIds="11" Gain_Replaced_ShowFinite="2" Icon_Replaced_Id="10" Gain_Replaced_Id="1" FreqSizes="79,82,67,38,47">
+  <Set reel="0 1 2 3 4" />
+  <PROB Symb="10 0 2 1 3 4 9 2 3 5 4 7 1 6 7 3 4 1 7 6 2 10 3 7 1 6 4 9 2 7 5 6 1 7 6 2 4 6 5 7 1 3 6 4 7 5 3 1 2 5 4 6 1 7 3 6 1 9 2 5 4 8 1 6 3 2 5 7 3 6 1 9 5 8 2 4 5 10 0" />
+  <PROB Symb="6 0 7 5 2 3 9 5 4 1 7 2 8 5 3 4 7 6 1 5 4 7 3 2 1 4 5 2 1 3 5 4 7 9 5 3 0 2 6 1 5 4 7 3 5 9 1 6 4 7 6 2 8 1 6 2 5 9 7 2 1 6 3 7 10 3 1 4 6 7 9 4 1 3 7 6 5 10 1 2 6 0" />
+  <PROB Symb="2 0 1 6 7 2 6 3 1 4 7 8 1 2 3 4 1 7 5 2 6 3 7 4 1 5 7 6 3 1 5 6 4 10 5 2 3 6 4 7 3 1 5 6 4 2 5 6 2 1 3 4 7 5 1 3 2 6 9 7 5 8 1 4 6 2 0" />
+  <PROB Symb="5 0 3 6 4 5 2 6 7 3 8 4 2 6 5 3 9 7 2 10 3 5 7 2 1 6 4 7 5 2 3 4 8 6 7 4 5 0" />
+  <PROB Symb="4 0 6 5 7 6 3 5 6 7 4 6 9 5 6 3 1 5 6 8 6 7 6 4 5 9 6 5 7 6 5 3 6 2 5 6 9 5 6 7 5 6 8 10 6 4 0" />
+  </REELS>
+
+
+<GAINGAME>
+		<GAIN Id="20"  Prize="0,8,11,20" Prob="97500,1200,1100,200" />
+		<GAIN Id="15"  Prize="0,1" Prob="960,40"  />
+		<GAIN Id="16"  Prize="6,7,8,9,11,13,15,16,22,28,35,45,100" Prob="6,10,10,10,10,10,8,8,9,5,5,8,1" />
+		<GAIN Id="21"  Prize="8,11,20" Prob="48,44,8"/>
+		<GAIN Id="17"  Prize="0,0,0,0,0,0,0,0,0,0,0,1,1" Prob="0,0,0,0,0,0,0,0,0,0,0,100,100" />
+		<GAIN Id="22"  Prize="0,0" Prob="100,100" />
+		<GAIN Id="1"   Prize="0,1,2,3,4,5,6,7" Prob="1,1,1,1,1,1,1,1" />
+                <GAIN Id="2"   Prize="0,1" Prob="95,5" />
+</GAINGAME>
+
+<FREESPIN >
+	<GAME Id="1"   Type="4" GainId="20" Collect_id="10" Name="main" />
+	<GAME Id="2"   Type="1" GainId="22" GainIdSendPaytable="21" Name="bonus"/>
+</FREESPIN>
+
+
+<!-- bonus game
+	type:							//	type of bonus game:
+									//	1 - random, no icons
+									//	2 - icons
+									//	3 - combinations
+									//
+	betPercentage:					//	min of total bet (%)  to play bonus game
+
+	reset:							//	1 - reset after bonus game
+									//	2 - reset after spin
+									//	3 - (accumulative_current = accumulative_max - accumulative_current)
+	Accumulate:						//
+	GainPlayBonus:					//	distribution to play bonus
+	GainBonusPayout:				//	bonus payout
+	GainPlayFreeGame:				//	distribution to play free game inside bonus
+	GainFreeGamePayout:				//	distribution to play free game inside bonus
+	Collect_id:						//	icon id or combination id to accumulate or -1 (no icons)
+	Exeption:						//	indexes on slot where bonus icon or combination do not calculate
+	Exeption="0,1,2,6,7,8"
+	Exact:  				  		//	1 - combination  = collect_id
+									//	0 - combination  >= collect_id
+
+
+-->
+<BONUS>
+	<GAME Id="1" Type="4" Reset="EverySpin" GainPlayBonus="15" GainBonusPayout="16" Collect_id="10"
+	Accumulate="1"  GainPlayFreeGame="17" GainFreeGamePayout="21" FreeGameId="2"/>
+</BONUS>
+
+<SKILLS_SCALE min="0" max="110" step="5">
+</SKILLS_SCALE>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+
+</SLOT>
+
+

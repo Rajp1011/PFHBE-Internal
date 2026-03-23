@@ -1,0 +1,87 @@
+<?xml version = "1.0"?>
+
+<!-- Diamond 10x v1 -->
+<GAMES>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+
+<SKILLS_SCALE min="50" max="110" step="5">
+</SKILLS_SCALE>
+
+<!-- math parametrs  BetOne is the bet was used to build the pool  e.i. betlevel 1 for denom 1 or min possible bet -->
+	<MATH BetOne="1"/>
+
+<FEATURE ID="0" type="REELS" name="Base Game" tag="">
+<SLOT
+	TotalReels="15"
+	Lines="1"
+	Col="3"
+   	Row="5"			
+	Pay="Max"
+	DefComb="LeftToRight"	
+    Wild="13"
+	Scatter="-1"
+	ScatterReplacedByWild="No"
+	WildReplace="OnLine"
+	PrintSlotResult="no"	
+  >	
+	<TICKETS payout="9201" size="15" >
+	</TICKETS>
+	<!-- play lines  -->
+	<LINES Total="1" LineSizes="3">
+			<LINE Reel="6 7 8" />
+	</LINES>
+
+	<WILDS nWilds="5" >
+		<wild id="7" mulpl="2" />
+		<wild id="8" mulpl="3" />
+		<wild id="9" mulpl="4" />
+		<wild id="10" mulpl="5" />
+		<wild id="11" mulpl="10" />
+	</WILDS>
+
+	<!-- win combinations  -->
+	<WINCOMB Total="13" >	
+
+		<COMB Symb="1"  Numb="3" Prize="100" />
+		<COMB Symb="2"  Numb="3" Prize="50" />
+		<COMB Symb="3"  Numb="3" Prize="30" />				
+		<COMB Symb="4"  Numb="3" Prize="20" />
+		<COMB Symb="5"  Numb="3" Prize="10" />
+		
+		<COMB Symb="6"  Numb="3" Prize="5" />
+		
+		<!-- Spicial 61-99-->
+		
+		<COMB Symb="6,59,59"  Order="y" Numb="3" Prize="1" IDComb="81" /> 
+		
+		<COMB Symb="59,6,59"  Order="y" Numb="3" Prize="1" IDComb="82" />
+		
+		<COMB Symb="59,59,6"  Order="y" Numb="3" Prize="1" IDComb="83" />
+		
+		<COMB Symb="59,6,6"  Order="y" Numb="3" Prize="2" IDComb="84" />
+		
+		<COMB Symb="6,59,6"  Order="y" Numb="3" Prize="2" IDComb="85" />
+		
+		<COMB Symb="6,6,59"  Order="y" Numb="3" Prize="2" IDComb="86" />
+		
+		
+
+		<!--any bar-->		
+        <COMB Symb="3 4 5"  Order="n" Numb="3" Prize="3" IDComb="62" />		
+
+	</WINCOMB>
+	
+	<REELS Type="Strips" TotalProb="3" TotalSymbIds="12" FreqSizes="88,88,158">
+	  <Set reel="0 1 2 " /> 
+	  <PROB Symb="12,6,12,4,12,5,12,3,12,4,12,6,12,2,12,5,12,3,12,5,12,4,12,6,12,1,12,6,12,4,12,5,12,3,12,5,12,6,12,2,12,5,12,4,12,6,12,5,12,1,12,6,12,4,12,5,12,3,12,4,12,3,12,6,12,2,12,5,12,1,12,6,12,5,12,4,12,2,12,3,12,5,12,6,12,4,12,5" />
+	  <PROB Symb="12,6,12,5,12,4,12,3,12,6,12,4,12,5,12,2,12,6,12,5,12,3,12,1,12,5,12,4,12,6,12,5,12,4,12,3,12,2,12,5,12,2,12,6,12,4,12,3,12,6,12,5,12,1,12,6,12,5,12,4,12,6,12,3,12,5,12,6,12,2,12,5,12,4,12,4,12,1,12,3,12,5,12,6,12,3,12,4" />
+	  <PROB Symb="12,6,12,4,12,5,12,6,12,3,12,4,12,3,12,5,12,1,12,4,12,3,12,2,12,8,12,7,12,6,12,4,12,5,12,3,12,6,12,8,12,2,12,1,12,7,12,5,12,4,12,6,12,3,12,2,12,9,12,5,12,6,12,4,12,5,12,3,12,1,12,7,12,2,12,6,12,5,12,4,12,11,12,10,12,9,12,8,12,7,12,6,12,5,12,4,12,2,12,1,12,5,12,6,12,4,12,10,12,5,12,5,12,6,12,2,12,4,12,7,12,3,12,6,12,4,12,5,12,3,12,7,12,8,12,4,12,3,12,2,12,5,12,3,12,4,12,9,12,5,12,6,12,3,12,5,12,1" />
+
+	 </REELS>
+
+</SLOT>
+</FEATURE>
+
+</GAMES>

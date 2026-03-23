@@ -1,0 +1,89 @@
+{//DevilsHot7
+  //201	490	9001	GameEngines\0201\GameEngineDevilsHotSS.dll	gameengine_0201_9001	tickets_0201_9001
+      "gameId": "9201",
+      "cascade": false,
+      "reelCount": 15,
+      "betOne": 25, 
+      "lineDirection": 0, 
+      "scatter":8,
+      "wilds": [
+        { "symbolId": 9, "multiplier": [1,1,1,1,1,1], "exclusion": [8] }
+       ],
+       "paytables":[
+          {
+            "id":1,
+            "filter":1,
+            "items": [
+                {"symbolIds":[9],"count":5,"prize":1500},
+                {"symbolIds":[8],"count":5,"prize":100, "multiFactor":0},
+                {"symbolIds":[8],"count":4,"prize":10, "multiFactor":0},
+                {"symbolIds":[8],"count":3,"prize":5, "multiFactor":0},
+                {"symbolIds":[8],"count":2,"prize":2, "multiFactor":0},
+                {"symbolIds":[1],"count":5,"prize":1000},
+                {"symbolIds":[1],"count":4,"prize":400},
+                {"symbolIds":[1],"count":3,"prize":75},
+                {"symbolIds":[2],"count":5,"prize":750},
+                {"symbolIds":[2],"count":4,"prize":300},
+                {"symbolIds":[2],"count":3,"prize":50},
+                {"symbolIds":[3],"count":5,"prize":500},
+                {"symbolIds":[3],"count":4,"prize":250},
+                {"symbolIds":[3],"count":3,"prize":25},
+                {"symbolIds":[4],"count":5,"prize":300},
+                {"symbolIds":[4],"count":4,"prize":150},
+                {"symbolIds":[4],"count":3,"prize":15},
+                {"symbolIds":[5],"count":5,"prize":200},
+                {"symbolIds":[5],"count":4,"prize":75},
+                {"symbolIds":[5],"count":3,"prize":10},
+                {"symbolIds":[6],"count":5,"prize":150},
+                {"symbolIds":[6],"count":4,"prize":30},
+                {"symbolIds":[6],"count":3,"prize":5},
+                {"symbolIds":[4,5,6],"count":5,"prize":100, "combId":61},
+                {"symbolIds":[4,5,6],"count":4,"prize":25, "combId":62},
+                {"symbolIds":[7],"count":5,"prize":100},
+                {"symbolIds":[7],"count":4,"prize":25},
+                {"symbolIds":[7],"count":3,"prize":5},
+                {"symbolIds":[7],"count":2,"prize":2}
+              ]
+          }
+      ],
+      "lines":[
+        [5,6,7,8,9],
+        [0,1,2,3,4],
+        [10,11,12,13,14],
+        [0,6,12,8,4],
+        [10,6,2,8,14],
+        [10,6,7,3,4],
+        [0,6,7,13,14],       
+        [5,1,12,8,4],
+        [5,11,2,8,14],
+        [10,1,2,8,9],
+        [5,11,12,13,9],
+        [0,11,2,13,4],
+        [10,1,12,3,14],
+        [5,1,2,8,14],
+        [0,11,12,8,9],
+        [0,11,7,3,4],
+        [0,6,2,8,4],
+        [5,1,7,3,9],
+        [5,11,7,13,9],
+        [10,1,7,13,14],
+        [10,1,12,8,4],
+        [10,6,12,8,14],
+        [10,1,7,8,14],
+        [0,11,2,8,14],
+        [5,11,12,8,4]
+      ],
+      "triggerMapping": [
+        {"tag": "TF1", "value": "TF1"},
+        {"tag": "TF2", "value": "TF2"},
+        {"tag": "TB1", "value": "TB1"},
+        {"tag": "TB2", "value": "TB2"},
+        {"tag": "TB3", "value": "TB3"}
+      ],
+      "debugFeatureMapping": [
+        {"tag": "MW", "values": null},
+        {"tag": "ML", "values": null},
+        {"tag": "FS", "values": ["TF1","TF2"]},
+        {"tag": "BG", "values": ["TB1","TB2","TB3"]}
+      ]
+}

@@ -1,0 +1,351 @@
+<?xml version = "1.0"?>
+
+<!-- Quick Wins paytable v2-->
+
+<GAMES>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+
+<SKILLS_SCALE min="50" max="110" step="5">
+</SKILLS_SCALE>
+
+<!-- math parametrs  BetOne is the bet was used to build the pool  e.i. betlevel 1 for denom 1 or min possible bet -->
+	<MATH BetOne="30"/>
+
+<FEATURE ID="0" type="REELS" name="Base Game" tag="">
+
+<SLOT
+	TotalReels="15"
+	Lines="30"
+	Col="5"
+   	Row="3"			
+	Pay="Max"
+	DefComb="LeftToRight"	
+	Scatter="9"
+    Wild="1"
+	ScatterReplacedByWild="No"
+	WildReplace="OnLine"
+	PrintSlotResult="No"	
+  >	
+
+<TICKETS payout="9300" size="15" >
+</TICKETS>
+
+	<!-- play lines  -->
+<LINES Total="30" LineSizes="5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5 ">
+
+	<LINE Reel="5,6,7,8,9"/>
+	<LINE Reel="0,1,2,3,4"/>
+	<LINE Reel="10,11,12,13,14"/>
+	<LINE Reel="0,6,12,8,4"/>
+	<LINE Reel="10,6,2,8,14"/>
+	<LINE Reel="5,1,2,3,9"/>
+	<LINE Reel="5,11,12,13,9"/>
+	<LINE Reel="0,1,7,13,14"/>
+	<LINE Reel="10,11,7,3,4"/>
+	<LINE Reel="5,1,7,3,9"/>
+	<LINE Reel="5,11,7,13,9"/>
+	<LINE Reel="0,6,7,8,14"/>
+	<LINE Reel="10,6,7,8,4"/>
+	<LINE Reel="5,6,2,8,14"/>
+	<LINE Reel="5,6,12,8,4"/>
+	<LINE Reel="0,6,2,8,4"/>
+	<LINE Reel="10,6,12,8,14"/>
+	<LINE Reel="0,1,12,3,4"/>
+	<LINE Reel="10,11,2,13,14"/>
+	<LINE Reel="5,1,12,3,9"/>
+	<LINE Reel="5,11,2,13,9"/>
+	<LINE Reel="0,11,2,13,4"/>
+	<LINE Reel="10,1,12,3,14"/>
+	<LINE Reel="0,11,12,13,4"/>
+	<LINE Reel="10,1,2,3,14"/>
+	<LINE Reel="0,11,7,13,4"/>
+	<LINE Reel="10,1,7,3,14"/>
+	<LINE Reel="5,6,12,8,9"/>
+	<LINE Reel="5,6,2,8,9"/>
+	<LINE Reel="0,11,2,8,9"/>
+
+</LINES>
+
+
+	<!-- win combinations  -->
+	<WINCOMB Total="41" Special="6">	
+		<COMB Symb="1"  Numb="5" Prize="1500" />
+		<COMB Symb="1"  Numb="4" Prize="1000" />
+		<COMB Symb="1"  Numb="3" Prize="200" />
+		
+		<COMB Symb="2"  Numb="5" Prize="1000" />
+		<COMB Symb="2"  Numb="4" Prize="500" />
+		<COMB Symb="2"  Numb="3" Prize="100" />
+		
+		<COMB Symb="3"  Numb="5" Prize="500" />
+		<COMB Symb="3"  Numb="4" Prize="200" />
+		<COMB Symb="3"  Numb="3" Prize="50" />
+		
+		<COMB Symb="4"  Numb="5" Prize="200" />
+		<COMB Symb="4"  Numb="4" Prize="100" />							
+		<COMB Symb="4"  Numb="3" Prize="30" />
+		<!-- any 7 -->
+		<COMB Symb="2 3 4"  Order="N" Numb="5" Prize="100" IDComb="61" />
+		<COMB Symb="2 3 4"  Order="N" Numb="4" Prize="50" IDComb="62" />
+		<COMB Symb="2 3 4"  Order="N" Numb="3" Prize="10" IDComb="63" />
+		
+		<COMB Symb="5"  Numb="5" Prize="100" />
+		<COMB Symb="5"  Numb="4" Prize="50" />
+		<COMB Symb="5"  Numb="3" Prize="10" />
+		
+		<COMB Symb="6"  Numb="5" Prize="50" />
+		<COMB Symb="6"  Numb="4" Prize="25" />
+		<COMB Symb="6"  Numb="3" Prize="5" />
+
+		<!-- any bar -->
+		<COMB Symb="5 6"  Order="N" Numb="5" Prize="30" IDComb="64" />
+		<COMB Symb="5 6"  Order="N" Numb="4" Prize="5" IDComb="65" />
+        <COMB Symb="5 6"  Order="N" Numb="3" Prize="2" IDComb="66" />
+		
+		<COMB Symb="7"  Numb="5" Prize="30" />
+		<COMB Symb="7"  Numb="4" Prize="10" />							
+		<COMB Symb="7"  Numb="3" Prize="5" />
+
+		<COMB Symb="8"  Numb="5" Prize="30" />
+		<COMB Symb="8"  Numb="4" Prize="10" />							
+		<COMB Symb="8"  Numb="3" Prize="5" />
+		
+		<!-- scatters -->
+		<COMB Symb="9"  Numb="5" Prize="500" />
+		<COMB Symb="9"  Numb="4" Prize="25" />
+		<COMB Symb="9"  Numb="3" Prize="2" />
+
+		<!-- fs trigger pays as scatter -->
+		<COMB Type="3" Symb="11" Numb="3" Prize="1"/>
+
+		<COMB Type="4" Symb="10" Numb="9" Prize="15000"/>
+		<COMB Type="4" Symb="10" Numb="8" Prize="7500" />
+		<COMB Type="4" Symb="10" Numb="7" Prize="3000" />
+		<COMB Type="4" Symb="10" Numb="6" Prize="1350" />
+		<COMB Type="4" Symb="10" Numb="5" Prize="360" />
+		<COMB Type="4" Symb="10" Numb="4" Prize="150" />
+		<COMB Type="4" Symb="10" Numb="3" Prize="30" />
+
+	</WINCOMB>
+	
+<REELS Type="Strips" TotalProb="5" TotalSymbIds="11" FreqSizes="38,39,30,26,18">
+	  <Set reel="0 1 2 3 4" /> 
+	  <PROB Symb="4,9,2,8,4,5,3,7,4,6,1,4,5,3,8,7,10,8,7,3,8,7,8,7,1,6,8,7,6,8,1,7,5,8,6,7,5,1" 
+		Weight ="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3,3,3,1,1,1,6,6,1,1,1,7,7,7,1,1,1,7,7,7,7,1,1" />
+	  <PROB Symb="3,10,10,7,2,8,4,7,11,4,7,5,3,6,5,3,7,2,1,7,3,7,2,8,11,7,3,9,4,8,7,1,2,7,3,1,2,8,7" 
+		Weight ="1,1,1,1,1,1,1,9,9,9,1,1,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" />
+	  <PROB Symb="8,1,7,3,8,9,6,8,10,10,10,8,7,6,8,5,11,6,8,5,4,8,6,5,8,6,2,11,8,5" 		
+		Weight ="1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,5,5,5,5,1,1,1,2,2,2,1,1,1,1,1" />
+	  <PROB Symb="8,4,6,7,2,8,4,1,8,3,5,4,6,2,7,10,10,3,5,1,2,8,9,3,7,11" 
+		Weight ="1,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" />
+	  <PROB Symb="2,10,3,7,4,6,7,2,5,8,4,6,1,3,8,9,5,3"
+		Weight ="1,1,1,1,1,4,4,4,4,4,4,1,1,1,1,2,1,1" />
+</REELS>
+
+<TRIGGERS>
+<Game id="9" name="9 of a kind JP"  triggerType="1" sym="910" nSym="1"  pattern="-1"  tag="TQ9" switchTo="2" />
+<Game id="8" name="8 of a kind JP"  triggerType="1" sym="810" nSym="1"  pattern="-1" tag="TQ8"  switchTo="2" />
+<Game id="7" name="7 of a kind JP" triggerType="1" sym="710" nSym="1"  pattern="-1" tag="TQ7" switchTo="2" />
+<Game id="6" name="6 of a kind JP"  triggerType="1" sym="610" nSym="1"  pattern="-1" tag="TQ6" switchTo="2" />
+<Game id="5" name="5 of a kind JP"  triggerType="1" sym="510" nSym="1" pattern="-1" tag="TQ5" switchTo="2" />
+<Game id="4" name="4 of a kind JP"  triggerType="1" sym="410" nSym="1"  pattern="-1" tag="TQ4" switchTo="2" />
+<Game id="3" name="3 of a kind JP"  triggerType="1" sym="310" nSym="1"  pattern="-1" tag="TQ3" switchTo="2" />
+
+<Game id="1" name="FS" triggerType="22" sym="11" nSym="3" pattern="-1" tag="TF1" switchTo="1"/>
+
+<Game id="10" name="3 Scatters" triggerType="21" sym="9" nSym="3" pattern="-1" tag="TS3" switchTo="0"/>
+<Game id="11" name="4 Scatters" triggerType="21" sym="9" nSym="4" pattern="-1" tag="TS4" switchTo="0"/>
+<Game id="12" name="5 Scatters" triggerType="21" sym="9" nSym="5" pattern="-1" tag="TS5" switchTo="0"/>
+
+</TRIGGERS>
+
+</SLOT>
+</FEATURE>
+
+<FEATURE ID="1" type="FSREELS" name="Free spins Game" tag="TF" maxFS="50">
+
+<SLOT
+	TotalReels="15"
+	Lines="30"
+	Col="5"
+   	Row="3"			
+	Pay="Max"
+	DefComb="LeftToRight"	
+	Scatter="9"
+    Wild="1"
+	ScatterReplacedByWild="No"
+	WildReplace="OnLine"
+	PrintSlotResult="No"	
+  >	
+
+<TICKETS payout="9301" size="15" >
+</TICKETS>
+
+	<!-- play lines  -->
+<LINES Total="30" LineSizes="5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5 ">
+
+	<LINE Reel="5,6,7,8,9"/>
+	<LINE Reel="0,1,2,3,4"/>
+	<LINE Reel="10,11,12,13,14"/>
+	<LINE Reel="0,6,12,8,4"/>
+	<LINE Reel="10,6,2,8,14"/>
+	<LINE Reel="5,1,2,3,9"/>
+	<LINE Reel="5,11,12,13,9"/>
+	<LINE Reel="0,1,7,13,14"/>
+	<LINE Reel="10,11,7,3,4"/>
+	<LINE Reel="5,1,7,3,9"/>
+	<LINE Reel="5,11,7,13,9"/>
+	<LINE Reel="0,6,7,8,14"/>
+	<LINE Reel="10,6,7,8,4"/>
+	<LINE Reel="5,6,2,8,14"/>
+	<LINE Reel="5,6,12,8,4"/>
+	<LINE Reel="0,6,2,8,4"/>
+	<LINE Reel="10,6,12,8,14"/>
+	<LINE Reel="0,1,12,3,4"/>
+	<LINE Reel="10,11,2,13,14"/>
+	<LINE Reel="5,1,12,3,9"/>
+	<LINE Reel="5,11,2,13,9"/>
+	<LINE Reel="0,11,2,13,4"/>
+	<LINE Reel="10,1,12,3,14"/>
+	<LINE Reel="0,11,12,13,4"/>
+	<LINE Reel="10,1,2,3,14"/>
+	<LINE Reel="0,11,7,13,4"/>
+	<LINE Reel="10,1,7,3,14"/>
+	<LINE Reel="5,6,12,8,9"/>
+	<LINE Reel="5,6,2,8,9"/>
+	<LINE Reel="0,11,2,8,9"/>
+
+</LINES>
+
+
+	<!-- win combinations  -->
+	<WINCOMB Total="41" Special="6">	
+		<COMB Symb="1"  Numb="5" Prize="1500" />
+		<COMB Symb="1"  Numb="4" Prize="1000" />
+		<COMB Symb="1"  Numb="3" Prize="200" />
+		
+		<COMB Symb="2"  Numb="5" Prize="1000" />
+		<COMB Symb="2"  Numb="4" Prize="500" />
+		<COMB Symb="2"  Numb="3" Prize="100" />
+		
+		<COMB Symb="3"  Numb="5" Prize="500" />
+		<COMB Symb="3"  Numb="4" Prize="200" />
+		<COMB Symb="3"  Numb="3" Prize="50" />
+		
+		<COMB Symb="4"  Numb="5" Prize="200" />
+		<COMB Symb="4"  Numb="4" Prize="100" />							
+		<COMB Symb="4"  Numb="3" Prize="30" />
+		<!-- any 7 -->
+		<COMB Symb="2 3 4"  Order="N" Numb="5" Prize="100" IDComb="61" />
+		<COMB Symb="2 3 4"  Order="N" Numb="4" Prize="50" IDComb="62" />
+		<COMB Symb="2 3 4"  Order="N" Numb="3" Prize="10" IDComb="63" />
+		
+		<COMB Symb="5"  Numb="5" Prize="100" />
+		<COMB Symb="5"  Numb="4" Prize="50" />
+		<COMB Symb="5"  Numb="3" Prize="10" />
+		
+		<COMB Symb="6"  Numb="5" Prize="50" />
+		<COMB Symb="6"  Numb="4" Prize="25" />
+		<COMB Symb="6"  Numb="3" Prize="5" />
+
+		<!-- any bar -->
+		<COMB Symb="5 6"  Order="N" Numb="5" Prize="30" IDComb="64" />
+		<COMB Symb="5 6"  Order="N" Numb="4" Prize="5" IDComb="65" />
+        <COMB Symb="5 6"  Order="N" Numb="3" Prize="2" IDComb="66" />
+		
+		<COMB Symb="7"  Numb="5" Prize="30" />
+		<COMB Symb="7"  Numb="4" Prize="10" />							
+		<COMB Symb="7"  Numb="3" Prize="5" />
+
+		<COMB Symb="8"  Numb="5" Prize="30" />
+		<COMB Symb="8"  Numb="4" Prize="10" />							
+		<COMB Symb="8"  Numb="3" Prize="5" />
+		
+		<!-- scatters -->
+		<COMB Symb="9"  Numb="5" Prize="500" />
+		<COMB Symb="9"  Numb="4" Prize="25" />
+		<COMB Symb="9"  Numb="3" Prize="2" />
+
+		<!-- fs trigger pays as scatter -->
+		<COMB Type="3" Symb="11" Numb="3" Prize="1"/>
+
+		<COMB Type="4" Symb="10" Numb="9" Prize="15000"/>
+		<COMB Type="4" Symb="10" Numb="8" Prize="7500" />
+		<COMB Type="4" Symb="10" Numb="7" Prize="3000" />
+		<COMB Type="4" Symb="10" Numb="6" Prize="1350" />
+		<COMB Type="4" Symb="10" Numb="5" Prize="360" />
+		<COMB Type="4" Symb="10" Numb="4" Prize="150" />
+		<COMB Type="4" Symb="10" Numb="3" Prize="30" />
+
+	</WINCOMB>
+	
+	<REELS Type="Strips" TotalProb="5" TotalSymbIds="11" FreqSizes="36,51,30,26,30">
+	  <Set reel="0 1 2 3 4" /> 
+	  <PROB Symb="7,10,8,7,1,8,2,5,7,8,6,7,8,3,7,6,8,6,7,8,5,4,8,6,7,1,8,2,1,7,3,8,5,7,6,8" 
+		 Weight ="1, 1,1,1,1,1,1,1,1,11,11,11,1,1,1,1,1,6,6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1,1,1" />
+	  <PROB Symb="8,10,10,3,5,4,7,11,4,7,1,6,4,7,4,5,7,4,8,2,7,4,7,4,11,7,2,1,7,4,5,4,2,7,5,4,6,3,4,7,2,4,7,4,1,7,3,5,4,7,3" 
+		Weight ="1,1,1,1,1,1,8,8,8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" />
+	  <PROB Symb="4,8,1,8,6,8,3,8,10,10,10,8,2,6,8,5,11,8,6,8,5,7,6,8,5,6,8,5,7,6" 		
+		Weight ="1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,5,5,5,5,1,1,1,1,1,1,1,1,1,1,1" />
+	  <PROB Symb="8,4,6,7,2,8,4,7,8,3,5,8,6,4,7,10,10,7,5,1,2,8,3,8,5,11" 
+		Weight ="1,3,3,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" />
+	  <PROB Symb="2,10,4,6,2,5,3,8,4,3,6,7,5,6,7,5,4,6,1,5,7,6,8,5,3,6,8,2,7,4"
+		Weight ="1,1,1,1,1,1,1,1,1,1,1,3,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" />
+	</REELS>
+
+
+<FSGAMES>
+<GAME id="1" nSpins="20" multipl="3" tag="TF1"/>
+<GAME id="2" nSpins="15" multipl="2" tag="TF2"/>
+<GAME id="3" nSpins="11" multipl="2" tag="TF3"/>
+<GAME id="4" nSpins="10" multipl="2" tag="TF4"/>
+<GAME id="5" nSpins="7" multipl="2" tag="TF5"/>
+<GAME id="6" nSpins="5" multipl="2" tag="TF6"/>
+</FSGAMES>
+
+<INBONUS id="1"  name="Scrach"  type="13" numToCollects="3" gainPrize="1,2,3,4,5,6,7" gainProb="3,3,3,3,4,3,1"/>
+
+<TRIGGERS>
+<Game id="9" name="9 of a kind JP"  triggerType="1" sym="910" nSym="1"  pattern="-1"  tag="TQ9" switchTo="2" />
+<Game id="8" name="8 of a kind JP"  triggerType="1" sym="810" nSym="1"  pattern="-1" tag="TQ8"  switchTo="2" />
+<Game id="7" name="7 of a kind JP" triggerType="1" sym="710" nSym="1"  pattern="-1" tag="TQ7" switchTo="2" />
+<Game id="6" name="6 of a kind JP"  triggerType="1" sym="610" nSym="1"  pattern="-1" tag="TQ6" switchTo="2" />
+<Game id="5" name="5 of a kind JP"  triggerType="1" sym="510" nSym="1" pattern="-1" tag="TQ5" switchTo="2" />
+<Game id="4" name="4 of a kind JP"  triggerType="1" sym="410" nSym="1"  pattern="-1" tag="TQ4" switchTo="2" />
+<Game id="3" name="3 of a kind JP"  triggerType="1" sym="310" nSym="1"  pattern="-1" tag="TQ3" switchTo="2" />
+
+<Game id="8" name="FS" triggerType="22" sym="11" nSym="3" pattern="-1" tag="TF1"  switchTo="1"/>
+</TRIGGERS>
+
+<GFTICKETS fileName="tickets_0432_9301.fs" >
+</GFTICKETS>
+
+</SLOT>
+
+</FEATURE>
+
+<FEATURE ID="2" name="Internal Jackpot"  type="PIJACKPOT" name="" tag="TQ" spinContribution="100" Col="5" Row="3" Reels="15">
+
+<PIJACKPOT id="1" name="9 of a kind JP" gameType="1"  seed="500" spinContribution="20" triggerID="9"/>
+<PIJACKPOT id="2" name="8 of a kind JP" gameType="1"  seed="250" spinContribution="20" triggerID="8"/>
+<PIJACKPOT id="3" name="7 of a kind JP" gameType="1"  seed="100" spinContribution="20" triggerID="7"/>
+<PIJACKPOT id="4" name="6 of a kind JP" gameType="1"  seed="45" spinContribution="20" triggerID="6"/>
+<PIJACKPOT id="5" name="5 of a kind JP" gameType="1"  seed="12" spinContribution="20" triggerID="5"/>
+<PIJACKPOT id="6" name="4 of a kind JP" gameType="1"  seed="5" spinContribution="0" triggerID="4"/>
+<PIJACKPOT id="7" name="3 of a kind JP" gameType="1"  seed="1" spinContribution="0" triggerID="3"/>
+
+<TRIGGERS>
+<Game id="9" name="9 of a kind JP"  triggerType="1" sym="910" nSym="1"  pattern="-1"  tag="TQ9" switchTo="1" />
+<Game id="8" name="8 of a kind JP"  triggerType="1" sym="810" nSym="1"  pattern="-1" tag="TQ8"  switchTo="2" />
+<Game id="7" name="7 of a kind JP" triggerType="1" sym="710" nSym="1"  pattern="-1" tag="TQ7" switchTo="3" />
+<Game id="6" name="6 of a kind JP"  triggerType="1" sym="610" nSym="1"  pattern="-1" tag="TQ6" switchTo="4" />
+<Game id="5" name="5 of a kind JP"  triggerType="1" sym="510" nSym="1" pattern="-1" tag="TQ5" switchTo="5" />
+<Game id="4" name="4 of a kind JP"  triggerType="1" sym="410" nSym="1"  pattern="-1" tag="TQ4" switchTo="6" />
+<Game id="3" name="3 of a kind JP"  triggerType="1" sym="310" nSym="1"  pattern="-1" tag="TQ3" switchTo="7"/>                                                                                                                
+</TRIGGERS>
+
+</FEATURE>
+
+</GAMES>

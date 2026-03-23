@@ -1,0 +1,406 @@
+{
+  "version": "1.0",
+  "date": "2026-01-01",
+  "gameInfos": [
+    {
+      "gameId": "9201",
+      "gameName": "devilsHot7s",
+      "poolId": "0201",
+      "ticketTag": ["9217"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0201_490",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9493",
+      "gameName": "devilsHot7sHDG2",
+      "poolId": "0201",
+      "ticketTag": ["9217"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0201_490",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9512",
+      "gameName": "DevilsHot7s",
+      "poolId": "0201",
+      "ticketTag": ["9217"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0201_490",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "95201",
+      "gameName": "devilsHot7sHR",
+      "poolId": "0201",
+      "ticketTag": ["9501"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0201_955",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "95493",
+      "gameName": "devilsHot7sHDHRG2",
+      "poolId": "0201",
+      "ticketTag": ["9501"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0201_955",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "95512",
+      "gameName": "devilsHot7sHDHR",
+      "poolId": "0201",
+      "ticketTag": ["9501"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0201_955",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9206",
+      "gameName": "magicSpell",
+      "poolId": "0206",
+      "ticketTag": ["9207"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0206_494",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9218",
+      "gameName": "amazing8s",
+      "poolId": "0218",
+      "ticketTag": ["9300"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0218_490",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9049",
+      "gameName": "bugsToRiches",
+      "poolId": "0222",
+      "ticketTag": ["9200"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0222_490",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9402",
+      "gameName": "nudge7s",
+      "poolId": "0402",
+      "ticketTag": ["9400"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9405",
+      "gameName": "luckyBell",
+      "poolId": "0405",
+      "ticketTag": ["9204"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9421",
+      "gameName": "northernBuffallo",
+      "poolId": "0421",
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": true
+    },
+    {
+      "gameId": "9425",
+      "gameName": "PandaShores",
+      "poolId": "0425",
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0425_490",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9426",
+      "gameName": "ScorchingHot",
+      "poolId": "0426",
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9427",
+      "gameName": "LuckNClovers",
+      "poolId": "0427",
+      "ticketTag": ["9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9429",
+      "gameName": "QianGunQian",
+      "poolId": "0429",
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9430",
+      "gameName": "GreatSphinx",
+      "poolId": "0430",
+      "ticketTag": ["9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0430_9201",
+      "type": "slot",
+      "storeRawTicket": true
+    },
+    {
+      "gameId": "9431",
+      "gameName": "BlazingMustang",
+      "poolId": "0431",
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0431_9301",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9432",
+      "gameName": "QuickWinsDiamond",
+      "poolId": "0432",
+      "ticketTag": ["9300", "9301"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0432_9301",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9433",
+      "gameName": "BoomingForties",
+      "poolId": "0433",
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9434",
+      "gameName": "BlazingMustang100",
+      "poolId": "0434",
+      "ticketTag": ["9100", "9101"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0434_9101",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9445",
+      "gameName": "CleopatrasDynasty",
+      "poolId": "0445",
+      "ticketTag": ["9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0445_9201",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9448",
+      "gameName": "YuansuDragons",
+      "poolId": "0448",
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0448_9202",
+      "type": "slot",
+      "storeRawTicket": true
+    },
+    {
+      "gameId": "9449",
+      "gameName": "Diamond10X",
+      "poolId": "0449",
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9452",
+      "gameName": "RobinsArrow",
+      "poolId": "0452",
+      "ticketTag": ["9201", "9202", "9203"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0452_9201",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9454",
+      "gameName": "BladeOfFortune",
+      "poolId": "0454",
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0454_9202",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9457",
+      "gameName": "MarkOfZ",
+      "poolId": "0457",
+      "ticketTag": ["9110", "9111", "9112"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0457_9110",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9470",
+      "gameName": "ApollosRiches",
+      "poolId": "0470",
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9515",
+      "gameName": "BlueBirdBonus",
+      "poolId": "0515",
+      "ticketTag": ["9200", "9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0515_9200",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9521",
+      "gameName": "TigerHunt",
+      "poolId": "0521",
+      "ticketTag": ["9100", "9101"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0521_9100",
+      "type": "slot",
+      "storeRawTicket": true
+    },
+    {
+      "gameId": "9052",
+      "gameName": "superKeno",
+      "poolId": "1004",
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "keno",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9006",
+      "gameName": "doubleDownKeno",
+      "poolId": "1006",
+      "ticketTag": ["9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "keno",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9036",
+      "gameName": "fiery7s",
+      "poolId": "4036",
+      "ticketTag": ["9200"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": true
+    },
+    {
+      "gameId": "9050",
+      "gameName": "allAmerican",
+      "poolId": "4050",
+      "ticketTag": ["9217"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": true
+    },
+    {
+      "gameId": "9200",
+      "gameName": "princessJewel",
+      "poolId": "4200",
+      "ticketTag": ["9204"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_4200_490",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9525",
+      "gameName": "MayanMadness",
+      "poolId": "0525",
+      "ticketTag": ["9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0525_9201",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9491",
+      "gameName": "CleopatrasSandsOfTime",
+      "poolId": "0491",
+      "ticketTag": ["9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0491_9201",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9519",
+      "gameName": "CleopatrasSandsOfTime",
+      "poolId": "0519",
+      "ticketTag": ["9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0519_9201",
+      "type": "slot",
+      "storeRawTicket": false
+    },
+    {
+      "gameId": "9546",
+      "gameName": "FlamingSkulls",
+      "poolId": "0546",
+      "ticketTag": [ "9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": null,
+      "type": "slot",
+      "storeRawTicket": true
+    },
+    {
+      "gameId": "9516",
+      "gameName": "PiratesRising",
+      "poolId": "0516",
+      "ticketTag": [ "9200", "9201"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0516_9200",
+      "type": "slot",
+      "storeRawTicket": true
+	}
+  ]
+}

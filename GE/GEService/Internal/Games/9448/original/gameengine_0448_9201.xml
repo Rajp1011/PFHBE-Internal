@@ -1,0 +1,223 @@
+<?xml version = "1.0"?>
+
+<!-- Yuansu Dragons_PAR_1 -->
+<GAMES>
+
+<SKILL_BONUS id="1" tag="TSB">
+</SKILL_BONUS >
+
+<SKILLS_SCALE min="50" max="110" step="5">
+</SKILLS_SCALE>
+
+<!-- math parametrs  BetOne is the bet was used to build the pool  e.i. betlevel 1 for denom 1 or min bet -->
+<MATH BetOne="30"/>
+
+<FEATURE ID="0" type="REELS" name="Base Game" tag="" sentPaytable="yes">
+
+<SLOT
+	TotalReels="15"
+	Lines="30"
+	Col="5"
+   	Row="3"			
+	Pay="WayPay"
+	DefComb="WayPayLeftToRight"	
+    Wild="6"
+	Scatter="18"
+	ScatterReplacedByWild="no"
+	ScatterPaysOnLine="yes"
+	WildReplace="OnSlot"
+	PrintSlotResult="no"	
+  >	
+
+<TICKETS payout="9201" size="15" >
+</TICKETS>
+
+	<!-- play lines  -->
+	<LINES Total="30" LineSizes="5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5">
+	</LINES>
+
+	<!-- win combinations  -->
+	<WINCOMB Total="36" >	
+		
+		<COMB Symb="7" Numb="5" Prize="1000"/> 
+		<COMB Symb="7" Numb="4" Prize="100"/> 
+		<COMB Symb="7" Numb="3" Prize="50"/>
+		
+		<COMB Symb="8" Numb="5" Prize="800"/> 
+		<COMB Symb="8" Numb="4" Prize="100"/> 
+		<COMB Symb="8" Numb="3" Prize="35"/>
+				
+		<COMB Symb="9" Numb="5" Prize="800"/> 
+		<COMB Symb="9" Numb="4" Prize="100"/> 
+		<COMB Symb="9" Numb="3" Prize="30"/>
+			
+		<COMB Symb="10" Numb="5" Prize="300"/> 
+		<COMB Symb="10" Numb="4" Prize="50"/> 
+		<COMB Symb="10" Numb="3" Prize="20"/>
+				
+		<COMB Symb="11" Numb="5" Prize="300"/> 
+		<COMB Symb="11" Numb="4" Prize="35"/> 
+		<COMB Symb="11" Numb="3" Prize="15"/>
+			
+		<COMB Symb="12" Numb="5" Prize="200"/>
+		<COMB Symb="12" Numb="4" Prize="30"/> 
+		<COMB Symb="12" Numb="3" Prize="10"/>
+				
+		<COMB Symb="13" Numb="5" Prize="200"/>
+		<COMB Symb="13" Numb="4" Prize="20"/>
+		<COMB Symb="13" Numb="3" Prize="10"/>
+
+		<COMB Symb="14" Numb="5" Prize="100"/>
+		<COMB Symb="14" Numb="4" Prize="15"/>
+		<COMB Symb="14" Numb="3" Prize="10"/>
+		
+		<COMB Symb="15" Numb="5" Prize="100"/>
+		<COMB Symb="15" Numb="4" Prize="15"/>
+		<COMB Symb="15" Numb="3" Prize="5"/>
+		
+		<COMB Symb="16" Numb="5" Prize="100"/>
+		<COMB Symb="16" Numb="4" Prize="15"/>
+		<COMB Symb="16" Numb="3" Prize="5"/>
+		
+		<COMB Symb="17" Numb="5" Prize="100"/>
+		<COMB Symb="17" Numb="4" Prize="10"/>
+		<COMB Symb="17" Numb="3" Prize="5"/>
+
+		<!-- scatters on adjacent reels -->
+		<COMB Symb="18" Numb="5" Prize="50"/>
+		<COMB Symb="18" Numb="4" Prize="10"/>
+		<COMB Symb="18" Numb="3" Prize="5"/>
+
+	</WINCOMB>
+	
+	<REELS Type="Strips" TotalProb="5" TotalSymbIds="18" FreqSizes="26,29,28,27,34">
+	  <Set reel="0 1 2 3 4" /> 
+		<PROB Symb="12,11,14,17,7,12,13,9,15,17,11,16,13,8,12,16,18,14,17,9,12,13,10,16,15,7"/>
+		<PROB Symb="17,15,6,17,16,7,14,9,12,10,17,11,16,17,18,14,16,8,12,14,7,13,18,15,11,13,10,12,9"/>
+		<PROB Symb="12,7,14,9,17,11,13,18,12,9,16,10,15,18,17,10,13,16,8,14,17,7,14,16,6,14,16,18"/>
+		<PROB Symb="17,15,6,17,15,8,13,9,16,7,17,11,12,18,14,9,16,8,12,13,10,12,15,18,16,11,13"/>
+		<PROB Symb="7,12,9,13,10,12,14,8,15,17,11,16,13,10,15,17,18,14,12,9,15,12,17,10,16,12,11,14,12,8,16,9,12,13"/>
+	</REELS>
+
+<TRIGGERS>
+<Game id="1" name="FS" triggerType="1" sym="318" nSym="1" pattern="-1" tag="TF1"  switchTo="1" nContinue="1" />
+<Game id="2" name="FS" triggerType="1" sym="418" nSym="1" pattern="-1" tag="TF1"  switchTo="1" nContinue="1" />
+<Game id="3" name="FS" triggerType="1" sym="518" nSym="1" pattern="-1" tag="TF1" switchTo="1" nContinue="1" />
+</TRIGGERS>
+
+</SLOT>
+</FEATURE>
+
+
+<FEATURE ID="1" type="FSREELS" name="Free spins Game" tag="TF1">
+
+<SLOT
+	TotalReels="15"
+	Lines="30"
+	Col="5"
+   	Row="3"			
+	Pay="WayPay"
+	DefComb="WayPayLeftToRight"	
+    Wild="6"
+	Scatter="18"
+	ScatterReplacedByWild="no"
+	ScatterPaysOnLine="yes"
+	WildReplace="OnSlot"
+	PrintSlotResult="no"	
+  >	
+
+<TICKETS payout="9202" size="15" >
+</TICKETS>
+
+	<!-- play lines  -->
+	<LINES Total="30" LineSizes="5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5">
+	</LINES>
+		
+	<!-- win combinations  -->
+	<WINCOMB Total="36" >	
+		
+		<COMB Symb="7" Numb="5" Prize="1000"/> 
+		<COMB Symb="7" Numb="4" Prize="100"/> 
+		<COMB Symb="7" Numb="3" Prize="50"/>
+		
+		<COMB Symb="8" Numb="5" Prize="800"/> 
+		<COMB Symb="8" Numb="4" Prize="100"/> 
+		<COMB Symb="8" Numb="3" Prize="35"/>
+				
+		<COMB Symb="9" Numb="5" Prize="800"/> 
+		<COMB Symb="9" Numb="4" Prize="100"/> 
+		<COMB Symb="9" Numb="3" Prize="30"/>
+			
+		<COMB Symb="10" Numb="5" Prize="300"/> 
+		<COMB Symb="10" Numb="4" Prize="50"/> 
+		<COMB Symb="10" Numb="3" Prize="20"/>
+				
+		<COMB Symb="11" Numb="5" Prize="300"/> 
+		<COMB Symb="11" Numb="4" Prize="35"/> 
+		<COMB Symb="11" Numb="3" Prize="15"/>
+			
+		<COMB Symb="12" Numb="5" Prize="200"/>
+		<COMB Symb="12" Numb="4" Prize="30"/> 
+		<COMB Symb="12" Numb="3" Prize="10"/>
+				
+		<COMB Symb="13" Numb="5" Prize="200"/>
+		<COMB Symb="13" Numb="4" Prize="20"/>
+		<COMB Symb="13" Numb="3" Prize="10"/>
+
+		<COMB Symb="14" Numb="5" Prize="100"/>
+		<COMB Symb="14" Numb="4" Prize="15"/>
+		<COMB Symb="14" Numb="3" Prize="10"/>
+		
+		<COMB Symb="15" Numb="5" Prize="100"/>
+		<COMB Symb="15" Numb="4" Prize="15"/>
+		<COMB Symb="15" Numb="3" Prize="5"/>
+		
+		<COMB Symb="16" Numb="5" Prize="100"/>
+		<COMB Symb="16" Numb="4" Prize="15"/>
+		<COMB Symb="16" Numb="3" Prize="5"/>
+		
+		<COMB Symb="17" Numb="5" Prize="100"/>
+		<COMB Symb="17" Numb="4" Prize="10"/>
+		<COMB Symb="17" Numb="3" Prize="5"/>
+
+		<!-- scatters on adjacent reels -->
+		<COMB Symb="18" Numb="5" Prize="50"/>
+		<COMB Symb="18" Numb="4" Prize="10"/>
+		<COMB Symb="18" Numb="3" Prize="5"/>
+
+	</WINCOMB>
+	
+	<REELS Type="Strips" TotalProb="5" TotalSymbIds="18" FreqSizes="26,29,28,27,34">
+	  <Set reel="0 1 2 3 4" /> 
+		<PROB Symb="12,11,14,17,7,12,13,9,15,17,11,16,13,8,12,16,18,14,17,9,12,13,10,16,15,7"/>
+		<PROB Symb="17,15,6,17,16,7,14,9,12,10,17,11,16,17,18,14,16,8,12,14,7,13,18,15,11,13,10,12,9"/>
+		<PROB Symb="12,7,14,9,17,11,13,18,12,9,16,10,15,18,17,10,13,16,8,14,17,7,14,16,6,14,16,18"/>
+		<PROB Symb="17,15,6,17,15,8,13,9,16,7,17,11,12,18,14,9,16,8,12,13,10,12,15,18,16,11,13"/>
+		<PROB Symb="7,12,9,13,10,12,14,8,15,17,11,16,13,10,15,17,18,14,12,9,15,12,17,10,16,12,11,14,12,8,16,9,12,13"/>
+	</REELS>
+
+<FSGAMES>
+<GAME id="1" nSpins="25" wildID="1" mulplPrize="2,3,5" mulplProb="10,48,42"  bonusPrize="50,20,15,10,5,2" bonusProb="1,1,1,6,17,74" tag="TF11"/>
+<GAME id="2" nSpins="20" wildID="2" mulplPrize="3,5,8" mulplProb="36,34,30"  bonusPrize="50,20,15,10,5,2" bonusProb="1,1,2,13,17,66" tag="TF12"/>
+<GAME id="3" nSpins="15" wildID="3" mulplPrize="5,8,10" mulplProb="33,37,30"  bonusPrize="50,20,15,10,5,2" bonusProb="1,1,7,15,20,56" tag="TF13"/>
+<GAME id="4" nSpins="13" wildID="4" mulplPrize="8,10,15" mulplProb="50,41,9"  bonusPrize="50,20,15,10,5,2" bonusProb="1,1,1,1,11,85" tag="TF14"/>
+<GAME id="4" nSpins="10" wildID="5" mulplPrize="10,15,30" mulplProb="57,38,5"  bonusPrize="50,20,15,10,5,2" bonusProb="1,1,1,4,23,70" tag="TF15"/>
+</FSGAMES>
+
+<TRIGGERS>
+<Game id="1" name="FS" triggerType="1" sym="318" nSym="1" pattern="-1" tag="TF" switchTo="1" />
+<Game id="2" name="FS" triggerType="1" sym="418" nSym="1" pattern="-1" tag="TF" switchTo="1" />
+<Game id="3" name="FS" triggerType="1" sym="518" nSym="1" pattern="-1" tag="TF"  switchTo="1" />
+
+<!-- two red envelors - roll for a bonus game -->
+<Game id="5" name="Bonus"  triggerType="3" num="1,1" pattern="11,-1,-1,-1,11" tag="TB"  switchTo="2" />
+</TRIGGERS>
+
+
+<GFTICKETS fileName="tickets_0448_9202.fs" >
+</GFTICKETS>
+
+</SLOT>
+
+</FEATURE>
+</GAMES>

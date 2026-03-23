@@ -1,0 +1,41 @@
+"PVC Test"
+
+"Git fetch - Reset and Rsync-Rvi test"
+
+"Test-2 with rsync -rtvi"
+
+"Test-3"
+
+"Test-4"
+
+"CI-CD pipeline test-1"
+
+"CI-CD pipeline test-2"
+
+"CI-CD pipeline test-3"
+
+"CI-CD pipeline test-4"
+
+"CI-CD pipeline test-5"
+
+"CI-CD pipeline test-6"
+
+"CI-CD pipeline test-7"
+
+"CI-CD Test fresh 1"
+
+"CI-CD Test fresh 2"
+
+"CI-CD Test fresh 3 again"
+
+"Test Github 1"
+
+"Test Github 2" - Size only
+
+"Test Github 3" - Size - Time only"
+
+"Atomic test-1"
+
+"Atomic test-2"
+
+"Atomic test-3"

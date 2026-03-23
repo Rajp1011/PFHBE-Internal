@@ -1,0 +1,75 @@
+<?xml version = "1.0"?>
+
+<!-- Game_0008_8900.xml  -->
+<!--               -->
+<Keno GameId="8" nPaytables="1" Name="Multipler Keno">
+<Paytable id="1">
+	<Selection Nb="2">
+		<Match Nb="2" Win="11"/>
+	</Selection>
+	<Selection Nb="3">
+		<Match Nb="3" Win="31"/>
+		<Match Nb="2" Win="2"/>
+	</Selection>
+	<Selection Nb="4">
+		<Match Nb="4" Win="90"/>
+		<Match Nb="3" Win="5"/>
+		<Match Nb="2" Win="1"/>
+	</Selection>
+	<Selection Nb="5">
+		<Match Nb="5" Win="100"/>
+		<Match Nb="4" Win="32"/>
+		<Match Nb="3" Win="3"/>
+	</Selection>
+	<Selection Nb="6">
+		<Match Nb="6" Win="250"/>
+		<Match Nb="5" Win="41"/>
+		<Match Nb="4" Win="10"/>
+		<Match Nb="3" Win="2"/>
+	</Selection>
+	<Selection Nb="7">
+		<Match Nb="7" Win="800"/>
+		<Match Nb="6" Win="45"/>
+		<Match Nb="5" Win="25"/>
+		<Match Nb="4" Win="5"/>
+		<Match Nb="3" Win="1"/>
+	</Selection>
+	<Selection Nb="8">
+		<Match Nb="8" Win="1500"/>
+		<Match Nb="7" Win="375"/>
+		<Match Nb="6" Win="50"/>
+		<Match Nb="5" Win="15"/>
+		<Match Nb="4" Win="3"/>
+	</Selection>
+	<Selection Nb="9">
+		<Match Nb="9" Win="1600"/>
+		<Match Nb="8" Win="700"/>
+		<Match Nb="7" Win="200"/>
+		<Match Nb="6" Win="30"/>
+		<Match Nb="5" Win="5"/>
+		<Match Nb="4" Win="2"/>
+	</Selection>
+	<Selection Nb="10">
+		<Match Nb="10" Win="1600"/>
+		<Match Nb="9" Win="700"/>
+		<Match Nb="8" Win="200"/>
+		<Match Nb="7" Win="60"/>
+		<Match Nb="6" Win="15"/>
+		<Match Nb="5" Win="5"/>
+		<Match Nb="4" Win="1"/>
+	</Selection>
+	<WinMultiplier Type="MultKeno">
+		<Multiplier Value="1" Prob="3"/>
+		<Multiplier Value="2" Prob="3"/>
+		<Multiplier Value="3" Prob="2"/>
+		<Multiplier Value="4" Prob="2"/>
+		<Multiplier Value="5" Prob="1"/>
+		<Multiplier Value="6" Prob="1"/>
+	</WinMultiplier>
+</Paytable>
+
+<SKILLS_SCALE min="0" max="110" step="5">
+</SKILLS_SCALE>
+
+</Keno>
+

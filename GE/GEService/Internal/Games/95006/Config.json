@@ -1,0 +1,57 @@
+{//DoubleDownKenoHR
+  //1006	ListPlayValues="2:402:9201,3:403,4:404,5:405,6:406,7:407,8:408,9:409,10:410"			GameEngines\Kenos\GameEngineKenoPoints.dll	gameengine_1006_9201	n/a
+      "gameId": "95006",
+      "type": "keno",
+      "range": [1,80],
+      "betOne": 1, 
+      "maxMultiplier": 2,
+      "paytables":[
+          {
+            "id":1,
+            "filter":1,
+            "items":[             
+                {"select":2,"count":2,"prize":12},
+                {"select":3,"count":3,"prize":31},
+                {"select":3,"count":2,"prize":2},
+                {"select":4,"count":4,"prize":93},
+                {"select":4,"count":3,"prize":5},
+                {"select":4,"count":2,"prize":1},
+                {"select":5,"count":5,"prize":150},
+                {"select":5,"count":4,"prize":30},
+                {"select":5,"count":3,"prize":3},
+                {"select":6,"count":6,"prize":300},
+                {"select":6,"count":5,"prize":42},
+                {"select":6,"count":4,"prize":10},
+                {"select":6,"count":3,"prize":2},
+                {"select":7,"count":7,"prize":750},
+                {"select":7,"count":6,"prize":200},
+                {"select":7,"count":5,"prize":25},
+                {"select":7,"count":4,"prize":3},
+                {"select":7,"count":3,"prize":1},
+                {"select":8,"count":8,"prize":1000},
+                {"select":8,"count":7,"prize":550},
+                {"select":8,"count":6,"prize":100},
+                {"select":8,"count":5,"prize":12},
+                {"select":8,"count":4,"prize":2},
+                {"select":9,"count":9,"prize":1500},
+                {"select":9,"count":8,"prize":1000},
+                {"select":9,"count":7,"prize":245},
+                {"select":9,"count":6,"prize":25},
+                {"select":9,"count":5,"prize":5},
+                {"select":9,"count":4,"prize":2},
+                {"select":10,"count":10,"prize":2000},
+                {"select":10,"count":9,"prize":1500},
+                {"select":10,"count":8,"prize":500},
+                {"select":10,"count":7,"prize":70},
+                {"select":10,"count":6,"prize":15},
+                {"select":10,"count":5,"prize":4},
+                {"select":10,"count":4,"prize":1}
+            ]
+          }
+      ],
+      "debugFeatureMapping": [
+        {"tag": "MW", "values": null},
+        {"tag": "ML", "values": null},
+        {"tag": "MP", "values": ["2"]}
+      ]
+}

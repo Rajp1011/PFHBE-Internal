@@ -1,0 +1,54 @@
+{//LuckyBell
+ //405	922	9202	GameEngines\0405\GameEngineLuckyBell.dll	gameengine_0405_9202	tickets_0405_9202
+      "gameId": "9405",
+      "cascade": false,
+      "reelCount": 15,
+      "betOne": 9,  
+      "lineDirection": 0,
+      "blank": 10, 
+      "wilds": [
+        { "symbolId": 9, "multiplier": [1,3], "exclusion": [] }
+       ],
+      "hyperSpinRules": [
+        { "symbolIds": [1,11] },
+        { "symbolIds": [2,12] },
+        { "symbolIds": [3,13] },
+        { "symbolIds": [4,14] },
+        { "symbolIds": [5,15] }     
+      ],
+       "paytables":[
+          {
+            "id":1,
+            "filter":1,
+            "items":[             
+                {"symbolIds":[1,11],"count":3,"prize":200, "combId":1},
+                {"symbolIds":[2,12],"count":3,"prize":250, "combId":2},
+                {"symbolIds":[3,13],"count":3,"prize":200, "combId":3},
+                {"symbolIds":[4,14],"count":3,"prize":150, "combId":4},
+                {"symbolIds":[5,15],"count":3,"prize":100, "combId":5},
+                {"symbolIds":[6,16],"count":3,"prize":60,  "combId":6},
+                {"symbolIds":[7,17],"count":3,"prize":40,  "combId":7},
+                {"symbolIds":[8,18],"count":3,"prize":20,  "combId":8},
+                {"symbolIds":[1,11],"count":3,"prize":1000, "combId":61, "allowWild":false},
+                {"symbolIds":[2,3,4,5,12,13,14,15],"count":3,"prize":10, "combId":62},
+                {"symbolIds":[6,7,8,16,17,18],"count":3,"prize":5, "combId":63}
+            ]
+          }
+       ],
+      "lines": [
+        [ 6, 7, 8 ],
+        [ 3, 4, 5 ],
+        [ 9, 10, 11 ],
+        [ 3, 7, 11 ],
+        [ 9, 7, 5 ],
+        [ 6, 4, 8 ],
+        [ 6, 10, 8 ],
+        [ 9, 7, 11 ],
+        [ 3, 7, 5 ]
+      ],      
+      "debugFeatureMapping": [
+        {"tag": "MW", "values": null},
+        {"tag": "ML", "values": null},
+        {"tag": "FS", "values": ["TF1","TF2","TF3","TF4","TF5","TF6","TF7","TF8","TF9","TF10"]}
+      ]      
+}

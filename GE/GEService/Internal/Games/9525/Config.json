@@ -1,0 +1,289 @@
+{
+  "gameName": "MayanMadness",
+  "gameId": "9525",
+  "cascade": false,
+  "columns": 5,
+  "reelCount": 15,
+  "betOne": 20,
+  "scatters": [10, 11],
+  "lineDirection": 0,
+  "wilds": [
+    {
+      "symbolId": 1,
+      "multiplier": [1, 1, 1, 1, 1, 1],
+      "exclusion": [11, 10]
+    }
+  ],
+  "paytables": [
+    {
+      "id": 1,
+      "filter": 1,
+      "items": [
+        {
+          "symbolIds": [1],
+          "count": 5,
+          "prize": 200
+        },
+        {
+          "symbolIds": [1],
+          "count": 4,
+          "prize": 100
+        },
+        {
+          "symbolIds": [1],
+          "count": 3,
+          "prize": 40
+        },
+
+        {
+          "symbolIds": [2],
+          "count": 5,
+          "prize": 160
+        },
+        {
+          "symbolIds": [2],
+          "count": 4,
+          "prize": 80
+        },
+        {
+          "symbolIds": [2],
+          "count": 3,
+          "prize": 20
+        },
+
+        {
+          "symbolIds": [3],
+          "count": 5,
+          "prize": 100
+        },
+        {
+          "symbolIds": [3],
+          "count": 4,
+          "prize": 60
+        },
+        {
+          "symbolIds": [3],
+          "count": 3,
+          "prize": 20
+        },
+
+        {
+          "symbolIds": [4],
+          "count": 5,
+          "prize": 80
+        },
+        {
+          "symbolIds": [4],
+          "count": 4,
+          "prize": 40
+        },
+        {
+          "symbolIds": [4],
+          "count": 3,
+          "prize": 10
+        },
+
+        {
+          "symbolIds": [2, 3, 4],
+          "count": 5,
+          "prize": 40,
+          "combId": 61
+        },
+        {
+          "symbolIds": [2, 3, 4],
+          "count": 4,
+          "prize": 20,
+          "combId": 62
+        },
+        {
+          "symbolIds": [2, 3, 4],
+          "count": 3,
+          "prize": 5,
+          "combId": 63
+        },
+
+        {
+          "symbolIds": [5],
+          "count": 5,
+          "prize": 40
+        },
+        {
+          "symbolIds": [5],
+          "count": 4,
+          "prize": 20
+        },
+        {
+          "symbolIds": [5],
+          "count": 3,
+          "prize": 10
+        },
+
+        {
+          "symbolIds": [6],
+          "count": 5,
+          "prize": 40
+        },
+        {
+          "symbolIds": [6],
+          "count": 4,
+          "prize": 20
+        },
+        {
+          "symbolIds": [6],
+          "count": 3,
+          "prize": 5
+        },
+        {
+          "symbolIds": [7],
+          "count": 5,
+          "prize": 20
+        },
+        {
+          "symbolIds": [7],
+          "count": 4,
+          "prize": 10
+        },
+        {
+          "symbolIds": [7],
+          "count": 3,
+          "prize": 2
+        },
+        {
+          "symbolIds": [5, 6, 7],
+          "count": 5,
+          "prize": 10,
+          "combId": 64
+        },
+        {
+          "symbolIds": [5, 6, 7],
+          "count": 4,
+          "prize": 2,
+          "combId": 65
+        },
+        {
+          "symbolIds": [5, 6, 7],
+          "count": 3,
+          "prize": 1,
+          "combId": 66
+        },
+
+        {
+          "symbolIds": [8],
+          "count": 5,
+          "prize": 10
+        },
+        {
+          "symbolIds": [8],
+          "count": 4,
+          "prize": 4
+        },
+        {
+          "symbolIds": [8],
+          "count": 3,
+          "prize": 2
+        },
+
+        {
+          "symbolIds": [9],
+          "count": 5,
+          "prize": 10
+        },
+        {
+          "symbolIds": [9],
+          "count": 4,
+          "prize": 4
+        },
+        {
+          "symbolIds": [9],
+          "count": 3,
+          "prize": 2
+        },
+
+        {
+          "symbolIds": [10],
+          "count": 9,
+          "prize": 500,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [10],
+          "count": 8,
+          "prize": 250,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [10],
+          "count": 7,
+          "prize": 100,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [10],
+          "count": 6,
+          "prize": 45,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [10],
+          "count": 5,
+          "prize": 15,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [10],
+          "count": 4,
+          "prize": 5,
+          "multiFactor": 0
+        },
+        {
+          "symbolIds": [10],
+          "count": 3,
+          "prize": 1,
+          "multiFactor": 0
+        },
+
+        {
+          "symbolIds": [11],
+          "count": 3,
+          "prize": 1,
+          "multiFactor": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "filter": 1,
+      "items": [
+        { "symbolIds": [10], "count": 9, "prize": 500 },
+        { "symbolIds": [10], "count": 8, "prize": 250 },
+        { "symbolIds": [10], "count": 7, "prize": 100 },
+        { "symbolIds": [10], "count": 6, "prize": 45 },
+        { "symbolIds": [10], "count": 5, "prize": 15 },
+        { "symbolIds": [10], "count": 4, "prize": 5 },
+        { "symbolIds": [10], "count": 3, "prize": 1 }
+      ]
+    }
+  ],
+  "lines": [
+    [5, 6, 7, 8, 9],
+    [0, 1, 2, 3, 4],
+    [10, 11, 12, 13, 14],
+    [0, 6, 12, 8, 4],
+    [10, 6, 2, 8, 14],
+    [5, 1, 2, 3, 9],
+    [5, 11, 12, 13, 9],
+    [0, 1, 7, 13, 14],
+    [10, 11, 7, 3, 4],
+    [5, 1, 7, 13, 9],
+    [5, 11, 7, 3, 9],
+    [0, 6, 7, 8, 4],
+    [10, 6, 7, 8, 14],
+    [0, 6, 2, 8, 4],
+    [10, 6, 12, 8, 14],
+    [5, 6, 2, 8, 9],
+    [5, 6, 12, 8, 9],
+    [0, 1, 12, 3, 4],
+    [10, 11, 2, 13, 14],
+    [0, 11, 12, 13, 4]
+  ]
+}

@@ -1,0 +1,110 @@
+{//BomberBabesHR
+      "gameId": "95401",
+      "cascade": false,
+      "reelCount": 15,
+      "betOne": 25, 
+      "lineDirection": 0, 
+      "scatter":13,
+      "wilds": [
+        { "symbolId": 12, "multiplier": [1,2,2,2,2,1], "exclusion": [13] }
+       ],
+      "fakeGames": [
+        { "type": 3,  "maxWin": 50,  "probs": [1,70] }, 
+        { "type": -1, "maxWin": 500, "probs": [1,50] }
+      ],
+      "paytables":[
+          {
+            "id":1,
+            "filter":1,
+            "items": [
+                {"symbolIds":[12],"count":5,"prize":10000},
+                {"symbolIds":[1],"count":5,"prize":2000},
+                {"symbolIds":[1],"count":4,"prize":500},
+                {"symbolIds":[1],"count":3,"prize":75},
+                {"symbolIds":[1],"count":2,"prize":10},
+                {"symbolIds":[2],"count":5,"prize":500},
+                {"symbolIds":[2],"count":4,"prize":250},
+                {"symbolIds":[2],"count":3,"prize":50},
+                {"symbolIds":[2],"count":2,"prize":5},
+                {"symbolIds":[3],"count":5,"prize":250},
+                {"symbolIds":[3],"count":4,"prize":150},
+                {"symbolIds":[3],"count":3,"prize":25},
+                {"symbolIds":[3],"count":2,"prize":2},
+                {"symbolIds":[4],"count":5,"prize":200},
+                {"symbolIds":[4],"count":4,"prize":100},
+                {"symbolIds":[4],"count":3,"prize":25},
+                {"symbolIds":[5],"count":5,"prize":100},
+                {"symbolIds":[5],"count":4,"prize":50},
+                {"symbolIds":[5],"count":3,"prize":15},
+                {"symbolIds":[6],"count":5,"prize":100},
+                {"symbolIds":[6],"count":4,"prize":30},
+                {"symbolIds":[6],"count":3,"prize":15},
+                {"symbolIds":[7],"count":5,"prize":75},
+                {"symbolIds":[7],"count":4,"prize":20},
+                {"symbolIds":[7],"count":3,"prize":10},
+                {"symbolIds":[8],"count":5,"prize":50},
+                {"symbolIds":[8],"count":4,"prize":15},
+                {"symbolIds":[8],"count":3,"prize":5},
+                {"symbolIds":[9],"count":5,"prize":50},
+                {"symbolIds":[9],"count":4,"prize":15},
+                {"symbolIds":[9],"count":3,"prize":5},
+                {"symbolIds":[10],"count":5,"prize":20},
+                {"symbolIds":[10],"count":4,"prize":10},
+                {"symbolIds":[10],"count":3,"prize":5},
+                {"symbolIds":[11],"count":5,"prize":20},
+                {"symbolIds":[11],"count":4,"prize":10},
+                {"symbolIds":[11],"count":3,"prize":5},
+                {"symbolIds":[13],"count":5,"prize":100, "multiFactor":0},
+                {"symbolIds":[13],"count":4,"prize":10,  "multiFactor":0},
+                {"symbolIds":[13],"count":3,"prize":5,   "multiFactor":0},
+                {"symbolIds":[13],"count":2,"prize":2,   "multiFactor":0},
+                {"symbolIds":[14],"count":1,"prize":10,"ordered":true,"combId":61}, //M
+                {"symbolIds":[14,15],"count":2,"prize":25,"ordered":true,"combId":62},//MA
+                {"symbolIds":[14,15,16],"count":3,"prize":50,"ordered":true,"combId":63},//MAG
+                {"symbolIds":[14,15,16,17],"count":4,"prize":75,"ordered":true,"combId":64},//MAGI
+                {"symbolIds":[14,15,16,17,18],"count":5,"prize":0,"ordered":true,"combId":65} //MAGIC
+            ]
+          }
+      ],
+      "lines":[
+        [5,6,7,8,9],
+        [0,1,2,3,4],
+        [10,11,12,13,14],
+        [0,6,12,8,4],
+        [10,6,2,8,14],
+        [10,6,2,3,4],
+        [0,6,12,13,14],       
+        [5,6,7,3,4],
+        [5,6,7,13,14],
+        [5,1,2,3,9],
+        [5,11,12,13,9],
+        [0,11,2,13,4],
+        [10,1,12,3,14],
+        [0,6,2,8,4],
+        [10,11,12,8,4],
+        [5,6,2,8,9],
+        [5,6,12,8,9],
+        [5,1,7,3,9],
+        [5,11,7,13,9],
+        [0,1,7,13,14],
+        [10,11,7,3,4],
+        [10,6,12,8,14],
+        [10,6,7,8,14],
+        [0,6,7,8,4],
+        [0,1,2,8,14]
+      ],
+      "triggerMapping": [
+        {"tag": "TF1", "value": "TF1"},
+        {"tag": "TB1", "value": "TB1"},
+        {"tag": "TB2", "value": "TB2"},
+        {"tag": "TB3", "value": "TB3"},
+        {"tag": "TB4", "value": "TB4"},
+        {"tag": "TB5", "value": "TB5"}
+      ],
+      "debugFeatureMapping": [
+        {"tag": "MW", "values": null},
+        {"tag": "ML", "values": null},
+        {"tag": "FS", "values": ["TF1"]},
+        {"tag": "BG", "values": ["TB1","TB2","TB3","TB4","TB5"]}
+      ]
+}

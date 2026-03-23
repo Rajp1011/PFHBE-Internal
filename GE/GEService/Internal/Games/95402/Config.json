@@ -1,0 +1,34 @@
+{//Classic Nudge7 HR
+      "gameId": "95402",
+      "cascade": false,
+      "reelCount": 18,
+      "betOne": 1,  
+      "lineDirection": 0, 
+      "wilds": [
+        { "symbolId": 6, "multiplier": [1,0,1,2], "exclusion": [6,7,8] },
+        { "symbolId": 7, "multiplier": [1,3,6,9], "exclusion": [6,7,8] },    
+        { "symbolId": 8, "multiplier": [1,5,10,15], "exclusion": [6,7,8] }
+       ],
+       "paytables":[
+          {
+            "id":1,
+            "filter":1,
+            "items":[             
+                {"symbolIds":[1],"count":3,"prize":15},
+                {"symbolIds":[2],"count":3,"prize":6},
+                {"symbolIds":[3],"count":3,"prize":4},
+                {"symbolIds":[4],"count":3,"prize":3},
+                {"symbolIds":[5],"count":3,"prize":1},
+                {"symbolIds":[1,1,1],"count":3,"prize":250, "combId":61},
+                {"symbolIds":[6,7,8],"count":3,"prize":10, "combId":66}
+            ]
+          }
+      ],
+      "lines":[
+        [6,7,8]
+      ],  
+      "debugFeatureMapping": [
+        {"tag": "MW", "values": null},
+        {"tag": "ML", "values": null}
+      ]
+}

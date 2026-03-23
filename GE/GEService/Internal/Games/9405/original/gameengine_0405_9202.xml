@@ -1,0 +1,89 @@
+<?xml version = "1.0"?>
+
+<!--  Lucky Bells config -->
+
+<SLOT
+	TotalReels="15"
+	Lines="9"
+	Col="3"
+   	Row="3"			
+	Pay="Max"
+	DefComb="LeftToRight"	
+    Wild="9"
+	WildReplace="OnLine"
+	PrintSlotResult="no"	
+  >	
+
+    <TICKETS Size="15">  
+    </TICKETS>
+<!-- play lines  -->
+
+<LINES Total="9" LineSizes="3,3,3,3,3,3,3,3,3">
+		<LINE Reel="6 7 8" />
+		<LINE Reel="3 4 5" />
+		<LINE Reel="9 10 11" />
+		<LINE Reel="3 7 11" />
+		<LINE Reel="9 7 5" />	
+		<LINE Reel="6 4 8" />	
+		<LINE Reel="6 10 8" />
+		<LINE Reel="9 7 11" />		
+		<LINE Reel="3 7 5" />		
+
+	</LINES>
+
+
+<!-- math parametrs  BetOne is the bet was used to build the pool  e.i. betlevel 1 for denom 1 or min possible bet -->
+<MATH BetOne="9"/>
+
+	<Wild
+		id="9"
+		MultiplierType="online"
+		MultiplierValueType="amount"
+		Multiplier="1,3,3,3,3">
+	</Wild>
+<!-- win combinations  -->
+
+	<WINCOMB Total="11" Special="3">	
+
+    	<COMB Symb="1 1 1"  Order="y" Numb="3" Prize="1000" IDComb="61" Wild="0" />
+	 	<COMB Symb="1"  Numb="3" Prize="200" />
+    	 <COMB Symb="2"  Numb="3" Prize="250" />
+		<COMB Symb="3"  Numb="3" Prize="200" />
+		<COMB Symb="4"  Numb="3" Prize="150" />
+		<COMB Symb="5"  Numb="3" Prize="100" />
+		<COMB Symb="6"  Numb="3" Prize="60" />
+		<COMB Symb="7"  Numb="3" Prize="40" />
+		<COMB Symb="8"  Numb="3" Prize="20" />
+	     <COMB Symb="2 3 4 5 12 13 14 15"  Order="n" Numb="3" Prize="10" IDComb="62" />
+	     <COMB Symb="6 7 8 16 17 18"  Order="n" Numb="3" Prize="5" IDComb="63" />
+  
+	</WINCOMB>
+	
+<REELS Type="Strips" TotalProb="3" TotalSymbIds="13" FreqSizes="100,100,100">
+  <Set reel="0 1 2" /> 
+  <PROB Symb="10,8,10,16,10,4,10,5,10,17,10,13,10,8,10,12,10,7,10,6,10,11,10,15,10,3,10,7,10,17,10,18,10,6,10,16,10,18,10,4,10,18,10,8,10,14,10,7,10,15,10,13,10,6,10,17,10,7,10,14,10,18,10,5,10,16,10,1,10,12,10,7,10,6,10,16,10,15,10,17,10,8,10,18,10,2,10,4,10,8,10,3,10,1,10,5,10,18,10,17" />
+  <PROB Symb="10,13,10,17,10,8,10,6,10,14,10,3,10,5,10,15,10,9,10,12,10,18,10,8,10,1,10,7,10,13,10,9,10,4,10,17,10,6,10,13,10,16,10,4,10,12,10,15,10,9,10,2,10,15,10,7,10,18,10,5,10,7,10,16,10,11,10,12,10,9,10,4,10,6,10,3,10,8,10,16,10,17,10,14,10,2,10,8,10,18,10,17,10,18,10,9,10,14,10,18" />
+  <PROB Symb="10,18,10,6,10,15,10,16,10,18,10,3,10,17,10,2,10,14,10,8,10,7,10,16,10,11,10,8,10,7,10,18,10,6,10,14,10,15,10,5,10,17,10,7,10,6,10,14,10,11,10,8,10,18,10,17,10,6,10,5,10,12,10,2,10,13,10,17,10,5,10,16,10,13,10,18,10,8,10,1,10,17,10,3,10,7,10,15,10,4,10,8,10,16,10,18,10,4,10,17" /> 
+  </REELS>
+	
+<!--OPTION games -->
+<OPTIONGAMES default_id="-1">
+<RESPIN id="1"  name="1 respin"  tag="TF1" trTag= "TF1" nFS="1"/>	
+<RESPIN id="2"  name="2 respins"   tag="TF2" trTag= "TF1" nFS="2"/>	
+<RESPIN id="3"  name="3 respins"  tag="TF3" trTag= "TF1" nFS="3"/>	
+<RESPIN id="4"  name="4 respins"  tag="TF4" trTag= "TF1" nFS="4"/>	
+<RESPIN id="5"  name="5 respins"  tag="TF5" trTag= "TF1" nFS="5"/>	
+<RESPIN id="6"  name="6 respins"  tag="TF6" trTag= "TF1" nFS="6"/>	
+<RESPIN id="7"  name="7 respins"   tag="TF7" trTag= "TF1" nFS="7"/>	
+<RESPIN id="8"  name="8 respins"   tag="TF8" trTag= "TF1" nFS="8"/>	
+<RESPIN id="9"  name="9 respins"  tag="TF9" trTag= "TF1" nFS="9"/>	
+<RESPIN id="10"  name="10 respins"   tag="TF10" trTag= "TF1" nFS="10"/>	
+</OPTIONGAMES>
+
+<SKILLS_SCALE min="0" max="110" step="5">
+</SKILLS_SCALE>
+
+<SKILL_RESPIN id="1" tag="TSB">
+</SKILL_RESPIN >
+
+</SLOT>
