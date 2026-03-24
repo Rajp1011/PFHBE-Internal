@@ -39,17 +39,3 @@
 "Atomic test-2"
 
 "Atomic test-3"
-
-"GE test-1"
-
-"GE test-2"
-
-"GE test-3"
-
-"GE test-4"
-
-"GE test-5"
-
-"PVC test-1"
-
-"PVC test-2"
