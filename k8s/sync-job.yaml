@@ -91,20 +91,6 @@ spec:
           ln -sfn "$NEW_RELEASE_DIR" "$CURRENT_LINK"
           echo "Atomic switch complete: $CURRENT_LINK -> $NEW_RELEASE_DIR"
 
-          # 9. Cleanup: Keep the 3 most recent releases
-          cd /mnt/pvc/releases || { echo "Directory not found"; exit 1; }
-
-          # Sort by time (newest first), find only directories starting with GE-
-          # We use 'ls -1dt' to get a clean list
-          RELEASES_TO_DELETE=$(ls -1dt GE-* | tail -n +4)
-
-          if [ -n "$RELEASES_TO_DELETE" ]; then
-              echo "Cleaning up old releases: $RELEASES_TO_DELETE"
-              echo "$RELEASES_TO_DELETE" | xargs rm -rf
-          else
-              echo "Cleanup skipped: 3 or fewer releases found."
-          fi
-
           echo "===== SYNC AUDIT SUMMARY ====="
           tail -n 50 "$AUDIT_LOG"
           echo "Sync Job Finished Successfully!"
