@@ -1,7 +1,7 @@
 {
-  "version": "2.7",
-  "date": "2026-02-24",
-  "mathType": "edgelabs-2.7-AmericanLuck",
+  "version": "2.8",
+  "date": "2026-03-23",
+  "mathType": "edgelabs-2.8-AmericanLuck",
   "maxWin": 3000000,
   "maxWins": [3000000, 1000000000],
   "gameConfigs": [
@@ -364,7 +364,7 @@
       "gameId": "9442",
       "gameName": "KandyLandKeno",
       "poolId": "1006",
-      "poolType": ["1006", "302,303,304,305,306,307,308,309,310"],
+      "poolType": ["402,403,404,405,406,407,408,409,410", "302,303,304,305,306,307,308,309,310"],
       "poolSize": ["1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000", "1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000"],
       "ticketTag": ["9201"],
       "ticketLegacyFile": null,
@@ -426,7 +426,7 @@
       "gameId": "9448",
       "gameName": "YuansuDragons",
       "poolId": "0448",
-      "poolType": ["931", "882"],
+      "poolType": ["941", "882"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9201", "9202"],
       "ticketLegacyFile": null,
@@ -449,7 +449,7 @@
       "volatility": "3.0",
       "poolObjects": [
         [
-          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0448", "type": "931", "size": "1000000"}
+          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0448", "type": "941", "size": "1000000"}
         ]
       ]
     },
@@ -1770,6 +1770,108 @@
       ],
       "rtp": "95",
       "volatility": "3.0"
+    },
+    {
+      "gameId": "9573",
+      "gameName": "LegendzRiches",
+      "poolId": "0470",
+      "poolType": ["952", "910"],
+      "poolSize": ["1000000"],
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "952"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "90"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50950020", "size": "1000000", "maxBet": "90"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "90"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 90],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "95",
+      "volatility": "4.0"
+    },
+    {
+      "gameId": "9572",
+      "gameName": "CanadaEhSlots",
+      "poolId": "0429",
+      "poolType": ["952", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0429", "type": "952"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "96"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0429", "type": "50950020", "size": "1000000", "maxBet": "96"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "96"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 24, 48, 96],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "95",
+      "volatility": "3.0"
+    },
+    {
+      "gameId": "9575",
+      "gameName": "SportzinoRiches",
+      "poolId": "0470",
+      "poolType": ["952", "910"],
+      "poolSize": ["1000000"],
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "952"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "90"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50950020", "size": "1000000", "maxBet": "90"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "90"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 90],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "95",
+      "volatility": "4.0"
     }
   ]
 }

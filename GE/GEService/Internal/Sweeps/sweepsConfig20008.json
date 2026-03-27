@@ -1,7 +1,7 @@
 {
-  "version": "1.7",
-  "date": "2025-12-19",
-  "mathType": "edgelabs-1.7-Hub88-Chanced",
+  "version": "1.9",
+  "date": "2026-03-13",
+  "mathType": "edgelabs-1.9-Hub88-Chanced",
   "maxWin": 2000000,
   "maxWins": [2000000, 2000000000],
   "gameConfigs": [
@@ -39,7 +39,9 @@
           "entryLevels": [1, 2, 3, 4, 5],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9426",
@@ -68,7 +70,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0426", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9427",
@@ -106,7 +110,9 @@
           "entryLevels": [1, 5, 10, 15, 20, 25, 30, 50, 60, 90],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9429",
@@ -143,7 +149,9 @@
           "entryLevels": [1, 2, 3, 4, 5],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9430",
@@ -172,7 +180,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0430", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9431",
@@ -201,7 +211,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0431", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9432",
@@ -242,7 +254,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9433",
@@ -271,7 +285,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0433", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9434",
@@ -300,7 +316,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0434", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9439",
@@ -337,7 +355,9 @@
           "entryLevels": [1, 2, 3, 4],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9440",
@@ -374,7 +394,9 @@
           "entryLevels": [1, 2, 3, 4, 5],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9442",
@@ -403,7 +425,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "1006", "type": "402,403,404,405,406,407,408,409,410", "size": "1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000"}
         ]
-      ]
+      ],
+      "rtp": "94",
+      "volatility": "3.0"
     },
     {
       "gameId": "9445",
@@ -432,7 +456,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0445", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9448",
@@ -461,7 +487,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0448", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9449",
@@ -497,7 +525,9 @@
           "entryLevels": [20, 50, 100, 200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9455",
@@ -533,7 +563,9 @@
           "entryLevels": [10, 20, 50, 100, 200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9467",
@@ -574,7 +606,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9500",
@@ -603,7 +637,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0421", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9512",
@@ -641,7 +677,9 @@
           "entryLevels": [1, 2, 4, 6, 8, 10],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9486",
@@ -680,7 +718,9 @@
           "entryLevels": [1, 2, 3, 4, 5],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9476",
@@ -710,7 +750,9 @@
           {"idx": 0 , "bet": "any", "mult": "1", "tag": "REG", "id": "0426", "type": "961"     , "size": "1000000"},
           {"idx": 31, "bet": "any", "mult": "1", "tag": "PFG", "id": "0426", "type": "50960020", "size": "1000000", "maxBet": "10000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9481",
@@ -749,7 +791,9 @@
           "entryLevels": [1, 2, 10, 15, 20, 25, 30, 50, 60, 90],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9475",
@@ -789,7 +833,9 @@
           "entryLevels": [1, 2, 3, 4],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9478",
@@ -821,7 +867,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9498",
@@ -865,7 +913,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9488",
@@ -897,7 +947,9 @@
           "entryLevels": [1, 2, 3, 4, 5],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9474",
@@ -937,7 +989,9 @@
           "entryLevels": [1, 2, 3, 4],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9477",
@@ -977,7 +1031,9 @@
           "entryLevels": [1, 2, 3, 4],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9480",
@@ -1014,7 +1070,9 @@
           "entryLevels": [10, 20, 50, 100, 200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9499",
@@ -1051,7 +1109,9 @@
           "entryLevels": [10, 20, 50, 100, 200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9489",
@@ -1095,7 +1155,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9482",
@@ -1127,7 +1189,9 @@
           "entryLevels": [1, 2, 3, 4],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9484",
@@ -1171,7 +1235,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9487",
@@ -1210,7 +1276,9 @@
           "entryLevels": [1, 2, 3, 4, 5],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9452",
@@ -1242,7 +1310,9 @@
           "entryLevels": [1, 2, 5, 10, 20],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9457",
@@ -1274,7 +1344,9 @@
           "entryLevels": [1, 5, 10, 20],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9470",
@@ -1306,7 +1378,9 @@
           "entryLevels": [1, 2, 3, 4],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9497",
@@ -1338,7 +1412,9 @@
           "entryLevels": [1, 2, 3, 4],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9521",
@@ -1370,7 +1446,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9459",
@@ -1402,7 +1480,9 @@
           "entryLevels": [1, 2, 5, 10, 20],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9545",
@@ -1434,7 +1514,9 @@
           "entryLevels": [1, 2, 4, 6, 8],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9544",
@@ -1466,7 +1548,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9568",
@@ -1498,7 +1582,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9515",
@@ -1530,7 +1616,9 @@
           "entryLevels": [1, 2, 3, 4, 8, 10],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9520",
@@ -1562,7 +1650,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9490",
@@ -1592,7 +1682,9 @@
           {"idx": 0 , "bet": "any", "mult": "1", "tag": "REG", "id": "0433", "type": "961"     , "size": "1000000"},
           {"idx": 31, "bet": "any", "mult": "1", "tag": "PFG", "id": "0433", "type": "50960020", "size": "1000000", "maxBet": "1200"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9485",
@@ -1624,7 +1716,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9493",
@@ -1656,7 +1750,9 @@
           "entryLevels": [1, 2, 4, 6, 8, 10],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     }
   ]
 }

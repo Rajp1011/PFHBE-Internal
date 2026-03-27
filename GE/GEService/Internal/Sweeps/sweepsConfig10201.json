@@ -74,7 +74,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "4.5"
+      "volatility": "4.0"
     },
     {
       "gameId": "9426",
@@ -287,7 +287,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9430",
@@ -353,7 +353,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5",
+      "volatility": "3.0",
       "poolObjects": [
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0430", "type": "961", "size": "1000000"}
@@ -424,7 +424,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5",
+      "volatility": "3.0",
       "poolObjects": [
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0431", "type": "961", "size": "1000000"}
@@ -566,7 +566,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5",
+      "volatility": "3.0",
       "poolObjects": [
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0433", "type": "961", "size": "1000000"}
@@ -637,7 +637,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5",
+      "volatility": "3.0",
       "poolObjects": [
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0434", "type": "961", "size": "1000000"}
@@ -713,7 +713,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9440",
@@ -784,7 +784,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9442",
@@ -850,7 +850,7 @@
         }
       ],
       "rtp": "94",
-      "volatility": "3.5",
+      "volatility": "3.0",
       "poolObjects": [
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "1006", "type": "402,403,404,405,406,407,408,409,410", "size": "1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000"}
@@ -992,7 +992,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5",
+      "volatility": "3.0",
       "poolObjects": [
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0448", "type": "961", "size": "1000000"}
@@ -1068,7 +1068,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9455",
@@ -1139,7 +1139,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9467",
@@ -1352,7 +1352,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9486",

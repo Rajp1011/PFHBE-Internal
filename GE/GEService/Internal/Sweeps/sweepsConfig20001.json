@@ -1,7 +1,7 @@
 {
-  "version": "1.5",
-  "date": "2025-12-01",
-  "mathType": "edgelabs-1.5-Hub88",
+  "version": "1.8",
+  "date": "2026-03-23",
+  "mathType": "edgelabs-1.8-Hub88",
   "maxWin": 2000000,
   "maxWins": [2000000, 2000000000],
   "gameConfigs": [
@@ -171,6 +171,13 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 8, 10, 15, 20, 25, 30, 40, 50, 75, 100, 200, 300, 400, 500, 600, 750, 1000, 1250, 1500, 1750, 2000, 2250],
           "denoms": [1]
         }
+      ],
+      "rtp": "96",
+      "volatility": "3.0",
+      "poolObjects": [
+        [
+          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0430", "type": "961", "size": "1000000"}
+        ]
       ]
     },
     {
@@ -391,6 +398,13 @@
           "entryLevels": [5, 25, 30, 50, 100, 150, 200, 300, 500, 750, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 20000, 25000],
           "denoms": [1]
         }
+      ],
+      "rtp": "94",
+      "volatility": "3.0",
+      "poolObjects": [
+        [
+          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "1006", "type": "402,403,404,405,406,407,408,409,410", "size": "1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000"}
+        ]
       ]
     },
     {
@@ -415,6 +429,13 @@
           "entryLevels": [1, 2, 3, 5, 7, 10, 15, 20, 25, 30, 40, 50, 60, 80, 100, 150, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1500, 2000, 2500, 3000, 3500, 4000],
           "denoms": [1]
         }
+      ],
+      "rtp": "96",
+      "volatility": "3.0",
+      "poolObjects": [
+        [
+          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0445", "type": "961", "size": "1000000"}
+        ]
       ]
     },
     {
@@ -439,6 +460,13 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 100, 120, 200, 400, 600, 800, 1000, 1200, 1500, 2000, 2500, 3000],
           "denoms": [1]
         }
+      ],
+      "rtp": "96",
+      "volatility": "3.0",
+      "poolObjects": [
+        [
+          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0448", "type": "961", "size": "1000000"}
+        ]
       ]
     },
     {
@@ -585,6 +613,13 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 8, 10, 15, 20, 25, 30, 50, 100, 200, 300, 400, 500, 750],
           "denoms": [1]
         }
+      ],
+      "rtp": "96",
+      "volatility": "4.0",
+      "poolObjects": [
+        [
+          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0421", "type": "961", "size": "1000000"}
+        ]
       ]
     },
     {
@@ -649,9 +684,9 @@
           {"idx": 1 , "bet": "500" , "mult": "1" , "tag": "REG", "id": "0425", "type": "40960506", "size": "1000000"},
           {"idx": 2 , "bet": "1000", "mult": "1" , "tag": "REG", "id": "0425", "type": "40960300", "size": "1000000"},
           {"idx": 2 , "bet": "1200", "mult": "1" , "tag": "REG", "id": "0425", "type": "40960300", "size": "1000000"},
-          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": 500 },
-          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0425", "type": "50960020", "size": "1000000", "maxBet": 1200},
-          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": 500 }
+          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": "500" },
+          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0425", "type": "50960020", "size": "1000000", "maxBet": "1200"},
+          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": "500" }
         ]
       ],
       "betLevelObjects": [
@@ -665,7 +700,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 30, 40, 50, 100, 200, 300, 400, 500, 1000, 1200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9476",
@@ -693,9 +730,11 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1", "tag": "REG", "id": "0426", "type": "961"     , "size": "1000000"},
-          {"idx": 31, "bet": "any", "mult": "1", "tag": "PFG", "id": "0426", "type": "50960020", "size": "1000000", "maxBet": 10000}
+          {"idx": 31, "bet": "any", "mult": "1", "tag": "PFG", "id": "0426", "type": "50960020", "size": "1000000", "maxBet": "10000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9481",
@@ -720,7 +759,7 @@
           {"idx": 1 , "bet": "12000", "mult": "1", "tag": "REG", "id": "0427", "type": "40960175", "size": "1000000"},
           {"idx": 1 , "bet": "15000", "mult": "1", "tag": "REG", "id": "0427", "type": "40960175", "size": "1000000"},
           {"idx": 2 , "bet": "18000", "mult": "1", "tag": "REG", "id": "0427", "type": "40960045", "size": "1000000"},
-          {"idx": 31, "bet": "any"  , "mult": "1", "tag": "PFG", "id": "0427", "type": "50960020", "size": "1000000", "maxBet": 18000}
+          {"idx": 31, "bet": "any"  , "mult": "1", "tag": "PFG", "id": "0427", "type": "50960020", "size": "1000000", "maxBet": "18000"}
         ]
       ],
       "betLevelObjects": [
@@ -734,7 +773,9 @@
           "entryLevels": [1, 2, 10, 15, 20, 25, 30, 50, 60, 90, 120, 160, 200, 240, 320, 400, 600, 1000, 2000, 3000, 4000, 5000, 6000, 10000, 12000, 15000, 18000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9475",
@@ -758,9 +799,9 @@
           {"idx": 1 , "bet": "600" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960500", "size": "1000000"},
           {"idx": 2 , "bet": "800" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960250", "size": "1000000"},
           {"idx": 2 , "bet": "1000", "mult": "1" , "tag": "REG", "id": "0429", "type": "40960250", "size": "1000000"},
-          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": 300 },
-          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0429", "type": "50960020", "size": "1000000", "maxBet": 1000},
-          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": 300 }
+          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "300" },
+          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0429", "type": "50960020", "size": "1000000", "maxBet": "1000"},
+          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "300" }
         ]
       ],
       "betLevelObjects": [
@@ -774,7 +815,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 200, 300, 400, 500, 600, 800, 1000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9478",
@@ -790,9 +833,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0431", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": 600 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0431", "type": "50960020", "size": "1000000", "maxBet": 2000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": 600 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": "600" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0431", "type": "50960020", "size": "1000000", "maxBet": "2000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": "600" }
         ]
       ],
       "betLevelObjects": [
@@ -806,7 +849,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 100, 200, 300, 400, 500, 600, 700, 800, 1000, 1200, 1600, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9498",
@@ -834,9 +879,9 @@
           {"idx": 2 , "bet": "1200", "mult": "1" , "tag": "REG", "id": "0432", "type": "40960150", "size": "1000000"},
           {"idx": 2 , "bet": "1500", "mult": "1" , "tag": "REG", "id": "0432", "type": "40960150", "size": "1000000"},
           {"idx": 2 , "bet": "2000", "mult": "1" , "tag": "REG", "id": "0432", "type": "40960150", "size": "1000000"},
-          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": 500 },
-          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0432", "type": "50960020", "size": "1000000", "maxBet": 2000},
-          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": 500 }
+          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": "500" },
+          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0432", "type": "50960020", "size": "1000000", "maxBet": "2000"},
+          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": "500" }
         ]
       ],
       "betLevelObjects": [
@@ -850,7 +895,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 100, 200, 300, 400, 500, 600, 700, 800, 1000, 1200, 1500, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9488",
@@ -866,9 +913,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0434", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0434", "type": "395"     , "size": "100000" , "maxBet": 300 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0434", "type": "50960020", "size": "1000000", "maxBet": 1000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0434", "type": "395"     , "size": "100000" , "maxBet": 300 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0434", "type": "395"     , "size": "100000" , "maxBet": "300" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0434", "type": "50960020", "size": "1000000", "maxBet": "1000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0434", "type": "395"     , "size": "100000" , "maxBet": "300" }
         ]
       ],
       "betLevelObjects": [
@@ -882,7 +929,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 200, 300, 400, 500, 600, 800, 1000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9474",
@@ -906,9 +955,9 @@
           {"idx": 1 , "bet": "600" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960500", "size": "1000000"},
           {"idx": 2 , "bet": "800" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960250", "size": "1000000"},
           {"idx": 2 , "bet": "1000", "mult": "1" , "tag": "REG", "id": "0429", "type": "40960250", "size": "1000000"},
-          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": 300 },
-          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0429", "type": "50960020", "size": "1000000", "maxBet": 1000},
-          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": 300 }
+          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "300" },
+          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0429", "type": "50960020", "size": "1000000", "maxBet": "1000"},
+          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "300" }
         ]
       ],
       "betLevelObjects": [
@@ -922,7 +971,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 200, 300, 400, 500, 600, 800, 1000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9477",
@@ -946,9 +997,9 @@
           {"idx": 1 , "bet": "600" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960500", "size": "1000000"},
           {"idx": 2 , "bet": "800" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960250", "size": "1000000"},
           {"idx": 2 , "bet": "1000", "mult": "1" , "tag": "REG", "id": "0429", "type": "40960250", "size": "1000000"},
-          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": 300 },
-          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0429", "type": "50960020", "size": "1000000", "maxBet": 1000},
-          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": 300 }
+          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "300" },
+          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0429", "type": "50960020", "size": "1000000", "maxBet": "1000"},
+          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "300" }
         ]
       ],
       "betLevelObjects": [
@@ -962,7 +1013,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 200, 300, 400, 500, 600, 800, 1000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9480",
@@ -985,7 +1038,7 @@
           {"idx": 1 , "bet": "30000", "mult": "1", "tag": "REG", "id": "0449", "type": "40960500", "size": "1000000"},
           {"idx": 2 , "bet": "40000", "mult": "1", "tag": "REG", "id": "0449", "type": "40960250", "size": "1000000"},
           {"idx": 2 , "bet": "50000", "mult": "1", "tag": "REG", "id": "0449", "type": "40960250", "size": "1000000"},
-          {"idx": 31, "bet": "any"  , "mult": "1", "tag": "PFG", "id": "0449", "type": "50960020", "size": "1000000", "maxBet": 50000}
+          {"idx": 31, "bet": "any"  , "mult": "1", "tag": "PFG", "id": "0449", "type": "50960020", "size": "1000000", "maxBet": "50000"}
         ]
       ],
       "betLevelObjects": [
@@ -999,7 +1052,9 @@
           "entryLevels": [10, 20, 50, 100, 200, 400, 500, 750, 1000, 1500, 2000, 5000, 10000, 15000, 20000, 30000, 40000, 50000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9499",
@@ -1022,7 +1077,7 @@
           {"idx": 1 , "bet": "30000", "mult": "1", "tag": "REG", "id": "0449", "type": "40960500", "size": "1000000"},
           {"idx": 2 , "bet": "40000", "mult": "1", "tag": "REG", "id": "0449", "type": "40960250", "size": "1000000"},
           {"idx": 2 , "bet": "50000", "mult": "1", "tag": "REG", "id": "0449", "type": "40960250", "size": "1000000"},
-          {"idx": 31, "bet": "any"  , "mult": "1", "tag": "PFG", "id": "0449", "type": "50960020", "size": "1000000", "maxBet": 50000}
+          {"idx": 31, "bet": "any"  , "mult": "1", "tag": "PFG", "id": "0449", "type": "50960020", "size": "1000000", "maxBet": "50000"}
         ]
       ],
       "betLevelObjects": [
@@ -1036,7 +1091,9 @@
           "entryLevels": [10, 20, 50, 100, 200, 300, 400, 500, 750, 1000, 1500, 2000, 5000, 10000, 15000, 20000, 30000, 40000, 50000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9489",
@@ -1064,9 +1121,9 @@
           {"idx": 2 , "bet": "1200", "mult": "1" , "tag": "REG", "id": "0432", "type": "40960150", "size": "1000000"},
           {"idx": 2 , "bet": "1500", "mult": "1" , "tag": "REG", "id": "0432", "type": "40960150", "size": "1000000"},
           {"idx": 2 , "bet": "2000", "mult": "1" , "tag": "REG", "id": "0432", "type": "40960150", "size": "1000000"},
-          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": 500 },
-          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0432", "type": "50960020", "size": "1000000", "maxBet": 2000},
-          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": 500 }
+          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": "500" },
+          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0432", "type": "50960020", "size": "1000000", "maxBet": "2000"},
+          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": "500" }
         ]
       ],
       "betLevelObjects": [
@@ -1080,7 +1137,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 100, 200, 300, 400, 500, 600, 700, 800, 1000, 1200, 1500, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9482",
@@ -1090,9 +1149,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0454", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0454", "type": "395"     , "size": "100000" , "maxBet": 100},
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0454", "type": "50960020", "size": "1000000", "maxBet": 600},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0454", "type": "395"     , "size": "100000" , "maxBet": 100}
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0454", "type": "395"     , "size": "100000" , "maxBet": "100"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0454", "type": "50960020", "size": "1000000", "maxBet": "600"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0454", "type": "395"     , "size": "100000" , "maxBet": "100"}
         ]
       ],
       "poolSize": ["1000000", "1000000"],
@@ -1112,7 +1171,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 400, 600],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9484",
@@ -1140,9 +1201,9 @@
           {"idx": 2 , "bet": "1200", "mult": "1" , "tag": "REG", "id": "0432", "type": "40960150", "size": "1000000"},
           {"idx": 2 , "bet": "1500", "mult": "1" , "tag": "REG", "id": "0432", "type": "40960150", "size": "1000000"},
           {"idx": 2 , "bet": "2000", "mult": "1" , "tag": "REG", "id": "0432", "type": "40960150", "size": "1000000"},
-          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": 500 },
-          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0432", "type": "50960020", "size": "1000000", "maxBet": 2000},
-          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": 500 }
+          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": "500" },
+          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0432", "type": "50960020", "size": "1000000", "maxBet": "2000"},
+          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0432", "type": "395"     , "size": "100000" , "maxBet": "500" }
         ]
       ],
       "betLevelObjects": [
@@ -1156,7 +1217,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 100, 200, 300, 400, 500, 600, 700, 800, 1000, 1200, 1500, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9487",
@@ -1179,9 +1242,9 @@
           {"idx": 1 , "bet": "500" , "mult": "1" , "tag": "REG", "id": "0425", "type": "40960506", "size": "1000000"},
           {"idx": 2 , "bet": "1000", "mult": "1" , "tag": "REG", "id": "0425", "type": "40960300", "size": "1000000"},
           {"idx": 2 , "bet": "1200", "mult": "1" , "tag": "REG", "id": "0425", "type": "40960300", "size": "1000000"},
-          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": 500 },
-          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0425", "type": "50960020", "size": "1000000", "maxBet": 1200},
-          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": 500 }
+          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": "500" },
+          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0425", "type": "50960020", "size": "1000000", "maxBet": "1200"},
+          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": "500" }
         ]
       ],
       "betLevelObjects": [
@@ -1195,7 +1258,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 30, 40, 50, 100, 200, 300, 400, 500, 1000, 1200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9452",
@@ -1206,9 +1271,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0452", "type": "962"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0452", "type": "395"     , "size": "100000" , "maxBet": 1500},
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0452", "type": "50960020", "size": "1000000", "maxBet": 5000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0452", "type": "395"     , "size": "100000" , "maxBet": 1500}
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0452", "type": "395"     , "size": "100000" , "maxBet": "1500"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0452", "type": "50960020", "size": "1000000", "maxBet": "5000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0452", "type": "395"     , "size": "100000" , "maxBet": "1500"}
         ]
       ],
       "ticketTag": ["9201", "9202", "9203"],
@@ -1227,7 +1292,9 @@
           "entryLevels": [1, 2, 5, 10, 20, 50, 100, 200, 400, 750, 1000, 1500, 2000, 5000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9457",
@@ -1238,9 +1305,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0457", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0457", "type": "395"     , "size": "100000" , "maxBet": 1500},
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0457", "type": "50960020", "size": "1000000", "maxBet": 5000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0457", "type": "395"     , "size": "100000" , "maxBet": 1500}
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0457", "type": "395"     , "size": "100000" , "maxBet": "1500"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0457", "type": "50960020", "size": "1000000", "maxBet": "5000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0457", "type": "395"     , "size": "100000" , "maxBet": "1500"}
         ]
       ],
       "ticketTag": ["9110", "9111", "9112"],
@@ -1259,7 +1326,9 @@
           "entryLevels": [1, 5, 10, 20, 50, 100, 200, 400, 500, 750, 1000, 1500, 2000, 5000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9470",
@@ -1268,9 +1337,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "962"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": 100 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50960020", "size": "1000000", "maxBet": 1000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": 100 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "100" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50960020", "size": "1000000", "maxBet": "1000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "100" }
         ]
       ],
       "poolType": ["962", "910"],
@@ -1291,7 +1360,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 500, 1000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9497",
@@ -1300,9 +1371,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "962"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": 100 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50960020", "size": "1000000", "maxBet": 1000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": 100 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "100" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50960020", "size": "1000000", "maxBet": "1000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "100" }
         ]
       ],
       "poolType": ["962", "910"],
@@ -1323,7 +1394,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 500, 1000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9521",
@@ -1333,9 +1406,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0521", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": 220 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0521", "type": "50960020", "size": "1000000", "maxBet": 1200},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": 220 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "220" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0521", "type": "50960020", "size": "1000000", "maxBet": "1200"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "220" }
         ]
       ],
       "poolSize": ["1000000"],
@@ -1355,7 +1428,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 220, 600, 1200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9459",
@@ -1366,9 +1441,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0452", "type": "962"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0452", "type": "395"     , "size": "100000" , "maxBet": 750 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0452", "type": "50960020", "size": "1000000", "maxBet": 5000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0452", "type": "395"     , "size": "100000" , "maxBet": 750 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0452", "type": "395"     , "size": "100000" , "maxBet": "750" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0452", "type": "50960020", "size": "1000000", "maxBet": "5000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0452", "type": "395"     , "size": "100000" , "maxBet": "750" }
         ]
       ],
       "ticketTag": ["9201", "9202", "9203"],
@@ -1387,7 +1462,9 @@
           "entryLevels": [1, 2, 5, 10, 20, 50, 100, 200, 300, 400, 500, 750, 2000, 5000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9545",
@@ -1403,9 +1480,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0431", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": 500 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0431", "type": "50960020", "size": "1000000", "maxBet": 2000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": 500 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": "500" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0431", "type": "50960020", "size": "1000000", "maxBet": "2000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": "500" }
         ]
       ],
       "betLevelObjects": [
@@ -1419,7 +1496,9 @@
           "entryLevels": [1, 2, 4, 6, 8, 12, 16, 20, 24, 48, 96, 192, 500, 1000, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9544",
@@ -1429,9 +1508,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0521", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": 220 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0521", "type": "50960020", "size": "1000000", "maxBet": 1200},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": 220 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "220" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0521", "type": "50960020", "size": "1000000", "maxBet": "1200"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "220" }
         ]
       ],
       "poolSize": ["1000000"],
@@ -1451,7 +1530,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 220, 600, 1200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9568",
@@ -1461,9 +1542,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0521", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": 250 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0521", "type": "50960020", "size": "1000000", "maxBet": 1400},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": 250 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "250" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0521", "type": "50960020", "size": "1000000", "maxBet": "1400"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "250" }
         ]
       ],
       "poolSize": ["1000000"],
@@ -1483,7 +1564,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 220, 250, 500, 750, 1000, 1400],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9515",
@@ -1499,9 +1582,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0515", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0515", "type": "395"     , "size": "100000" , "maxBet": 500 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0515", "type": "50960020", "size": "1000000", "maxBet": 3000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0515", "type": "395"     , "size": "100000" , "maxBet": 500 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0515", "type": "395"     , "size": "100000" , "maxBet": "500" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0515", "type": "50960020", "size": "1000000", "maxBet": "3000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0515", "type": "395"     , "size": "100000" , "maxBet": "500" }
         ]
       ],
       "betLevelObjects": [
@@ -1515,7 +1598,9 @@
           "entryLevels": [1, 2, 3, 4, 8, 10, 20, 40, 60, 100, 200, 400, 500, 1000, 1500, 2000, 2500, 3000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9520",
@@ -1525,9 +1610,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0521", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": 250 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0521", "type": "50960020", "size": "1000000", "maxBet": 1400},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": 250 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "250" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0521", "type": "50960020", "size": "1000000", "maxBet": "1400"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "250" }
         ]
       ],
       "poolSize": ["1000000"],
@@ -1547,7 +1632,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 220, 250, 500, 750, 1000, 1400],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9490",
@@ -1575,9 +1662,11 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1", "tag": "REG", "id": "0433", "type": "961"     , "size": "1000000"},
-          {"idx": 31, "bet": "any", "mult": "1", "tag": "PFG", "id": "0433", "type": "50960020", "size": "1000000", "maxBet": 1200}
+          {"idx": 31, "bet": "any", "mult": "1", "tag": "PFG", "id": "0433", "type": "50960020", "size": "1000000", "maxBet": "1200"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9485",
@@ -1593,9 +1682,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0431", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": 600 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0431", "type": "50960020", "size": "1000000", "maxBet": 2000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": 600 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": "600" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0431", "type": "50960020", "size": "1000000", "maxBet": "2000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": "600" }
         ]
       ],
       "betLevelObjects": [
@@ -1609,7 +1698,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80, 100, 200, 300, 400, 500, 600, 700, 800, 1000, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9493",
@@ -1625,9 +1716,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0201", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0201", "type": "395"     , "size": "100000" , "maxBet": 600 },
-          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0201", "type": "50960020", "size": "1000000", "maxBet": 2000},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0201", "type": "395"     , "size": "100000" , "maxBet": 600 }
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0201", "type": "395"     , "size": "100000" , "maxBet": "600" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0201", "type": "50960020", "size": "1000000", "maxBet": "2000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0201", "type": "395"     , "size": "100000" , "maxBet": "600" }
         ]
       ],
       "betLevelObjects": [
@@ -1641,7 +1732,119 @@
           "entryLevels": [1, 2, 4, 6, 8, 10, 20, 40, 80, 100, 200, 400, 500, 600, 700, 800, 1000, 1500, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
+    },
+    {
+      "gameId": "9573",
+      "gameName": "LegendzRiches",
+      "poolId": "0470",
+      "poolType": ["962", "910"],
+      "poolSize": ["1000000"],
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "962"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "100" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50960020", "size": "1000000", "maxBet": "1000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "100" }
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 500, 1000],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 500, 1000],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
+    },
+    {
+      "gameId": "9572",
+      "gameName": "CanadaEhSlots",
+      "poolId": "0429",
+      "poolType": ["961", "962"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any" , "mult": "1" , "tag": "REG", "id": "0429", "type": "961"     , "size": "1000000"},
+          {"idx": 1 , "bet": "100" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960500", "size": "1000000"},
+          {"idx": 1 , "bet": "200" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960500", "size": "1000000"},
+          {"idx": 1 , "bet": "300" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960500", "size": "1000000"},
+          {"idx": 1 , "bet": "400" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960500", "size": "1000000"},
+          {"idx": 1 , "bet": "500" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960500", "size": "1000000"},
+          {"idx": 1 , "bet": "600" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960500", "size": "1000000"},
+          {"idx": 2 , "bet": "800" , "mult": "1" , "tag": "REG", "id": "0429", "type": "40960250", "size": "1000000"},
+          {"idx": 2 , "bet": "1000", "mult": "1" , "tag": "REG", "id": "0429", "type": "40960250", "size": "1000000"},
+          {"idx": 21, "bet": "any" , "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "300" },
+          {"idx": 31, "bet": "any" , "mult": "1" , "tag": "PFG", "id": "0429", "type": "50960020", "size": "1000000", "maxBet": "1000"},
+          {"idx": 41, "bet": "any" , "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "300" }
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 200, 300, 400, 500, 600, 800, 1000],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 200, 300, 400, 500, 600, 800, 1000],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
+    },
+    {
+      "gameId": "9575",
+      "gameName": "SportzinoRiches",
+      "poolId": "0470",
+      "poolType": ["962", "910"],
+      "poolSize": ["1000000"],
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "962"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "100" },
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50960020", "size": "1000000", "maxBet": "1000"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "100" }
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 500, 1000],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 500, 1000],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     }
   ]
 }

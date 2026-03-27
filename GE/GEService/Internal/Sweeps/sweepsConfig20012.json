@@ -1,7 +1,7 @@
 {
-  "version": "2.9",
-  "date": "2026-01-14",
-  "mathType": "edgelabs-2.9-Hub88-Stake.us",
+  "version": "3.1",
+  "date": "2026-03-13",
+  "mathType": "edgelabs-3.1-Hub88-Stake.us",
   "maxWin": 2000000,
   "maxWins": [2000000, 2000000000],
   "gameConfigs": [
@@ -386,7 +386,7 @@
         ]
       ],
       "rtp": "88",
-      "volatility": "2.0"
+      "volatility": "3.0"
     },
     {
       "gameId": "9448",

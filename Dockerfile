@@ -6,7 +6,7 @@ RUN apk add --no-cache rsync
 WORKDIR /config
 
 # Create the directories
-RUN mkdir -p /config/Internal 
+RUN mkdir -p /config/GE 
 
 # Copy your data
-COPY ./GE/GEService/Internal/ /config/Internal/
+COPY ./GE/ /config/GE/

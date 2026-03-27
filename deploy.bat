@@ -2,7 +2,7 @@
 setlocal enableDelayedExpansion
 
 REM ===== CONFIG =====
-set VERSION=v9.0.7
+set VERSION=v1.0.0
 
 REM MUST be lowercase
 set GHCR_REG=ghcr.io
@@ -10,7 +10,7 @@ set GHCR_OWNER=rajp1011
 set GHCR_REPO=pfhbe
 set GHCR_PATH=%GHCR_REG%/%GHCR_OWNER%/%GHCR_REPO%
 
-set CONFIG_IMAGE=%GHCR_PATH%/geconfig:%VERSION%
+set CONFIG_IMAGE=%GHCR_PATH%/gedata:%VERSION%
 
 echo =========================================
 echo == BUILD + PUSH to GHCR

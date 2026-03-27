@@ -1,7 +1,7 @@
 {
-  "version": "2.4",
-  "date": "2025-12-09",
-  "mathType": "edgelabs-2.4-OMG",
+  "version": "2.7",
+  "date": "2026-03-23",
+  "mathType": "edgelabs-2.7-OMG",
   "maxWin": 10000000,
   "maxWins": [10000000],
   "gameConfigs": [
@@ -9,7 +9,7 @@
       "gameId": "9425",
       "gameName": "PandaShores",
       "poolId": "0425",
-      "poolType": ["955", "488"],
+      "poolType": ["961", "488"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9201"],
       "ticketLegacyFile": null,
@@ -28,13 +28,15 @@
           "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 30, 40, 50, 60],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9426",
       "gameName": "ScorchingHot",
       "poolId": "0426",
-      "poolType": ["941", "881"],
+      "poolType": ["961", "881"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9201"],
       "ticketLegacyFile": null,
@@ -52,13 +54,15 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0426", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9427",
       "gameName": "LuckNClovers",
       "poolId": "0427",
-      "poolType": ["942", "288"],
+      "poolType": ["961", "288"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9202"],
       "ticketLegacyFile": null,
@@ -76,13 +80,15 @@
           "entryLevels": [2, 5, 10, 15, 20, 25, 30, 50, 60, 90, 120, 160, 200, 240, 320, 400],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9429",
       "gameName": "QianGunQian",
       "poolId": "0429",
-      "poolType": ["941", "881"],
+      "poolType": ["962", "881"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9201", "9202"],
       "ticketLegacyFile": null,
@@ -100,13 +106,15 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9430",
       "gameName": "GreatSphinx",
       "poolId": "0430",
-      "poolType": ["951", "881"],
+      "poolType": ["961", "881"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9200", "9201"],
       "ticketLegacyFile": null,
@@ -124,13 +132,15 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0430", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9431",
       "gameName": "BlazingMustang",
       "poolId": "0431",
-      "poolType": ["951", "881"],
+      "poolType": ["961", "881"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9300", "9301"],
       "ticketLegacyFile": null,
@@ -148,13 +158,15 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0431", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9432",
       "gameName": "QuickWinsDiamond",
       "poolId": "0432",
-      "poolType": ["941", "881"],
+      "poolType": ["961", "881"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9300", "9301"],
       "ticketLegacyFile": null,
@@ -172,13 +184,15 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9433",
       "gameName": "BoomingForties",
       "poolId": "0433",
-      "poolType": ["951", "488"],
+      "poolType": ["961", "488"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9201"],
       "ticketLegacyFile": null,
@@ -196,7 +210,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0433", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9434",
@@ -220,13 +236,15 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0434", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9439",
       "gameName": "BugsToRichesDiamond",
       "poolId": "0429",
-      "poolType": ["941", "881"],
+      "poolType": ["962", "881"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9201", "9202"],
       "ticketLegacyFile": null,
@@ -244,13 +262,15 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9440",
       "gameName": "SwordOfZ",
       "poolId": "0429",
-      "poolType": ["951", "881"],
+      "poolType": ["962", "881"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9201", "9202"],
       "ticketLegacyFile": null,
@@ -268,7 +288,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9442",
@@ -292,13 +314,15 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "1006", "type": "402,403,404,405,406,407,408,409,410", "size": "1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000"}
         ]
-      ]
+      ],
+      "rtp": "94",
+      "volatility": "3.0"
     },
     {
       "gameId": "9445",
       "gameName": "CleopatrasDynasty",
       "poolId": "0445",
-      "poolType": ["941", "881"],
+      "poolType": ["961", "881"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9200", "9201"],
       "ticketLegacyFile": null,
@@ -316,13 +340,15 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0445", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9448",
       "gameName": "YuansuDragons",
       "poolId": "0448",
-      "poolType": ["951", "882"],
+      "poolType": ["961", "882"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9201", "9202"],
       "ticketLegacyFile": null,
@@ -340,7 +366,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0448", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9449",
@@ -364,13 +392,15 @@
           "entryLevels": [10, 20, 50, 100, 200, 400, 500, 750, 1000, 1500, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9455",
       "gameName": "RubyX",
       "poolId": "0449",
-      "poolType": ["951", "488"],
+      "poolType": ["961", "488"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9201"],
       "ticketLegacyFile": null,
@@ -388,13 +418,15 @@
           "entryLevels": [10, 20, 50, 100, 200, 300, 400, 500, 750, 1000, 1500, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9467",
       "gameName": "QuickWinsDiamond7s",
       "poolId": "0432",
-      "poolType": ["941", "881"],
+      "poolType": ["961", "881"],
       "poolSize": ["1000000", "1000000"],
       "ticketTag": ["9300", "9301"],
       "ticketLegacyFile": null,
@@ -412,7 +444,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9500",
@@ -436,7 +470,9 @@
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0421", "type": "961", "size": "1000000"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9512",
@@ -460,7 +496,9 @@
           "entryLevels": [1, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 80],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9486",
@@ -476,9 +514,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0425", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": "60"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": "40"},
           {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0425", "type": "50960020", "size": "1000000", "maxBet": "60"},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": "60"}
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0425", "type": "395"     , "size": "100000" , "maxBet": "40"}
         ]
       ],
       "betLevelObjects": [
@@ -487,7 +525,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 40, 60],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9476",
@@ -512,7 +552,9 @@
           {"idx": 0 , "bet": "any", "mult": "1", "tag": "REG", "id": "0426", "type": "961"     , "size": "1000000"},
           {"idx": 31, "bet": "any", "mult": "1", "tag": "PFG", "id": "0426", "type": "50960020", "size": "1000000", "maxBet": "400"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9481",
@@ -537,7 +579,9 @@
           "entryLevels": [2, 5, 10, 20, 25, 30, 50, 60, 90, 120, 240, 400],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9475",
@@ -564,7 +608,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 24, 40],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9478",
@@ -591,7 +637,9 @@
           "entryLevels": [1, 2, 4, 6, 8, 12, 16, 20, 24, 48, 80],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9498",
@@ -618,7 +666,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 40, 60],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9488",
@@ -645,7 +695,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9474",
@@ -672,7 +724,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 24, 40],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9477",
@@ -699,7 +753,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 24, 40],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9480",
@@ -724,7 +780,9 @@
           "entryLevels": [10, 20, 50, 100, 200, 400, 500, 1000, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9499",
@@ -749,7 +807,9 @@
           "entryLevels": [10, 20, 50, 100, 200, 400, 500, 1000, 2000],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9489",
@@ -776,7 +836,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 40, 60],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9482",
@@ -803,7 +865,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 24, 40],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9484",
@@ -830,7 +894,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 40, 60],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9487",
@@ -857,7 +923,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 40, 60],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9452",
@@ -884,7 +952,9 @@
           "entryLevels": [1, 2, 5, 10, 20, 50, 100, 200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9457",
@@ -911,7 +981,9 @@
           "entryLevels": [1, 2, 5, 10, 20, 25, 30, 40, 50, 60, 120, 200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9470",
@@ -938,7 +1010,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9497",
@@ -965,7 +1039,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9521",
@@ -992,7 +1068,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9459",
@@ -1019,7 +1097,9 @@
           "entryLevels": [1, 2, 5, 10, 20, 50, 100, 200],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9545",
@@ -1046,7 +1126,9 @@
           "entryLevels": [1, 2, 4, 6, 8, 12, 16, 20, 24, 48, 80],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9544",
@@ -1073,7 +1155,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9568",
@@ -1100,7 +1184,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9515",
@@ -1127,7 +1213,9 @@
           "entryLevels": [1, 2, 3, 4, 8, 10, 20, 40, 60, 80],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "4.0"
     },
     {
       "gameId": "9520",
@@ -1154,7 +1242,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9490",
@@ -1179,7 +1269,9 @@
           {"idx": 0 , "bet": "any", "mult": "1", "tag": "REG", "id": "0433", "type": "961"     , "size": "1000000"},
           {"idx": 31, "bet": "any", "mult": "1", "tag": "PFG", "id": "0433", "type": "50960020", "size": "1000000", "maxBet": "50"}
         ]
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9485",
@@ -1206,7 +1298,9 @@
           "entryLevels": [1, 2, 3, 4, 5, 7, 10, 15, 20, 30, 40, 50, 60, 80],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     },
     {
       "gameId": "9493",
@@ -1233,7 +1327,96 @@
           "entryLevels": [1, 2, 4, 6, 8, 10, 20, 40, 80],
           "denoms": [1]
         }
-      ]
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
+    },
+    {
+      "gameId": "9573",
+      "gameName": "LegendzRiches",
+      "poolId": "0470",
+      "poolType": ["962", "910"],
+      "poolSize": ["1000000"],
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "962"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "40"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50960020", "size": "1000000", "maxBet": "40"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "40"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
+    },
+    {
+      "gameId": "9572",
+      "gameName": "CanadaEhSlots",
+      "poolId": "0429",
+      "poolType": ["962", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0429", "type": "962"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "40"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0429", "type": "50960020", "size": "1000000", "maxBet": "40"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "40"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 24, 40],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
+    },
+    {
+      "gameId": "9575",
+      "gameName": "SportzinoRiches",
+      "poolId": "0470",
+      "poolType": ["962", "910"],
+      "poolSize": ["1000000"],
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "962"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "40"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50960020", "size": "1000000", "maxBet": "40"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "40"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "96",
+      "volatility": "3.0"
     }
   ]
 }

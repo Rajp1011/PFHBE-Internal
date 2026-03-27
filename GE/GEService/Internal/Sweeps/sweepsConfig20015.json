@@ -1,7 +1,7 @@
 {
-  "version": "1.7",
-  "date": "2026-02-26",
-  "mathType": "edgelabs-1.7-Hub88 Goldrushcity",
+  "version": "1.9",
+  "date": "2026-03-13",
+  "mathType": "edgelabs-1.9-Hub88 Goldrushcity",
   "maxWin": 2000000,
   "maxWins": [2000000, 2000000000],
   "gameConfigs": [
@@ -175,7 +175,9 @@
       "rtp": "96",
       "volatility": "3.0",
       "poolObjects": [
-        []
+        [
+          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0430", "type": "961", "size": "1000000"}
+        ]
       ]
     },
     {
@@ -431,7 +433,9 @@
       "rtp": "96",
       "volatility": "3.0",
       "poolObjects": [
-        []
+        [
+          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0445", "type": "961", "size": "1000000"}
+        ]
       ]
     },
     {
@@ -460,7 +464,9 @@
       "rtp": "96",
       "volatility": "3.0",
       "poolObjects": [
-        []
+        [
+          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0448", "type": "961", "size": "1000000"}
+        ]
       ]
     },
     {
@@ -611,7 +617,9 @@
       "rtp": "96",
       "volatility": "4.0",
       "poolObjects": [
-        []
+        [
+          {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0421", "type": "961", "size": "1000000"}
+        ]
       ]
     },
     {
@@ -1500,9 +1508,9 @@
       "poolObjects": [
         [
           {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0521", "type": "961"     , "size": "1000000"},
-          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "220" },
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "280" },
           {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0521", "type": "50960020", "size": "1000000", "maxBet": "1400"},
-          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "220" }
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0521", "type": "395"     , "size": "100000" , "maxBet": "280" }
         ]
       ],
       "poolSize": ["1000000"],

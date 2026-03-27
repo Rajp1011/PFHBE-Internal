@@ -1,7 +1,7 @@
 {
-  "version": "2.5",
-  "date": "2026-02-20",
-  "mathType": "edgelabs-2.5-SPZ",
+  "version": "2.6",
+  "date": "2026-03-23",
+  "mathType": "edgelabs-2.6-SPZ",
   "maxWin": 8000000,
   "maxWins": [8000000, 1000000000],
   "gameConfigs": [
@@ -1234,11 +1234,11 @@
       "gameId": "9457",
       "gameName": "MarkOfZ",
       "poolId": "0457",
-      "poolType": ["941", "951"],
+      "poolType": ["921", "951"],
       "poolSize": ["1000000", "1000000"],
       "poolObjects": [
         [
-          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0457", "type": "941"     , "size": "1000000"},
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0457", "type": "921"     , "size": "1000000"},
           {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0457", "type": "395"     , "size": "100000" , "maxBet": "800"},
           {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0457", "type": "50940020", "size": "1000000", "maxBet": "800"},
           {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0457", "type": "395"     , "size": "100000" , "maxBet": "800"}
@@ -1447,10 +1447,10 @@
       "storeRawTicket": false,
       "poolObjects": [
         [
-          {"idx": 0  , "bet": "any", "mult": "1" , "tag": "REG", "id": "0431", "type": "941"     , "size": "1000000"},
-          {"idx": 21 , "bet": "any", "mult": "50", "tag": "GAB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": "300"},
-          {"idx": 31 , "bet": "any", "mult": "1" , "tag": "PFG", "id": "0431", "type": "50940020", "size": "1000000", "maxBet": "300"},
-          {"idx": 41 , "bet": "any", "mult": "50", "tag": "PFB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": "300"}
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0431", "type": "941"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": "300"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0431", "type": "50940020", "size": "1000000", "maxBet": "300"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0431", "type": "395"     , "size": "100000" , "maxBet": "300"}
         ]
       ],
       "betLevelObjects": [
@@ -1798,6 +1798,108 @@
         {
           "id": 2,
           "entryLevels": [1, 2, 3, 4, 5, 8, 10, 16, 20, 40, 80, 160, 200],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "94",
+      "volatility": "3.0"
+    },
+    {
+      "gameId": "9573",
+      "gameName": "LegendsRiches",
+      "poolId": "0470",
+      "poolType": ["942", "910"],
+      "poolSize": ["1000000"],
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "942"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "150"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50940020", "size": "1000000", "maxBet": "150"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "150"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 150],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 150],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "94",
+      "volatility": "3.0"
+    },
+    {
+      "gameId": "9572",
+      "gameName": "CanadaEhSlots",
+      "poolId": "0429",
+      "poolType": ["942", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0429", "type": "942"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "150"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0429", "type": "50940020", "size": "1000000", "maxBet": "150"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "150"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 24, 48, 96, 150],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 24, 48, 96, 150],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "94",
+      "volatility": "3.0"
+    },
+    {
+      "gameId": "9575",
+      "gameName": "SportzinoRiches",
+      "poolId": "0470",
+      "poolType": ["942", "910"],
+      "poolSize": ["1000000"],
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "942"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "150"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50940020", "size": "1000000", "maxBet": "150"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "150"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 150],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 150],
           "denoms": [1]
         }
       ],

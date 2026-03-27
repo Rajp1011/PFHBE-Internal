@@ -34,7 +34,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "4.5"
+      "volatility": "4.0"
     },
     {
       "gameId": "9426",
@@ -127,7 +127,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9430",
@@ -189,7 +189,7 @@
         ]
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9432",
@@ -251,7 +251,7 @@
         ]
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9434",
@@ -282,7 +282,7 @@
         ]
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9439",
@@ -313,7 +313,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9440",
@@ -344,7 +344,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9442",
@@ -468,7 +468,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9455",
@@ -499,7 +499,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9467",
@@ -592,7 +592,7 @@
         }
       ],
       "rtp": "96",
-      "volatility": "3.5"
+      "volatility": "3.0"
     },
     {
       "gameId": "9486",

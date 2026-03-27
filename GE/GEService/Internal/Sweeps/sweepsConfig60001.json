@@ -1,7 +1,7 @@
 {
-  "version": "2.5",
-  "date": "2026-02-20",
-  "mathType": "edgelabs-2.5-FC",
+  "version": "2.6",
+  "date": "2026-03-23",
+  "mathType": "edgelabs-2.6-FC",
   "maxWin": 3000000,
   "maxWins": [3000000, 1000000000],
   "gameConfigs": [
@@ -1803,6 +1803,108 @@
       ],
       "rtp": "95",
       "volatility": "3.0"
+    },
+    {
+      "gameId": "9573",
+      "gameName": "LegendzRiches",
+      "poolId": "0470",
+      "poolType": ["952", "910"],
+      "poolSize": ["1000000"],
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "952"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "200"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50950020", "size": "1000000", "maxBet": "350"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "200"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 200, 300, 350],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 200, 300, 350],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "95",
+      "volatility": "4.0"
+    },
+    {
+      "gameId": "9572",
+      "gameName": "CanadaEhSlots",
+      "poolId": "0429",
+      "poolType": ["952", "881"],
+      "poolSize": ["1000000", "1000000"],
+      "ticketTag": ["9201", "9202"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0429_9202",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0429", "type": "952"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "200"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0429", "type": "50950020", "size": "1000000", "maxBet": "400"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0429", "type": "395"     , "size": "100000" , "maxBet": "200"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 24, 48, 96, 200, 300, 400],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 24, 48, 96, 200, 300, 400],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "95",
+      "volatility": "3.0"
+    },
+    {
+      "gameId": "9575",
+      "gameName": "SportzinoRiches",
+      "poolId": "0470",
+      "poolType": ["952", "910"],
+      "poolSize": ["1000000"],
+      "ticketTag": ["9510", "9511", "9512"],
+      "ticketLegacyFile": null,
+      "optionGameTicketFile": "tickets_0470_9510",
+      "type": "slot",
+      "storeRawTicket": false,
+      "poolObjects": [
+        [
+          {"idx": 0 , "bet": "any", "mult": "1" , "tag": "REG", "id": "0470", "type": "952"     , "size": "1000000"},
+          {"idx": 21, "bet": "any", "mult": "50", "tag": "GAB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "200"},
+          {"idx": 31, "bet": "any", "mult": "1" , "tag": "PFG", "id": "0470", "type": "50950020", "size": "1000000", "maxBet": "350"},
+          {"idx": 41, "bet": "any", "mult": "50", "tag": "PFB", "id": "0470", "type": "395"     , "size": "100000" , "maxBet": "200"}
+        ]
+      ],
+      "betLevelObjects": [
+        {
+          "id": 1,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 200, 300, 350],
+          "denoms": [1]
+        },
+        {
+          "id": 2,
+          "entryLevels": [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 50, 100, 200, 300, 350],
+          "denoms": [1]
+        }
+      ],
+      "rtp": "95",
+      "volatility": "4.0"
     }
   ]
 }

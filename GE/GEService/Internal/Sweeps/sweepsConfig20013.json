@@ -1,7 +1,7 @@
 {
-  "version": "2.3",
-  "date": "2026-02-12",
-  "mathType": "edgelabs-2.3-Hub88-94-gksweep",
+  "version": "2.5",
+  "date": "2026-03-13",
+  "mathType": "edgelabs-2.5-Hub88-94-gksweep",
   "maxWin": 2000000,
   "maxWins": [2000000, 2000000000],
   "gameConfigs": [
@@ -431,7 +431,7 @@
         }
       ],
       "rtp": "94",
-      "volatility": "2.0",
+      "volatility": "3.0",
       "poolObjects": [
         [
           {"idx": 0, "bet": "any", "mult": "1", "tag": "REG", "id": "0445", "type": "941", "size": "1000000"}

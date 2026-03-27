@@ -32,7 +32,7 @@
     "engineDll": "PrincessJewel"
   },
   {
-    "gameIds": [ "9006", "95006", "9442", "95442", "9469", "95469" ],
+    "gameIds": [ "9006", "95006", "9442", "95442", "9469", "95469", "9495", "95495" ],
     "engineDll": "DoubleDownKeno"
   },
   {
@@ -68,7 +68,7 @@
     "engineDll": "PandaShoresG2"
   },
   {
-    "gameIds": [ "9429", "95429", "9439", "95439", "9440", "95440", "9483", "95483", "9475", "95475", "9474", "95474", "9477", "95477", "9482", "95482" ],
+    "gameIds": [ "9429", "95429", "9439", "95439", "9440", "95440", "9483", "95483", "9475", "95475", "9474", "95474", "9477", "95477", "9482", "95482", "9572", "95572" ],
     "engineDll": "QianGunQian"
   },
   {
@@ -84,7 +84,7 @@
     "engineDll": "QuickWinsDiamond"
   },
   {
-    "gameIds": [ "9445", "95445" ],
+    "gameIds": [ "9445", "95445", "9491", "95491" ],
     "engineDll": "CleopatrasDynasty"
   },
   {
@@ -104,7 +104,7 @@
     "engineDll": "MarkOfZ"
   },
   {
-    "gameIds": [ "9470", "95470", "9497", "95497" ],
+    "gameIds": [ "9470", "95470", "9497", "95497", "9573", "95573", "9575", "95575" ],
     "engineDll": "ApollosRiches"
   },
   {
@@ -112,23 +112,7 @@
     "engineDll": "TigerHunt"
   },
   {
-    "gameIds": [ "9516" ],
-    "engineDll": "PiratesRising"
-  },
-  {
     "gameIds": [ "9515", "95515" ],
     "engineDll": "BlueBirdBonus"
-  },
-  {
-    "gameIds": [ "9546" ],
-    "engineDll": "FlamingSkulls"
-  },
-  {
-    "gameIds": [ "9491", "95491" ],
-    "engineDll": "CleopatrasSandsOfTime"
-  },
-  {
-    "gameIds": [ "9525" ],
-    "engineDll": "MayanMadness"
-  }
+  }     
 ]
